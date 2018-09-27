@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <MainNav />
+        <MainNav title="Start Bootstrap"/>
 
     {/*<!-- Page Content -->*/}
     <div class="container">
