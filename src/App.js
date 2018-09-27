@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 // Application Components
 import MainNav from "./components/MainNav"
 import Project from "./components/Project"
+import Heading from "./components/Heading"
 import Footer from "./components/Footer"
 
 
@@ -22,9 +23,7 @@ class App extends Component {
     <div class="container">
 
       {/*<!-- Page Heading -->*/}
-      <h1 class="my-4">Page Heading
-        <small> Secondary Text</small>
-      </h1>
+      <Heading title="Page Heading" subtitle="Secondary Text"/>
 
       <div class="row">
 
