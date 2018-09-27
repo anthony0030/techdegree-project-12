@@ -72,18 +72,17 @@ class App extends Component {
 
 
 
-      </div>
-      {/*<!-- /.row -->*/}
+      </div> 
+      {/*//.row*/}
 
-      {/*<!-- Pagination -->*/}
       <Pagination />
 
-    </div>
-    {/*<!-- /.container -->*/}
+    </div> 
+    {/*.container*/}
 
-    {/*<!-- Footer -->*/}
     <Footer />
       </div>
+      // .App
     );
   }
 }
