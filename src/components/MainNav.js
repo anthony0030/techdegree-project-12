@@ -16,8 +16,8 @@ function MainNav(props) {
           <ul className="navbar-nav ml-auto">
             <MainNavItem text="Home" link="/home"/> 
             <MainNavItem text="About" link="/about"/> 
-            <MainNavItem text="Services" link="/Services"/> 
-            <MainNavItem text="Contact" link="/Contact"/> 
+            <MainNavItem text="Services" link="/services"/> 
+            <MainNavItem text="Contact" link="/contact"/> 
           </ul>
         </div>
       </div>
