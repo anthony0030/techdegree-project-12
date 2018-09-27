@@ -13,9 +13,9 @@ function Footer(props) {
 
 
 Footer.propTypes = {
-  title: PropTypes.string.isRequired,
-  photo: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  // title: PropTypes.string.isRequired,
+  // photo: PropTypes.string.isRequired,
+  // description: PropTypes.string.isRequired
 };
 
 export default Footer;
