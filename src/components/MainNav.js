@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function MainNav() {
   return (
@@ -30,5 +31,11 @@ function MainNav() {
     </nav>
   );
 }
+
+MainNav.propTypes = {
+  // title: PropTypes.string.isRequired,
+  // photo: PropTypes.string.isRequired,
+  // description: PropTypes.string.isRequired
+};
 
 export default MainNav;
