@@ -24,6 +24,7 @@ class App extends Component {
           <div class="container">
             <Heading title="Page Heading" subtitle="Secondary Text"/>
             <Switch>
+              <Redirect exact from="/" to="/home"/>
               <Route exact path="/home" component={Projects} />
               <Route exact path="/about" component={E404} />
               <Route exact path="/Services" component={E404} />
