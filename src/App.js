@@ -24,11 +24,11 @@ class App extends Component {
           <div class="container">
             <Heading title="Page Heading" subtitle="Secondary Text"/>
             <Switch>
-              <Route path="/home" component={Projects} />
-              <Route path="/about" component={E404} />
-              <Route path="/Services" component={E404} />
-              <Route path="/Contact" component={E404} />
-              <Route component={E404}/>
+              <Route exact path="/home" component={Projects} />
+              <Route exact path="/about" component={E404} />
+              <Route exact path="/Services" component={E404} />
+              <Route exact path="/Contact" component={E404} />
+              <Route exact component={E404}/>
             </Switch>
           </div>
           <Footer text="Copyright &copy; Your Website 2018"/>
