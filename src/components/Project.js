@@ -3,14 +3,14 @@ import PropTypes from "prop-types";
 
 function Project(props) {
   return (
-    <div class="col-lg-4 col-sm-6 portfolio-item">
-      <div class="card h-100">
-        <a href="#"><img class="card-img-top" src={props.photo} alt="" /></a>
-        <div class="card-body">
-          <h4 class="card-title">
+    <div className="col-lg-4 col-sm-6 portfolio-item">
+      <div className="card h-100">
+        <a href="#"><img className="card-img-top" src={props.photo} alt="" /></a>
+        <div className="card-body">
+          <h4 className="card-title">
             <a href="#">{props.title}</a>
           </h4>
-          <p class="card-text">{props.description}</p>
+          <p className="card-text">{props.description}</p>
         </div>
       </div>
     </div>

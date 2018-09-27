@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function Heading(props) {
   return (
-    <h1 class="my-4">{props.title}
+    <h1 className="my-4">{props.title}
       <small> {props.subtitle}</small>
     </h1>
   );
