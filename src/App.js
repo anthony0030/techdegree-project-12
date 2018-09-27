@@ -11,7 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import MainNav from "./components/MainNav"
 import Projects from "./components/Projects"
 import Heading from "./components/Heading"
-import Pagination from "./components/Pagination"
 import Footer from "./components/Footer"
 
 import E404 from "./components/E404";
@@ -32,7 +31,6 @@ class App extends Component {
               <Route component={E404}/>
             </Switch>
           </div>
-          <Pagination />
           <Footer text="Copyright &copy; Your Website 2018"/>
         </div>
       </BrowserRouter>
