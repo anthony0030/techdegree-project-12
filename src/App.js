@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,29 +14,28 @@ import Heading from "./components/Heading"
 import Pagination from "./components/Pagination"
 import Footer from "./components/Footer"
 
+import E404 from "./components/E404";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <MainNav title="Start Bootstrap"/>
-
-    {/*<!-- Page Content -->*/}
-    <div class="container">
-
-      {/*<!-- Page Heading -->*/}
-      <Heading title="Page Heading" subtitle="Secondary Text"/>
-
-      <Projects />
-
-      <Pagination />
-
-    </div> 
-    {/*.container*/}
-
-    <Footer text="Copyright &copy; Your Website 2018"/>
-      </div>
-      // .App
+      <BrowserRouter>
+        <div class="App">
+          <MainNav title="Start Bootstrap"/>
+          <div class="container">
+            <Heading title="Page Heading" subtitle="Secondary Text"/>
+            <Switch>
+              <Route path="/home" component={Projects} />
+              <Route path="/about" component={E404} />
+              <Route path="/Services" component={E404} />
+              <Route path="/Contact" component={E404} />
+              <Route component={E404}/>
+            </Switch>
+          </div>
+          <Pagination />
+          <Footer text="Copyright &copy; Your Website 2018"/>
+        </div>
+      </BrowserRouter>
     );
   }
 }

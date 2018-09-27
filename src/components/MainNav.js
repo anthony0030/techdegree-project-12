@@ -14,10 +14,10 @@ function MainNav(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
-            <MainNavItem text="Home" link="#"/> 
-            <MainNavItem text="About" link="#"/> 
-            <MainNavItem text="Services" link="#"/> 
-            <MainNavItem text="Contact" link="#"/> 
+            <MainNavItem text="Home" link="/home"/> 
+            <MainNavItem text="About" link="/about"/> 
+            <MainNavItem text="Services" link="/Services"/> 
+            <MainNavItem text="Contact" link="/Contact"/> 
           </ul>
         </div>
       </div>

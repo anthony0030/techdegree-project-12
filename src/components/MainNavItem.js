@@ -1,10 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {NavLink} from "react-router-dom";
 
 function MainNavItem(props) {
   return (
     <li className="nav-item">
-      <a className="nav-link" href={props.link}>{props.text}</a>
+      <NavLink className="nav-link" to={props.link}>{props.text}</NavLink>
     </li>
   );
 }
