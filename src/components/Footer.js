@@ -5,7 +5,7 @@ function Footer(props) {
   return (
     <footer className="py-5 bg-dark">
       <div className="container">
-        <p className="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p className="m-0 text-center text-white">{props.text}</p>
       </div>
     </footer>
   );
@@ -13,9 +13,7 @@ function Footer(props) {
 
 
 Footer.propTypes = {
-  // title: PropTypes.string.isRequired,
-  // photo: PropTypes.string.isRequired,
-  // description: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
 };
 
 export default Footer;

@@ -80,7 +80,7 @@ class App extends Component {
     </div> 
     {/*.container*/}
 
-    <Footer />
+    <Footer text="Copyright &copy; Your Website 2018"/>
       </div>
       // .App
     );
