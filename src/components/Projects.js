@@ -15,6 +15,7 @@ function Projects(props) {
             <Project
               key={index}
               title={project.title}
+              url={project.url}
               photo={project.photo}
               description={project.description}
             />
