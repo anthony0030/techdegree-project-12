@@ -8,7 +8,7 @@ import Project from "./Project"
 
 function Projects(props) {
   return (
-    <div class="row">
+    <div className="row">
       {
         props.data.map(
           (project, index) =>

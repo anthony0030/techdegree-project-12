@@ -59,9 +59,9 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div class="App">
+        <div className="App">
           <MainNav title="Start Bootstrap"/>
-          <div class="container">
+          <div className="container">
             <Heading title="Page Heading" subtitle="Secondary Text"/>
             <Switch>
               <Redirect exact from="/" to="/home"/>
