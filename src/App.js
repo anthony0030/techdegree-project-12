@@ -126,7 +126,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <MainNav title="Start Bootstrap"/>
+          <MainNav logo={logo} title="Start Bootstrap"/>
           <div className="container">
             <Heading title="Page Heading" subtitle="Secondary Text"/>
             <Switch>
