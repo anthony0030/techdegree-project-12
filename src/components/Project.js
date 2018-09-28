@@ -10,7 +10,11 @@ function Project(props) {
         <iframe height="450" className="card-img-top d-none d-md-block" title={props.title} src={props.url} />
         <div className="card-body">
           <h4 className="card-title">
-            <a href={props.url}>{props.title}</a>
+            <a href={props.url} target="_blank">{props.title}</a>
+            &nbsp;
+            <div className="SuperCode">
+              <a href={props.url} target="_blank" >&lt;/&gt;</a>
+            </div>
           </h4>
           <CodayBadge codayBadgeLink={props.codayBadgeLink} codayBadgeIcon={props.codayBadgeIcon}/>
           <p className="card-text">{props.description}</p>

@@ -25,3 +25,20 @@ body {
 .main-logo{
   height: 40px;
 }
+
+.SuperCode, .SuperCode:hover{
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  height: 44px;
+  width: 44px;
+}
+
+.SuperCode a, .SuperCode a:hover{
+  text-decoration: none;
+  color: white;
+  line-height: 40px;
+  margin: 0 2.5px;
+  height: 40px;
+  width: 40px;
+}
