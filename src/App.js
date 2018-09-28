@@ -10,10 +10,12 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 // Application Components
 import MainNav from "./components/MainNav"
-import Projects from "./components/Projects"
 import Heading from "./components/Heading"
 import Footer from "./components/Footer"
 
+//Aplication Pages
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
 import E404 from "./components/E404";
 
 
@@ -146,7 +148,7 @@ class App extends Component {
               <Route exact path="/home" render={ () => <Projects data={PROJECTS} /> } />
               <Route exact path="/about" component={E404} />
               <Route exact path="/Services" component={E404} />
-              <Route exact path="/Contact" component={E404} />
+              <Route exact path="/Contact" component={Contact} />
               <Route exact component={E404}/>
             </Switch>
           </div>

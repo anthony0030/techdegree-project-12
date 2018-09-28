@@ -46,3 +46,10 @@ body {
 .codacy-badge{
   margin-bottom: 15px;
 }
+
+.ProfilePhoto {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
