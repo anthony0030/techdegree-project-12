@@ -50,6 +50,6 @@ body {
 .ProfilePhoto {
   height: 250px;
   width: 250px;
-  margin: 0 auto;
+  margin: 20px auto;
   border-radius: 50%;
 }
