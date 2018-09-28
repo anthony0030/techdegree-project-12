@@ -139,7 +139,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <MainNav logo={logo} title="Start Bootstrap"/>
+          <MainNav logo={logo} title="Anthony's portfolio"/>
           <div className="container">
             <Heading title="Page Heading" subtitle="Secondary Text"/>
             <Switch>
