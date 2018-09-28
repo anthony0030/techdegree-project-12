@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import CodayBadge from "./CodayBadge";
+import CodacyBadge from "./CodacyBadge";
 
 function Project(props) {
   return (
@@ -16,7 +16,7 @@ function Project(props) {
               <a href={props.sourcrUrl} target="_blank" >&lt;/&gt;</a>
             </div>
           </h4>
-          <CodayBadge codayBadgeLink={props.codayBadgeLink} codayBadgeIcon={props.codayBadgeIcon}/>
+          <CodacyBadge codacyBadgeLink={props.codacyBadgeLink} codacyBadgeIcon={props.codacyBadgeIcon}/>
           <p className="card-text">{props.description}</p>
         </div>
       </div>
