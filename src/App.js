@@ -22,36 +22,48 @@ const PROJECTS = [
     title: "Project One",
     photo: "http://placehold.it/700x400",
     url: "http://placehold.it/700x400",
+    codayBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
+    codayBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!"
   },
   {
     title: "Project Two",
     photo: "http://placehold.it/700x400",
     url: "http://placehold.it/700x400",
+    codayBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
+    codayBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.",
   },
   {
     title: "Project Three",
     photo: "http://placehold.it/700x400",
     url: "http://placehold.it/700x400",
+    codayBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
+    codayBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!"
   },
   {
     title: "Project Four",
     photo: "http://placehold.it/700x400",
     url: "http://placehold.it/700x400",
+    codayBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
+    codayBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
   },
   { 
     title: "Project Five",
     photo: "http://placehold.it/700x400",
     url: "http://placehold.it/700x400",
+    codayBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
+    codayBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae."
   },
   {
     title: "Project Six",
     photo: "http://placehold.it/700x400",
     url: "http://placehold.it/700x400",
+    codayBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
+    codayBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse."
   }
 ]

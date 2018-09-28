@@ -13,11 +13,13 @@ function Projects(props) {
         props.data.map(
           (project, index) =>
             <Project
-              key={index}
               title={project.title}
-              url={project.url}
               photo={project.photo}
+              url={project.url}
+              codayBadgeLink={project.codayBadgeLink}
+              codayBadgeIcon={project.codayBadgeIcon}
               description={project.description}
+              key={index}
             />
           )
         }
