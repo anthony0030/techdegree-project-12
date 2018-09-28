@@ -11,8 +11,8 @@ function Project(props) {
           <h4 className="card-title">
             <a href={props.url}>{props.title}</a>
           </h4>
-          <p className="card-text">{props.description}</p>
           <CodayBadge codayBadgeLink={props.codayBadgeLink} codayBadgeIcon={props.codayBadgeIcon}/>
+          <p className="card-text">{props.description}</p>
         </div>
       </div>
     </div>
