@@ -141,7 +141,6 @@ class App extends Component {
         <div className="App">
           <MainNav logo={logo} title="Anthony's portfolio"/>
           <div className="container">
-            <Heading title="Page Heading" subtitle="Secondary Text"/>
             <Switch>
               <Redirect exact from="/" to="/home"/>
               <Route exact path="/home" render={ () => <Projects data={PROJECTS} /> } />
