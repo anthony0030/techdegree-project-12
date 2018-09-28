@@ -15,6 +15,7 @@ function Projects(props) {
             <Project
               title={project.title}
               photo={project.photo}
+              sourcrUrl={project.sourcrUrl}
               url={project.url}
               codayBadgeLink={project.codayBadgeLink}
               codayBadgeIcon={project.codayBadgeIcon}

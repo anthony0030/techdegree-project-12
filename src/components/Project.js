@@ -13,7 +13,7 @@ function Project(props) {
             <a href={props.url} target="_blank">{props.title}</a>
             &nbsp;
             <div className="SuperCode">
-              <a href={props.url} target="_blank" >&lt;/&gt;</a>
+              <a href={props.sourcrUrl} target="_blank" >&lt;/&gt;</a>
             </div>
           </h4>
           <CodayBadge codayBadgeLink={props.codayBadgeLink} codayBadgeIcon={props.codayBadgeIcon}/>
