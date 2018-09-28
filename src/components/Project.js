@@ -7,7 +7,7 @@ function Project(props) {
     <div className="col-lg-4 col-sm-6 portfolio-item">
       <div className="card h-100">
 {/*        <a href={props.url}><img className="card-img-top" src={props.photo} alt="" /></a>*/}
-<iframe height="450" className="card-img-top" src={props.url}></iframe>
+<iframe height="450" className="card-img-top" title={props.title} src={props.url}></iframe>
 
         <div className="card-body">
           <h4 className="card-title">
