@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function codayBadge(props) {
   return (
   <a href={props.codayBadgeLink}>
-    <img src={props.codayBadgeIcon} alt="codayBadgeIcon"/>
+    <img src={props.codayBadgeIcon} alt="codayBadgeIcon" className="codacy-badge"/>
   </a>
   );
 }
