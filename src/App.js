@@ -19,10 +19,24 @@ import E404 from "./components/E404";
 
 
 
+//Application Images
+import AppPhoto01 from "./AppPhotos/01.png"
+import AppPhoto02 from "./AppPhotos/02.png"
+import AppPhoto03 from "./AppPhotos/03.png"
+import AppPhoto04 from "./AppPhotos/04.png"
+import AppPhoto05 from "./AppPhotos/05.png"
+import AppPhoto06 from "./AppPhotos/06.png"
+import AppPhoto07 from "./AppPhotos/07.png"
+import AppPhoto08 from "./AppPhotos/08.png"
+import AppPhoto09 from "./AppPhotos/09.png"
+import AppPhoto10 from "./AppPhotos/10.png"
+import AppPhoto11 from "./AppPhotos/11.png"
+import AppPhoto12 from "./AppPhotos/12.png"
+
 const PROJECTS = [
   {
     title: "Personal Profile Page",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto01,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-01",
     url: "https://anthony0030.github.io/techdegree-project-01",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
@@ -31,7 +45,7 @@ const PROJECTS = [
   },
   {
     title: "Responsive Layout",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto02,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-02",
     url: "https://anthony0030.github.io/techdegree-project-02",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-02",
@@ -40,7 +54,7 @@ const PROJECTS = [
   },
   {
     title: "Online Registration Form",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto03,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-03",
     url: "https://anthony0030.github.io/techdegree-project-03",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-03",
@@ -49,7 +63,7 @@ const PROJECTS = [
   },
   {
     title: "Interactive Photo Gallery",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto04,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-04",
     url: "https://anthony0030.github.io/techdegree-project-04",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-04",
@@ -58,7 +72,7 @@ const PROJECTS = [
   },
   { 
     title: "Build a Web Style Guide",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto05,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-05",
     url: "https://anthony0030.github.io/techdegree-project-05",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-05",
@@ -67,7 +81,7 @@ const PROJECTS = [
   },
   {
     title: "Interactive Video Player",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto06,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-06",
     url: "https://anthony0030.github.io/techdegree-project-06",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-06",
@@ -76,7 +90,7 @@ const PROJECTS = [
   },
   {
     title: "Build a Game Show App",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto07,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-07",
     url: "https://anthony0030.github.io/techdegree-project-07",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-07",
@@ -85,7 +99,7 @@ const PROJECTS = [
   },
   {
     title: "SVG Animations",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto08,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-08",
     url: "https://anthony0030.github.io/techdegree-project-08",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-08",
@@ -94,7 +108,7 @@ const PROJECTS = [
   },
   {
     title: "Web App Dashboard",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto09,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-09",
     url: "https://anthony0030.github.io/techdegree-project-09",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-09",
@@ -103,7 +117,7 @@ const PROJECTS = [
   },
   {
     title: "Use a Public API to Create a Front End for an Employee Directory",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto10,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-10",
     url: "https://anthony0030.github.io/techdegree-project-10",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-10",
@@ -112,7 +126,7 @@ const PROJECTS = [
   },
   {
     title: "React Flickr Gallery",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto11,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-11",
     url: "https://anthony0030.github.io/techdegree-project-11",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-11",
@@ -121,7 +135,7 @@ const PROJECTS = [
   },
   {
     title: "Online Portfolio",
-    photo: "https://placehold.it/700x400",
+    photo: AppPhoto12,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-12",
     url: "https://anthony0030.github.io/techdegree-project-12",
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-12",
