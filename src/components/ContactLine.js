@@ -7,7 +7,7 @@ import Icon from "./Icon"
 
 function ContactLine(props) {
   return (
-    <a href={props.link}>
+    <a href={props.link} target="_blank">
       <li className="list-group-item">
         <Icon i={props.icon} className="contactIcon"/>
         <p class="ContactText">{props.text}</p>
