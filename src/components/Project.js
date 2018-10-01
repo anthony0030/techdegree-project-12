@@ -12,7 +12,7 @@ function Project(props) {
           <h4 className="card-title">
             <a href={props.url} target="_blank">{props.title}</a>
             &nbsp;
-            <div className="SuperCode">
+            <div className="SuperCode rounded-circle">
               <a href={props.sourcrUrl} target="_blank" >&lt;/&gt;</a>
             </div>
           </h4>

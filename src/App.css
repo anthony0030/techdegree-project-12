@@ -30,7 +30,6 @@ body {
 
 .SuperCode, .SuperCode:hover{
   background-color: black;
-  border-radius: 50%;
   display: inline-block;
   height: 44px;
   width: 44px;
@@ -53,7 +52,6 @@ body {
   height: 250px;
   width: 250px;
   margin: 20px auto;
-  border-radius: 50%;
 }
 
 .contactIcon{
