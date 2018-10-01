@@ -13,7 +13,7 @@ function Contact(props) {
       <div className="row">
         <div className="col-12 portfolio-item">
          <div className="card contactCard">
-          <img className="card-img-top" src={Profile} alt="Card image cap" className="ProfilePhoto"/>
+          <img className="card-img-top" src={Profile} alt="My face" className="ProfilePhoto"/>
           <div className="card-body">
             <ul className="list-group">
 
