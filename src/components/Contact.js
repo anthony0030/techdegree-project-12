@@ -32,9 +32,9 @@ function Contact(props) {
   );
 }
 
-Contact.propTypes = {
+// Contact.propTypes = {
   // data: PropTypes.array.isRequired
-};
+// };
 
 
 
