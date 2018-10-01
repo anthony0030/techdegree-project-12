@@ -67,3 +67,10 @@ body {
   font-size: 30px;
   color: black;
 }
+
+.skill-badge{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
