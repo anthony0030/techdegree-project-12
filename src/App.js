@@ -39,7 +39,7 @@ const PROJECTS = [
     photo: AppPhoto01,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-01",
     url: "https://anthony0030.github.io/techdegree-project-01",
-    skills: ["html", "css"],
+    skills: ["html", "css", "js" ,"jade", "sass"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
     description: "Customize a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web. Share your finished project on GitHub, a website used by teams of programmers to share and work on programming code."
