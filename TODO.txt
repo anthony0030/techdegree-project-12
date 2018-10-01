@@ -1,0 +1,27 @@
+
+
+1) Make the project work on github pages.
+
+2) Use SVG images for contact information icons.
+
+3) Multiple JavaScript interactions.
+
+4) Add list of skills to the projects
+
+5) Make veaudry.pro point to this project
+
+6) Add facebook load image (image that loads in chats
+
+7) add description to page meta
+
+8) make the app as standalone
+
+9) add skill explanation on top of badges with tool tip
+
+
+
+
+BEFORE SUBMIT
+make a site-map
+validate robots.txt
+Check for warnings CSS HTML JS
