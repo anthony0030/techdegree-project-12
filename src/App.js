@@ -10,7 +10,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 // Application Components
 import MainNav from "./components/MainNav"
-import Heading from "./components/Heading"
 import Footer from "./components/Footer"
 
 //Aplication Pages
