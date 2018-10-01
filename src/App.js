@@ -142,7 +142,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <MainNav logo={logo} title="Anthony's portfolio"/>
-          <div className="container">
+          <div className="mainContainer container">
             <Switch>
               <Redirect exact from="/" to="/home"/>
               <Route exact path="/home" render={ () => <Projects data={PROJECTS} /> } />
