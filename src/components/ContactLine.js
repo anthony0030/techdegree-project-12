@@ -9,7 +9,7 @@ function ContactLine(props) {
   return (
     <a href={props.link}>
       <li className="list-group-item">
-        <Icon i={props.icon} /> {props.text}
+        <Icon i={props.icon} className="contactIcon"/>
       </li>
     </a>
   );
