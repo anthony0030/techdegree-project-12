@@ -12,7 +12,7 @@ function Contact(props) {
       <Heading title="Anthony Veaudry's" subtitle="Contact info"/>
       <div className="row">
         <div className="col-12 portfolio-item">
-         <div className="card">
+         <div className="card contactCard">
           <img className="card-img-top" src={Profile} alt="Card image cap" className="ProfilePhoto"/>
           <div className="card-body">
             <ul className="list-group">
