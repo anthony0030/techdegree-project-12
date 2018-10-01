@@ -17,7 +17,9 @@ function ContactLine(props) {
 }
 
 ContactLine.propTypes = {
-  // data: PropTypes.array.isRequired
+  text: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired
 };
 
 
