@@ -152,7 +152,7 @@ class App extends Component {
               <Route exact component={E404}/>
             </Switch>
           </div>
-          <Footer text="Copyright &copy; Your Website 2018"/>
+          <Footer text="Copyright &copy; veaudry.pro 2018" href="https://veaudry.pro"/>
         </div>
       </BrowserRouter>
     );

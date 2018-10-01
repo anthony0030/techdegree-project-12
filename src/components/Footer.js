@@ -5,7 +5,9 @@ function Footer(props) {
   return (
     <footer className="py-5 bg-dark fixed-bottom">
       <div className="container">
-        <p className="m-0 text-center text-white">{props.text}</p>
+        <a href={props.href}>
+          <p className="m-0 text-center text-white">{props.text}</p>
+        </a>
       </div>
     </footer>
   );
@@ -14,6 +16,7 @@ function Footer(props) {
 
 Footer.propTypes = {
   text: PropTypes.string.isRequired,
+  href: PropTypes.string
 };
 
 export default Footer;
