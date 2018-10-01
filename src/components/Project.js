@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import CodacyBadge from "./CodacyBadge";
 
+import Skills from "./Skills"
+
 function Project(props) {
   return (
     <div className="col-lg-4 col-sm-6 portfolio-item">
@@ -19,6 +21,7 @@ function Project(props) {
           <CodacyBadge codacyBadgeLink={props.codacyBadgeLink} codacyBadgeIcon={props.codacyBadgeIcon}/>
           <p className="card-text">{props.description}</p>
         </div>
+        <Skills skills={props.skills}/>
       </div>
     </div>
   );
@@ -28,7 +31,8 @@ function Project(props) {
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   photo: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired
+  description: PropTypes.string.isRequired,
+  skills: PropTypes.array
 };
 
 export default Project;

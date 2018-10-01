@@ -18,6 +18,7 @@ function Projects(props) {
                 photo={project.photo}
                 sourcrUrl={project.sourcrUrl}
                 url={project.url}
+                skills={project.skills}
                 codacyBadgeLink={project.codacyBadgeLink}
                 codacyBadgeIcon={project.codacyBadgeIcon}
                 description={project.description}
