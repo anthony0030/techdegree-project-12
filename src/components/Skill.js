@@ -11,6 +11,7 @@ import jadeBadge from "./Badges/jade.png"
 import reactBadge from "./Badges/react.png"
 import cookieBadge from "./Badges/cookie.png"
 import apiBadge from "./Badges/api.png"
+import errorBadge from "./Badges/error.png"
 
 
 let icon;
@@ -71,7 +72,8 @@ function Skill(props) {
     break;
 
     default:
-      icon = cssBadge;
+      icon = errorBadge;
+      toolTip= "Failed to load icon or icon does not exist";
       alt = "Error with Icon";
   }
 
