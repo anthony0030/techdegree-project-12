@@ -10,6 +10,7 @@ import sassBadge from "./Badges/sass.png"
 import jadeBadge from "./Badges/jade.png"
 import reactBadge from "./Badges/react.png"
 import cookieBadge from "./Badges/cookie.png"
+import apiBadge from "./Badges/api.png"
 
 
 let icon;
@@ -61,6 +62,12 @@ function Skill(props) {
       icon = cookieBadge;
       toolTip= "This project makes use of cookies";
       alt = "Cookie Badge Icon";
+    break;
+
+   case "api":
+      icon = apiBadge;
+      toolTip= "This project makes use of an API";
+      alt = "API Badge Icon";
     break;
 
     default:
