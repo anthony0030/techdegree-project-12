@@ -162,6 +162,12 @@ const PROJECTS = [
 
 
 class App extends Component {
+
+  componentDidMount() {
+    window.$ = window.jQuery = require('jquery');
+    window.$('[data-toggle="tooltip"]').tooltip();
+  }
+
   render() {
     return (
       <BrowserRouter>
