@@ -9,6 +9,7 @@ import jsBadge from "./Badges/js.png"
 import sassBadge from "./Badges/sass.png"
 import jadeBadge from "./Badges/jade.png"
 import reactBadge from "./Badges/react.png"
+import angularBadge from "./Badges/angular.png"
 import cookieBadge from "./Badges/cookie.png"
 import bootstrapBadge from "./Badges/bootstrap.png"
 import jqueryBadge from "./Badges/jquery.png"
@@ -59,6 +60,12 @@ function Skill(props) {
       icon = reactBadge;
       toolTip= "REACT knowledge was used for this project";
       alt = "REACT Badge Icon";
+    break;
+
+    case "angular":
+      icon = angularBadge;
+      toolTip= "Angular knowledge was used for this project";
+      alt = "Angular Badge Icon";
     break;
 
     case "cookie":
