@@ -10,6 +10,8 @@ import sassBadge from "./Badges/sass.png"
 import jadeBadge from "./Badges/jade.png"
 import reactBadge from "./Badges/react.png"
 import cookieBadge from "./Badges/cookie.png"
+import bootstrapBadge from "./Badges/bootstrap.png"
+import jqueryBadge from "./Badges/jquery.png"
 import apiBadge from "./Badges/api.png"
 import errorBadge from "./Badges/error.png"
 
@@ -69,6 +71,18 @@ function Skill(props) {
       icon = apiBadge;
       toolTip= "This project makes use of an API";
       alt = "API Badge Icon";
+    break;
+
+     case "bootstrap":
+      icon = bootstrapBadge;
+      toolTip= "This project makes use of bootstrap";
+      alt = "bootstrap Badge Icon";
+    break;
+
+     case "jquery":
+      icon = jqueryBadge;
+      toolTip= "This project makes use of jQuery";
+      alt = "jQuery Badge Icon";
     break;
 
     default:
