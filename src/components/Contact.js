@@ -17,11 +17,11 @@ function Contact(props) {
           <div className="card-body">
             <ul className="list-group">
 
-              <ContactLine icon="person" text="Anthony Veaudry" link="https://www.facebook.com/anthonyveaudry"/>
-              <ContactLine icon="person" text="anthony0030" link="https://github.com/anthony0030"/>
-              <ContactLine icon="location_on" text="Greece" link="https://wikipedia.org/wiki/Greece"/>
-              <ContactLine icon="email" text="anthony@veaudry.pro" link="mailto:anthony@veaudry.pro"/>
-              <ContactLine icon="phone" text="+30 6948688704" link="tel:+30 6948688704"/>
+              <ContactLine icon="user" text="Anthony Veaudry" link="https://www.facebook.com/anthonyveaudry"/>
+              <ContactLine icon="facebook" text="anthony0030" link="https://github.com/anthony0030"/>
+              <ContactLine icon="location" text="Greece" link="https://wikipedia.org/wiki/Greece"/>
+              <ContactLine icon="at" text="anthony@veaudry.pro" link="mailto:anthony@veaudry.pro"/>
+              <ContactLine icon="mobile" text="+30 6948688704" link="tel:+30 6948688704"/>
 
             </ul>
           </div>

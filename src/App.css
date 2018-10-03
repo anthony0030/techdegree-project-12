@@ -54,18 +54,16 @@ body {
   margin: 20px auto;
 }
 
-.contactIcon{
-  display: inline-block;
-  vertical-align: middle;
-  font-size: 50px;
-  margin-right: 10px;
-  color: black;
+.contactIcon {
+  margin: 0 auto;
+  display: block;
+  height: 45px;
 }
 
 .ContactText{
-  display: inline-block;
   font-size: 30px;
   color: black;
+  text-align: center;
 }
 
 .skill-badge{
@@ -78,3 +76,15 @@ body {
 .page-not-found{
   max-width: 100%;
 }
+
+@media (min-width: 768px) { 
+  .contactIcon {
+   margin-right: 20px;
+   display: inline-block;
+  }
+
+  .ContactText{
+    display: inline-block;
+  }
+
+ }
