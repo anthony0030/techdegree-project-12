@@ -74,3 +74,7 @@ body {
   width: 40px;
   margin: 5px;
 }
+
+.page-not-found{
+  max-width: 100%;
+}
