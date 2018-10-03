@@ -15,6 +15,9 @@ import bootstrapBadge from "./Badges/bootstrap.png"
 import jqueryBadge from "./Badges/jquery.png"
 import apiBadge from "./Badges/api.png"
 import errorBadge from "./Badges/error.png"
+import npmBadge from "./Badges/npm.png"
+import bowerBadge from "./Badges/bower.png"
+import svgBadge from "./Badges/svg.png"
 
 
 let icon;
@@ -91,6 +94,25 @@ function Skill(props) {
       toolTip= "This project makes use of jQuery";
       alt = "jQuery Badge Icon";
     break;
+
+     case "npm":
+      icon = npmBadge;
+      toolTip= "This project makes use of npm";
+      alt = "npm Badge Icon";
+    break;
+
+     case "bower":
+      icon = bowerBadge;
+      toolTip= "This project makes use of bower";
+      alt = "bower Badge Icon";
+    break;
+
+   case "svg":
+      icon = svgBadge;
+      toolTip= "This project makes use of svgs";
+      alt = "svg Badge Icon";
+    break;
+
 
     default:
       icon = errorBadge;
