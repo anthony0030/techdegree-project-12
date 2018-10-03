@@ -7,6 +7,7 @@ import facebook from "./SVG/facebook.svg"
 import mobile from "./SVG/mobile.svg"
 import user from "./SVG/user.svg"
 import location from "./SVG/location.svg"
+import github from "./SVG/github.svg"
 import bug from "./SVG/bug.svg"
 
 
@@ -42,6 +43,11 @@ function Icon(props) {
     case "location":
       icon = location;
       alt = "location Icon";
+    break;
+
+    case "github":
+      icon = github;
+      alt = "github Icon";
     break;
 
     default:
