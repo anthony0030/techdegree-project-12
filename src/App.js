@@ -175,6 +175,8 @@ class App extends Component {
           <MainNav logo={logo} title="Anthony's portfolio"/>
           <div className="mainContainer container">
             <Switch>
+              <Redirect exact from="/index.html" to="/"/>
+              <Redirect exact from="/index.php" to="/"/>
               <Redirect exact from="/" to="/home"/>
               <Route exact path="/home" render={ () => <Projects data={PROJECTS} /> } />
               <Route exact path="/about" component={E404} />
