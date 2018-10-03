@@ -7,6 +7,7 @@ import facebook from "./SVG/facebook.svg"
 import mobile from "./SVG/mobile.svg"
 import user from "./SVG/user.svg"
 import location from "./SVG/location.svg"
+import bug from "./SVG/bug.svg"
 
 
 
@@ -43,9 +44,9 @@ function Icon(props) {
       alt = "location Icon";
     break;
 
-    // default:
-    //   icon = errorBadge;
-    //   alt = "Error with Icon";
+    default:
+      icon = bug;
+      alt = "Error with SVG";
   }
 
 
