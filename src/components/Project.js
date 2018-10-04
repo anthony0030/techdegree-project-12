@@ -11,13 +11,13 @@ function Project(props) {
         <a href={props.url} target="_blank" className="d-md-none d-xl-none"><img className="card-img-top" src={props.photo} alt="Project Screenshot" /></a>
         <iframe height="450" className="card-img-top d-none d-md-block" title={props.title} src={props.url} />
         <div className="card-body">
-          <h4 className="card-title">
+          <h4 className="card-title project-title">
             <a href={props.url} target="_blank">{props.title}</a>
             &nbsp;
-            <div className="SuperCode rounded-circle">
-              <a href={props.sourcrUrl} target="_blank" >&lt;/&gt;</a>
-            </div>
           </h4>
+          <div className="SuperCode rounded-circle">
+            <a href={props.sourcrUrl} target="_blank" >&lt;/&gt;</a>
+          </div>
           <CodacyBadge codacyBadgeLink={props.codacyBadgeLink} codacyBadgeIcon={props.codacyBadgeIcon}/>
           <p className="card-text">{props.description}</p>
         </div>

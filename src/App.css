@@ -16,6 +16,11 @@ body {
 .mainContainer{
   margin-bottom: 120px;
 }
+
+.project-title{
+  display: inline-block;
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
@@ -33,6 +38,8 @@ body {
   display: inline-block;
   height: 44px;
   width: 44px;
+  font-weight: bold;
+  font-size: 22px;
 }
 
 .SuperCode a, .SuperCode a:hover{
@@ -46,6 +53,7 @@ body {
 
 .codacy-badge{
   margin-bottom: 15px;
+  display: block;
 }
 
 .ProfilePhoto {
