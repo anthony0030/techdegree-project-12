@@ -3,8 +3,9 @@ import React from "react";
 
 import Heading from "./Heading"
 import ContactLine from "./ContactLine"
+import Icon from "./Icon"
 import Profile from "./Profile.jpg"
-
+import Anthony from "./anthony.vcf"
 
 function Contact(props) {
   return (
@@ -13,6 +14,9 @@ function Contact(props) {
       <div className="row">
         <div className="col-12 portfolio-item">
          <div className="card contactCard">
+         <a href={Anthony} download="Anthony Veaudry Contact-card.vcf" className="contact-download-button">
+          <Icon i="download"/>
+         </a>
           <img className="ProfilePhoto rounded-circle" src={Profile} alt="My face"/>
           <div className="card-body">
             <ul className="list-group">

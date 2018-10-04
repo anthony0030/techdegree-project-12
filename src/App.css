@@ -85,6 +85,14 @@ body {
   max-width: 100%;
 }
 
+.contact-download-button{
+  margin-top: 15px;
+  width: 45px;
+  align-self: flex-end;
+  margin-right: 15px;
+}
+
+
 @media (min-width: 768px) { 
   .contactIcon {
    margin-right: 20px;
