@@ -152,7 +152,7 @@ const PROJECTS = [
     skills: ["html", "css", "js", "bootstrap", "react", "jquery", "svg"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-12",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/933fdff7981d4d92894f2ffafb2f00b9",
-    description: "In this project, I AM Show off MY skill and expertise in the tools and techniques I have learned in the Treehouse Techdegree by building a professional portfolio to showcase my work."
+    description: "In this project, I am Show off my skill and expertise in the tools and techniques I have learned in the Treehouse Techdegree by building a professional portfolio to showcase my work."
   }
 ]
 
