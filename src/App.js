@@ -35,7 +35,7 @@ import AppPhoto12 from "./AppPhotos/12.png"
 
 const PROJECTS = [
   {
-    title: "Personal Profile Page",
+    title: "Personal Profile",
     photo: AppPhoto01,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-01",
     url: "https://anthony0030.github.io/techdegree-project-01",
@@ -45,7 +45,7 @@ const PROJECTS = [
     description: "Customize a personal online profile by adding graphics, customizing text, and improving the look of a web page using Cascading Style Sheets, the formatting language of the web. Share your finished project on GitHub, a website used by teams of programmers to share and work on programming code."
   },
   {
-    title: "Responsive Layout",
+    title: "Responsive Site",
     photo: AppPhoto02,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-02",
     url: "https://anthony0030.github.io/techdegree-project-02",
@@ -55,7 +55,7 @@ const PROJECTS = [
     description: "Designing web pages that look and function well on multiple screen sizes is an essential skill for a web developer. Using HTML, CSS, and responsive design, you'll create a mobile-first web page with a layout that adjusts to fit mobile phones, tablets and desktop displays."
   },
   {
-    title: "Online Registration Form",
+    title: "Registration Form",
     photo: AppPhoto03,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-03",
     url: "https://anthony0030.github.io/techdegree-project-03",
@@ -65,7 +65,7 @@ const PROJECTS = [
     description: "Web forms appear everywhere online: forms allow users to order books, sign up for web sites, and post to Facebook. This project challenges you to build a responsive, mobile-first registration form using a variety of HTML form elements."
   },
   {
-    title: "Interactive Photo Gallery",
+    title: "Photo Gallery",
     photo: AppPhoto04,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-04",
     url: "https://anthony0030.github.io/techdegree-project-04",
@@ -75,7 +75,7 @@ const PROJECTS = [
     description: "Interactive image galleries are a common feature of many websites, from photo sites to e-commerce applications. Use HTML, CSS and the popular programming language JavaScript to create an interactive, searchable gallery of photos."
   },
   { 
-    title: "Build a Web Style Guide",
+    title: "Web Style Guide",
     photo: AppPhoto05,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-05",
     url: "https://anthony0030.github.io/techdegree-project-05",
@@ -85,7 +85,7 @@ const PROJECTS = [
     description: "Sass is an important tool in a modern Front End Web Developer’s toolbox. It's used by many developers to make styling web pages with CSS easier and faster. Create a style guide that can act as your own personal and custom Bootstrap that you can drop into any of your projects to speed up styling, layout and development in general."
   },
   {
-    title: "Interactive Video Player",
+    title: "Video Player",
     photo: AppPhoto06,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-06",
     url: "https://anthony0030.github.io/techdegree-project-06",
@@ -95,7 +95,7 @@ const PROJECTS = [
     description: "Build an HTML5 video player using JavaScript and the HTML5 Video API. Video, and the interface used to control the video, is increasingly important for many different kinds of web applications, including web site landing pages, blogs, podcasts, product marketing and training."
   },
   {
-    title: "Build a Game Show App",
+    title: "Game Show App",
     photo: AppPhoto07,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-07",
     url: "https://anthony0030.github.io/techdegree-project-07",
@@ -115,7 +115,7 @@ const PROJECTS = [
     description: "Master Scaleable Vector Graphics. SVG graphics are quickly becoming one of the most widely used graphic formats on the web. Modernize the user interface of a web page by adding, styling and optimizing SVG graphics."
   },
   {
-    title: "Web App Dashboard",
+    title: "Web Dashboard",
     photo: AppPhoto09,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-09",
     url: "https://anthony0030.github.io/techdegree-project-09",
@@ -125,7 +125,7 @@ const PROJECTS = [
     description: "Build an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript programming. The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability."
   },
   {
-    title: "Use a Public API to Create a Front End for an Employee Directory",
+    title: "Using APIs",
     photo: AppPhoto10,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-10",
     url: "https://anthony0030.github.io/techdegree-project-10",
@@ -135,7 +135,7 @@ const PROJECTS = [
     description: "Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API (Application Programming Interface)."
   },
   {
-    title: "React Flickr Gallery",
+    title: "React Gallery",
     photo: AppPhoto11,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-11",
     url: "https://anthony0030.github.io/techdegree-project-11",
