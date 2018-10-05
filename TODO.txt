@@ -1,10 +1,11 @@
 
-7) add description to page meta
-8) add helmet to react
-
+1) add description to page meta
 
 BEFORE SUBMIT
 make a site-map
 validate robots.txt
 Check for warnings CSS HTML JS
 test open graph tags
+look at helmet for better SEO
+
+clean up comments
