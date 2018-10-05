@@ -1,15 +1,17 @@
 import React from "react";
-import PropTypes from "prop-types";
 
+import logo from './logo.svg';
 
 import MainNavItem from "./MainNavItem"
+
+const title = "Anthony's portfolio";
 
 function MainNav(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
-        <img src={props.logo} alt="logo" className="main-logo" />
-        <a className="navbar-brand" href="/home">{props.title}</a>
+        <img src={logo} alt="logo" className="main-logo" />
+        <a className="navbar-brand" href="/home">{title}</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -26,8 +28,5 @@ function MainNav(props) {
   );
 }
 
-MainNav.propTypes = {
-  title: PropTypes.string.isRequired,
-};
 
 export default MainNav;

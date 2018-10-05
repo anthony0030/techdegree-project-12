@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <MainNav logo={logo} title="Anthony's portfolio"/>
+          <MainNav/>
           <div className="mainContainer container">
             <Switch>
               <Redirect exact from="/index.html" to="/"/>
