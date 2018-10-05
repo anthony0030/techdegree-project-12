@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 import Heading from "./Heading"
 import Project from "./Project"
@@ -31,12 +30,5 @@ function Projects(props) {
     </div>
   );
 }
-
-Projects.propTypes = {
-  data: PropTypes.array.isRequired
-};
-
-
-
 
 export default Projects;
