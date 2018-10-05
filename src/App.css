@@ -111,3 +111,23 @@ body {
   }
 
  }
+
+
+.scrollProgressBar__container {
+  position: fixed;
+  z-index: 1031 !important;
+  width: 100%;
+  height: 8px;
+}
+
+.scrollProgressBar__progress {
+  width: 0%;
+  height: 8px;
+}
+
+
+
+
+
+
+

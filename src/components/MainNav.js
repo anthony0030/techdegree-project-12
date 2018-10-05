@@ -1,7 +1,7 @@
 import React from "react";
 
 import logo from './logo.svg';
-
+import ScrollBar from "./ScrollBar"
 import MainNavItem from "./MainNavItem"
 
 const title = "Anthony's portfolio";
@@ -13,6 +13,7 @@ function MainNav(props) {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <ScrollBar />
       <div className="container">
         <img src={logo} alt="logo" className="main-logo" />
         <a className="navbar-brand" href="/home">{title}</a>
