@@ -16,7 +16,7 @@ class ScrollBar extends Component {
 
   render() {
     return (
-      <div className="scrollProgressBar__container bg-dark fixed-top">
+      <div className="scrollProgressBar__container fixed-top">
         <div id="myHorizontalBar" className="scrollProgressBar__progress bg-secondary"></div>
       </div>
     );
