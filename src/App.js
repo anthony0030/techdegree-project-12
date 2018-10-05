@@ -43,7 +43,7 @@ class App extends Component {
               <Route exact component={E404}/>
             </Switch>
           </div>
-          <Footer text="Copyright &copy; veaudry.pro 2018" href="https://veaudry.pro"/>
+          
         </div>
       </BrowserRouter>
     );
