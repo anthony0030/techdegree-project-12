@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/anthony0030
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://veaudry.pro
+  * I am anthony0030 (https://keybase.io/anthony0030) on keybase.
+  * I have a public key with fingerprint E5D2 33BA 1DF2 8E62 FA08  45B7 8135 BE8F 2970 5979
+
+To do so, I am signing this object:
+
+{
+    &quot;body&quot;: {
+        &quot;key&quot;: {
+            &quot;eldest_kid&quot;: &quot;0101d42d578c01756fb0f0c4f67a6e0224f6a8e0915a1666c505a4a1f0050ccd043f0a&quot;,
+            &quot;fingerprint&quot;: &quot;e5d233ba1df28e62fa0845b78135be8f29705979&quot;,
+            &quot;host&quot;: &quot;keybase.io&quot;,
+            &quot;key_id&quot;: &quot;8135be8f29705979&quot;,
+            &quot;kid&quot;: &quot;0101d42d578c01756fb0f0c4f67a6e0224f6a8e0915a1666c505a4a1f0050ccd043f0a&quot;,
+            &quot;uid&quot;: &quot;4018f8a9d460861a3cf20f5d9cc55e19&quot;,
+            &quot;username&quot;: &quot;anthony0030&quot;
+        },
+        &quot;merkle_root&quot;: {
+            &quot;ctime&quot;: 1500645189,
+            &quot;hash_meta&quot;: &quot;0f16ef0b00608cd513639e20bbfe7207e2fbd17bb9c515806e2dc1788f43ee5f&quot;,
+            &quot;seqno&quot;: 1268872
+        },
+        &quot;revoke&quot;: {
+            &quot;sig_ids&quot;: [
+                &quot;ad8eec4ca73bdb53c335a6d3f09d334d244a9697910f010fb55ef00e07c256120f&quot;
+            ]
+        },
+        &quot;service&quot;: {
+            &quot;hostname&quot;: &quot;veaudry.pro&quot;,
+            &quot;protocol&quot;: &quot;http:&quot;
+        },
+        &quot;type&quot;: &quot;web_service_binding&quot;,
+        &quot;version&quot;: 1
+    },
+    &quot;ctime&quot;: 1500645192,
+    &quot;expire_in&quot;: 157680000,
+    &quot;prev&quot;: &quot;b5195c6751cddd6b8fa5040a980e0f57d6a163ad21e02d35e5774b182322e1ee&quot;,
+    &quot;seqno&quot;: 22,
+    &quot;tag&quot;: &quot;signature&quot;
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMPVAnicrVN/UBVFHH+kaFAaCaVNYHJMMzYxtvdj7/YeNUIpz0J8SpPpCDz3bvfg
+Brj3uHf8VHC0lJJJVBJMDSg1kpwsRcdeiiNjJQpYA5GNkziiZWVpTlPY2I89xqaZ
+pj+7mbu9u/3s5/P5fr67JyaN88RGrYZdDY+EllZFne6uKPMstSfOW8FpQVLFeVdw
+RXRsoMWEhp1AkUk4Lwd4wBNJIFBBOuAVKBsaMIAuGbKCZQoEgb1hRIHKQ8zLsqxD
+ALGEeQMACHSdAEk0AOZSOcO0Cqgdsk3LYbQUEkEUNcwTQ0BUFgwMkAQ1BfEi1Cgy
+BFUBUFVUtrAwGHZXMHMaDtNZZpD9Yx+BMXv/gf+ffZeN0UmARwbCKpFkgGQei7oh
+AAMSVdchpLyrWxamtoVLKENjyykMWlUAiICrSeVKqF1UTAN2MOi4+eqO6aJ4CIAs
+QR6prEYcLgyUUAe7zg1epgbQ2CxAOoG8KIsqFYCmGVQRgEIFQyO8ommqDnmIgEwF
+ovMKQoYkUgoNZiVMS60gUxBkhBSBObBpebCIuuJhs4AlF+a8yzhMEKW6pGNF1IgG
+RV0UIZYJq1sloigRQZKwKrNQeZYcuzVWKYuHAkUXoMyz+rm8GlfMLjf1MXK3Vbcj
+KKe4jNhVs0K22y/2dIJ6sJhNFDpOyOum4lSFXGAF1QK3KQKaaRG2TdiCcmqHzaDF
+amDIfwWmCqkcrQyZNg2YLgIqMgLscmVoOaPUGAbqsgJ5nRAia8jAEEgAq4iZN6BC
+ZNZyEROBZxuBiJBCRZE0HgmiIFCe0n8SFJiUgwsYJ8vNwk6ZTbma7uO54z1RsZ4J
+0Xe458cTGxP396mq1uI8qx+bdnD24tqK3PQVH52qlIyexxdN9Xw6V90fQyJvSY2/
+/vDBwsmv7PUtTyrvMf1fdzz8VIFz9zZ6ePHsa+px36C5KXqc2tky4H3HPyltTlr2
+y0u+2nTm2par3JL2u451bO7oWnbpQm7unzn1LymXai5HZ31Zu27n2oX1lQ2Zi6d6
+cDecnZSP+jrzxyVGRfDK7chz/fPDGTlDjb7I4Nu+gZH3P9ZTrmxOyNvYONpQ+0Tc
+yfzS2vSzRw4k9Yw2FO+rTrr4RmPXoZlTSOOGlT9XDO0amddsXV7vfT7xVErvJ3cm
+f0N9hWf6IzEnchIieXXnPpyx9cndzW3tDwR2b1Wj984MXNzR3ZaRdf7emdN92ect
+fX/yzR+H3tzpO7f9vZOX66wF3yoPmUfqzj2X1p2xK35wAm766cXum/3+1t0R/8G5
+2c8OvD5sXXg3HRz4/mj8xM/yGrqKu2q3z+/t6+u/338ss3Lwu19K60DS8DQ9E3Sd
+SZweHF2Tf9/wo8vTsy20Z8qt1rSMlLNN45fN3zdxOGzP8EZCq+Y0L9+zpd1qSbh2
+ZOMXqCnen5B4ffWOKS2Ja/GNBa8eWuP/7Whny4MxA41ZsbQ+WctqrRbjM69sOnzP
+kszUznXPXC1NHmp9esTpa8ss9TX1tuwd7c+/Gne2bfTG6RfmLNrwx7yBkvOjHZNb
+bq2tnruz3Zi2aNVrpb9vkELb/gKGePsb
+=QUSA
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anthony0030
+
+==================================================================
