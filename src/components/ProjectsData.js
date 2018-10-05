@@ -127,7 +127,7 @@ const PROJECTS = [
     title: "Online Portfolio",
     photo: AppPhoto12,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-12",
-    url: "",
+    url: "/projectThumbnail",
     skills: ["html", "css", "js", "bootstrap", "react", "jquery", "svg"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-12",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/933fdff7981d4d92894f2ffafb2f00b9",
