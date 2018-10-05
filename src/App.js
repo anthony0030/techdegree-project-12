@@ -9,7 +9,6 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 
 // Application Components
-import MainNav from "./components/MainNav"
 import Footer from "./components/Footer"
 
 //Aplication Pages
@@ -32,16 +31,15 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <MainNav/>
+          
           <div className="mainContainer container">
             <Switch>
-              <Redirect exact from="/index.html" to="/"/>
-              <Redirect exact from="/index.php" to="/"/>
+              <Redirect exact from="/:root?/index.html" to="/"/>
+              <Redirect exact from="/:root?/index.php" to="/"/>
               <Redirect exact from="/" to="/home"/>
-              <Route exact path="/home" component={Projects} />
-              <Route exact path="/about" component={E404} />
-              <Route exact path="/Services" component={E404} />
-              <Route exact path="/Contact" component={Contact} />
+              <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
+              <Route exact path="/:root?/home" component={Projects} />
+              <Route exact path="/:root?/Contact" component={Contact} />
               <Route exact component={E404}/>
             </Switch>
           </div>

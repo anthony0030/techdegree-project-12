@@ -7,6 +7,10 @@ import MainNavItem from "./MainNavItem"
 const title = "Anthony's portfolio";
 
 function MainNav(props) {
+  let rootPath;
+
+  props.root ? rootPath= "/" + props.root + "/" : rootPath= "/";
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
@@ -17,10 +21,10 @@ function MainNav(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
-            <MainNavItem text="Home" link="/home"/> 
+            <MainNavItem text="Home" link={`${rootPath}home`} /> 
             {/*<MainNavItem text="About" link="/about"/> */}
             {/*<MainNavItem text="Services" link="/services"/> */}
-            <MainNavItem text="Contact" link="/contact"/> 
+            <MainNavItem text="Contact" link={`${rootPath}contact`}/> 
           </ul>
         </div>
       </div>

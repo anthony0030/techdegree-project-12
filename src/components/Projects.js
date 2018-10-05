@@ -3,11 +3,13 @@ import React from "react";
 import Heading from "./Heading"
 import Project from "./Project"
 
+import MainNav from "./MainNav"
 import PROJECTS from "./ProjectsData";
 
 function Projects(props) {
   return (
     <div>
+    <MainNav root={props.match.params.root} />
       <Heading title="Anthony Veaudry's" subtitle="Portfolio"/>
       <div className="row">
         {
