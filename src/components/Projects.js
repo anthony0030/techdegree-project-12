@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import Heading from "./Heading"
 import Project from "./Project"
 
+import PROJECTS from "./ProjectsData";
 
 function Projects(props) {
   return (
@@ -11,7 +12,7 @@ function Projects(props) {
       <Heading title="Anthony Veaudry's" subtitle="Portfolio"/>
       <div className="row">
         {
-          props.data.map(
+          PROJECTS.map(
             (project, index) =>
               <Project
                 title={project.title}

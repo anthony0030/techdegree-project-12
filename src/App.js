@@ -21,11 +21,6 @@ import E404 from "./components/E404";
 
 
 
-import PROJECTS from "./components/ProjectsData";
-
-
-
-
 class App extends Component {
 
   componentDidMount() {
@@ -43,7 +38,7 @@ class App extends Component {
               <Redirect exact from="/index.html" to="/"/>
               <Redirect exact from="/index.php" to="/"/>
               <Redirect exact from="/" to="/home"/>
-              <Route exact path="/home" render={ () => <Projects data={PROJECTS} /> } />
+              <Route exact path="/home" component={Projects} />
               <Route exact path="/about" component={E404} />
               <Route exact path="/Services" component={E404} />
               <Route exact path="/Contact" component={Contact} />
