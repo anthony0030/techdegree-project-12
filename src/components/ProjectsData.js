@@ -118,7 +118,7 @@ const PROJECTS = [
     photo: AppPhoto11,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-11",
     url: "https://anthony0030.github.io/techdegree-project-11",
-    skills: ["html", "css", "js", "api", "react"],
+    skills: ["html", "css", "js", "api", "npm", "react"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-11",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/630d8b9691f349d5bd6f37c534a23498",
     description: "In this project, I created an image gallery using React which connects with the Flickr API. I built the gallery components and set up routing for a flawless user experience."
@@ -128,7 +128,7 @@ const PROJECTS = [
     photo: AppPhoto12,
     sourcrUrl: "https://github.com/anthony0030/techdegree-project-12",
     url: "/projectThumbnail",
-    skills: ["html", "css", "js", "bootstrap", "react", "jquery", "svg"],
+    skills: ["html", "css", "js", "bootstrap", "npm", "react", "jquery", "svg"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-12",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/933fdff7981d4d92894f2ffafb2f00b9",
     description: "In this project, I built a professional portfolio to showcase my Treehouse projects. I used the skills, tools, and techniques I learned throughout the Techdegree program."
