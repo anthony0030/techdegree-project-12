@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
-import "./App.css";
 
 //Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+
+//Aplication Styles
+import "./App.css";
+
 
 //Aplication Pages
 import Projects from "./components/Projects";
