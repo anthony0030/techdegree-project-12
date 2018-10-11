@@ -10,7 +10,7 @@ import Skill from "./Skill";
 function Skills(props) {
 
   return (
-    <div className="skils">
+    <div className="skills">
     {
       props.skills.map(
         (skill, index) =>
