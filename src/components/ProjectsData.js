@@ -21,7 +21,7 @@ const PROJECTS = [
     skills: ["html", "css", "js" ,"jade", "sass" , "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/5ca7a91d6de340abbe125cae4961e50c",
-    description: "In this project, I was given a template to fill my details into. I converted the template into a JADE and the styling to SASS. I then proceeded to add a photo a custom photo gallery. I used the built-in bower functionality of CodeKit to manage the dependencies."
+    description: "In this project, I was given a template to fill my details into. I converted the template into a JADE and the styling to SASS. I then proceeded to add a custom photo gallery. I used the built-in bower functionality of CodeKit to manage the dependencies."
   },
   {
     title: "Responsive Site",
@@ -81,7 +81,7 @@ const PROJECTS = [
     skills: ["html", "css", "js" ,"jade", "sass", "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-07",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/8ed9891faa9e4170a6d7694fabe70aec",
-    description: "In this project, I created a browser version of “Wheel of Success”, a word guessing game. I used Javascript to come up with a random phrase that players try to guess by entering different letters into the program."
+    description: "In this project, I created a browser version of “Wheel of Success”, a word guessing game. I used JavaScript to come up with a random phrase that players try to guess by entering different letters into the program."
   },
   {
     title: "SVG Animations",
@@ -91,7 +91,7 @@ const PROJECTS = [
     skills: ["html", "css", "js" ,"jade", "sass", "svg"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-08",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/cb18dfce7f394a33ac8851cb8f4899ba",
-    description: "In this project, I master Scaleable Vector Graphics. I modernized the user interface of a web page by adding, styling, optimizing and animating SVG graphics."
+    description: "In this project, I master Scalable Vector Graphics. I modernized the user interface of a web page by adding, styling, optimizing and animating SVG graphics."
   },
   {
     title: "Web Dashboard",
