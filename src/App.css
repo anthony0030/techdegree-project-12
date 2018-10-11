@@ -81,6 +81,12 @@ body {
   margin: 5px;
 }
 
+.skills{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .page-not-found{
   max-width: 100%;
 }
