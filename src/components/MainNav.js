@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from './logo.svg';
+import logo from "./logo.svg";
 import ScrollBar from "./ScrollBar";
 import MainNavItem from "./MainNavItem";
 

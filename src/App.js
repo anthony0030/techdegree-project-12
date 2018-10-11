@@ -24,8 +24,8 @@ import E404 from "./components/E404";
 class App extends Component {
 
   componentDidMount() {
-    window.$ = window.jQuery = require('jquery');
-    window.$('[data-toggle="tooltip"]').tooltip();
+    window.$ = window.jQuery = require("jquery");
+    window.$("[data-toggle='tooltip']").tooltip();
   }
 
   render() {
@@ -41,7 +41,7 @@ class App extends Component {
               <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
               <Route exact path="/:root?/home" component={Projects} />
               <Route exact path="/:root?/Contact" component={Contact} />
-              <Route exact path="/:root?/projectThumbnail" render={()=> <img src={AppPhoto12} alt="Project Screenshot" className="project-12-thumbnail"/> } />
+              <Route exact path="/:root?/projectThumbnail" render={ () => <img src={AppPhoto12} alt="Project Screenshot" className="project-12-thumbnail"/> } />
               <Route exact component={E404}/>
             </Switch>
           </div>
