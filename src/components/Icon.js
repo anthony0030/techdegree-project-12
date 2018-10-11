@@ -10,6 +10,7 @@ import location from "./SVG/location.svg";
 import github from "./SVG/github.svg";
 import download from "./SVG/download.svg";
 import bug from "./SVG/bug.svg";
+import enlarge from "./SVG/enlarge.svg";
 
 
 
@@ -54,6 +55,11 @@ function Icon(props) {
     case "download":
       icon = download;
       alt = "download Icon";
+    break;
+
+    case "enlarge":
+      icon = enlarge;
+      alt = "enlarge Icon";
     break;
 
     default:
