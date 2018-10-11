@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import CodacyBadge from "./CodacyBadge";
 
-import Skills from "./Skills"
+import Skills from "./Skills";
 
 function Project(props) {
   return (

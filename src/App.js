@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
-import './App.css';
+import "./App.css";
 
 //Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 //Aplication Pages
-import Projects from "./components/Projects"
-import Contact from "./components/Contact"
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import AppPhoto12 from "./components/AppPhotos/12b.png";
 import E404 from "./components/E404";
 

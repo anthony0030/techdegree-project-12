@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 function Pagination() {
   return (
@@ -31,11 +31,11 @@ function Pagination() {
 
 
 
-Pagination.propTypes = {
+// Pagination.propTypes = {
   // title: PropTypes.string.isRequired,
   // photo: PropTypes.string.isRequired,
   // description: PropTypes.string.isRequired
-};
+// };
 
 
 export default Pagination;

@@ -2,14 +2,14 @@ import React from "react";
 import PropTypes from "prop-types";
 
 
-import at from "./SVG/at.svg"
-import facebook from "./SVG/facebook.svg"
-import mobile from "./SVG/mobile.svg"
-import user from "./SVG/user.svg"
-import location from "./SVG/location.svg"
-import github from "./SVG/github.svg"
-import download from "./SVG/download.svg"
-import bug from "./SVG/bug.svg"
+import at from "./SVG/at.svg";
+import facebook from "./SVG/facebook.svg";
+import mobile from "./SVG/mobile.svg";
+import user from "./SVG/user.svg";
+import location from "./SVG/location.svg";
+import github from "./SVG/github.svg";
+import download from "./SVG/download.svg";
+import bug from "./SVG/bug.svg";
 
 
 

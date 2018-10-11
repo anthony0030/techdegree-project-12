@@ -11,7 +11,7 @@ function codacyBadge(props) {
 
 codacyBadge.propTypes = {
   codacyBadgeLink: PropTypes.string.isRequired,
-  codacyBadgeIcon: PropTypes.string.isRequired,
+  codacyBadgeIcon: PropTypes.string.isRequired
 };
 
 

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 
 
-import Skill from "./Skill"
+import Skill from "./Skill";
 
 
 

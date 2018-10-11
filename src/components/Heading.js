@@ -11,7 +11,7 @@ function Heading(props) {
 
 Heading.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string,
+  subtitle: PropTypes.string
 };
 
 

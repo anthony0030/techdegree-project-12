@@ -3,21 +3,21 @@ import PropTypes from "prop-types";
 
 
 // Application Badges
-import htmlBadge from "./Badges/html.png"
-import cssBadge from "./Badges/css.png"
-import jsBadge from "./Badges/js.png"
-import sassBadge from "./Badges/sass.png"
-import jadeBadge from "./Badges/jade.png"
-import reactBadge from "./Badges/react.png"
-import angularBadge from "./Badges/angular.png"
-import cookieBadge from "./Badges/cookie.png"
-import bootstrapBadge from "./Badges/bootstrap.png"
-import jqueryBadge from "./Badges/jquery.png"
-import apiBadge from "./Badges/api.png"
-import errorBadge from "./Badges/error.png"
-import npmBadge from "./Badges/npm.png"
-import bowerBadge from "./Badges/bower.png"
-import svgBadge from "./Badges/svg.png"
+import htmlBadge from "./Badges/html.png";
+import cssBadge from "./Badges/css.png";
+import jsBadge from "./Badges/js.png";
+import sassBadge from "./Badges/sass.png";
+import jadeBadge from "./Badges/jade.png";
+import reactBadge from "./Badges/react.png";
+import angularBadge from "./Badges/angular.png";
+import cookieBadge from "./Badges/cookie.png";
+import bootstrapBadge from "./Badges/bootstrap.png";
+import jqueryBadge from "./Badges/jquery.png";
+import apiBadge from "./Badges/api.png";
+import errorBadge from "./Badges/error.png";
+import npmBadge from "./Badges/npm.png";
+import bowerBadge from "./Badges/bower.png";
+import svgBadge from "./Badges/svg.png";
 
 
 let icon;

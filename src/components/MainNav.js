@@ -1,8 +1,8 @@
 import React from "react";
 
 import logo from './logo.svg';
-import ScrollBar from "./ScrollBar"
-import MainNavItem from "./MainNavItem"
+import ScrollBar from "./ScrollBar";
+import MainNavItem from "./MainNavItem";
 
 const title = "Anthony's portfolio";
 

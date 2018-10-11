@@ -12,7 +12,7 @@ function MainNavItem(props) {
 
 MainNavItem.propTypes = {
   text: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired
 };
 
 export default MainNavItem;
