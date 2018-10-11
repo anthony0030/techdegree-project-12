@@ -31,43 +31,43 @@ function Skill(props) {
 
     case "html":
       icon = htmlBadge;
-      toolTip= "HTML knowledge was used for this project";
+      toolTip= "HTML was used in this project";
       alt = "HTML Badge Icon";
     break;
 
     case "css":
       icon = cssBadge;
-      toolTip= "CSS knowledge was used for this project";
+      toolTip= "CSS was used in this project";
       alt = "CSS Badge Icon";
     break;
 
     case "js":
       icon = jsBadge;
-      toolTip= "JavaScript knowledge was used for this project";
+      toolTip= "JavaScript was used in this project";
       alt = "JS Badge Icon";
     break;
 
     case "sass":
       icon = sassBadge;
-      toolTip= "SASS knowledge was used for this project";
+      toolTip= "SASS was used in this project";
       alt = "SASS Badge Icon";
     break;
 
     case "jade":
       icon = jadeBadge;
-      toolTip= "JADE knowledge was used for this project";
+      toolTip= "JADE was used in this project";
       alt = "JADE Badge Icon";
     break;
 
     case "react":
       icon = reactBadge;
-      toolTip= "REACT knowledge was used for this project";
+      toolTip= "REACT was used in this project";
       alt = "REACT Badge Icon";
     break;
 
     case "angular":
       icon = angularBadge;
-      toolTip= "Angular knowledge was used for this project";
+      toolTip= "Angular was used in this project";
       alt = "Angular Badge Icon";
     break;
 
@@ -85,7 +85,7 @@ function Skill(props) {
 
      case "bootstrap":
       icon = bootstrapBadge;
-      toolTip= "This project makes use of bootstrap";
+      toolTip= "This project makes use of Bootstrap";
       alt = "bootstrap Badge Icon";
     break;
 
@@ -103,13 +103,13 @@ function Skill(props) {
 
      case "bower":
       icon = bowerBadge;
-      toolTip= "This project makes use of bower";
+      toolTip= "This project makes use of Bower";
       alt = "bower Badge Icon";
     break;
 
    case "svg":
       icon = svgBadge;
-      toolTip= "This project makes use of svgs";
+      toolTip= "This project makes use of SVGs";
       alt = "svg Badge Icon";
     break;
 
