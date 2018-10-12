@@ -13,8 +13,8 @@ function Project(props) {
 
         <div className="card-body">
           <div className="card-buttons">
-            <a href={props.sourcrUrl} target="_blank" className="btn btn-dark" >View Source &lt;&#47;&gt;</a>
-            <a href={props.codacyBadgeLink} target="_blank" className="btn btn-dark" >View Quality <span className="spin">&#9881;</span></a>
+            <a href={props.sourcrUrl} target="_blank" rel="noreferrer" className="btn btn-dark" >View Source &lt;&#47;&gt;</a>
+            <a href={props.codacyBadgeLink} target="_blank" rel="noreferrer" className="btn btn-dark" >View Quality <span className="spin">&#9881;</span></a>
 
           </div>
           <h4 className="card-title project-title">{props.title}</h4>
