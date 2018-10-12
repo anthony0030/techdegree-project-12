@@ -8,6 +8,10 @@ body {
   padding-top: 54px;
 }
 
+a:focus {
+  outline-color: #0049fb;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;

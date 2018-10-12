@@ -8,8 +8,8 @@ function Project(props) {
   return (
     <div className="col-lg-4 col-sm-6 portfolio-item">
       <div className="card h-100">
-        <a href={props.url} target="_blank">
-          <div className="enlarge-icon">
+        <a href={props.url} target="_blank" className="enlarge-icon">
+          <div>
           <Icon i="enlarge"/>
           </div>
         </a>
