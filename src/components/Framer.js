@@ -12,7 +12,8 @@ const customStyles = {
   },
 
   overlay: {
-    "z-index"           : "1060"
+    zIndex             : "1060",
+    maxHeight          : "100vh"
   }
 
 
@@ -68,7 +69,7 @@ class Framer extends React.Component {
           </button>
 
 
-          <iframe frameBorder="0" className="viewer-iframe" tabindex="0" title={this.props.title} src={this.props.url} />
+          <iframe frameBorder="0" className="viewer-iframe" tabIndex="0" title={this.props.title} src={this.props.url} />
         </Modal>
       </div>
     );
