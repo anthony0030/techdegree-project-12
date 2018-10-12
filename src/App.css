@@ -172,6 +172,7 @@ a:focus, button:focus {
   padding: 9px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
 }
 
 .enlarge-icon:hover img{
