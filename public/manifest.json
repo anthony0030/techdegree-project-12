@@ -1,5 +1,5 @@
 {
-  "short_name": "Veaudry Portfolio",
+  "short_name": "V projects",
   "name": "Anthony Veaudry's Portfolio",
   "icons": [
   {
@@ -37,9 +37,15 @@
    "sizes": "192x192",
    "type": "image\/png",
    "density": "4.0"
+  },
+  {
+   "src": "\/favicon\/android-icon-512x512.png",
+   "sizes": "512x512",
+   "type": "image\/png",
+   "density": "4.0"
   }
   ],
-  "start_url": "./index.html",
+  "start_url": "./",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
