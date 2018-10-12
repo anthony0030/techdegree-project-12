@@ -13,7 +13,7 @@ body {
   overflow: hidden;
 }
 
-a:focus {
+a:focus, button:focus {
   outline-color: #0049fb;
 }
 
