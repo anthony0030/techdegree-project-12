@@ -201,4 +201,12 @@ a:focus {
 }
 
 
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.spin{
+  display: inline-block;
+  animation: spin 20s linear infinite;
+}
+
+
 
