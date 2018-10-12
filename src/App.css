@@ -17,6 +17,10 @@ a:focus, button:focus {
   outline-color: #0049fb;
 }
 
+.navbar-dark .navbar-nav .nav-link{
+  color: #aaa;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
