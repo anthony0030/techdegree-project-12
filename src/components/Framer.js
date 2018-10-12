@@ -1,23 +1,78 @@
 import React from "react";
 
-import Heading from "./Heading";
+import Modal from "react-modal";
+import Icon from "./Icon";
+
+const customStyles = {
+  content : {
+    top                   : "0",
+    left                  : "0",
+    right                 : "0",
+    bottom                : "0"
+  },
+
+  overlay: {
+    "z-index"           : "1060"
+  }
 
 
-import MainNav from "./MainNav";
-import Footer from "./Footer";
 
 
-function Projects(props) {
-  return (
-    <div>
-    <MainNav root={props.match.params.root} />
-      <Heading title="Anthony Veaudry's" subtitle="Portfolio"/>
-      <div className="row">
+};
 
+Modal.setAppElement("#root")
+
+class Framer extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      modalIsOpen: false
+    };
+
+    this.openModal = this.openModal.bind(this);
+    this.afterOpenModal = this.afterOpenModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
+
+  openModal() {
+    this.setState({modalIsOpen: true});
+  }
+
+  afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    
+  }
+
+  closeModal() {
+    this.setState({modalIsOpen: false});
+  }
+
+  render() {
+    return (
+      <div>
+        <button onClick={this.openModal} target="_blank" className="enlarge-icon">
+          <Icon i="enlarge"/>
+        </button>
+        <Modal
+          isOpen={this.state.modalIsOpen}
+          onAfterOpen={this.afterOpenModal}
+          onRequestClose={this.closeModal}
+          style={customStyles}
+          closeTimeoutMS={1000}
+        >
+          <h1>{this.props.title}</h1>
+
+          <button onClick={this.closeModal} target="_blank" className="shrink-icon">
+            <Icon i="shrink"/>
+          </button>
+
+
+          <iframe frameBorder="0" className="viewer-iframe" tabindex="0" title={this.props.title} src={this.props.url} />
+        </Modal>
       </div>
-      <Footer text="Copyright &copy; veaudry.pro 2018" href="https://veaudry.pro"/>
-    </div>
-  );
+    );
+  }
 }
 
-export default Projects;
+export default Framer;

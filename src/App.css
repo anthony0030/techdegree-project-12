@@ -9,6 +9,10 @@ body {
   background-color: #eee;
 }
 
+.ReactModal__Body--open{
+  overflow: hidden;
+}
+
 a:focus {
   outline-color: #0049fb;
 }
@@ -132,7 +136,7 @@ a:focus {
 }
 
 .scrollProgressBar__progress {
-  width: 0%;
+  width: 0;
   height: 8px;
 }
 
@@ -176,3 +180,25 @@ a:focus {
 .card{
   border: 2px solid #ccc;
 }
+
+.viewer-iframe{
+  width: 100%;
+  height: 94%;
+  border: 1px solid black;
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 1000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+
+
