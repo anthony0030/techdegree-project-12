@@ -18,7 +18,7 @@ body {
 }
 
 .project-title{
-  display: inline-block;
+  font-size: 40px;
 }
 
 .portfolio-item {
@@ -53,7 +53,6 @@ body {
 
 .codacy-badge{
   margin-bottom: 15px;
-  display: block;
 }
 
 .ProfilePhoto {
@@ -85,6 +84,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  background-color: #B0C2D433;
 }
 
 .page-not-found{
@@ -104,13 +104,6 @@ body {
   padding: .75rem 1.25rem;
 }
 
-.project-12-thumbnail{
-  width: 100%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
 @media (min-width: 768px) { 
   .contactIcon {
@@ -137,9 +130,30 @@ body {
   height: 8px;
 }
 
+.card-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
+.card-text{
+  font-size: 20px;
+}
 
+.enlarge-icon{
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #ffffff66;
+  width: 50px;
+  height: 50px;
+  padding: 9px;
+  border-radius: 10px;
+}
 
-
-
+.enlarge-icon:hover img{
+  scale: 1.2;
+}
 

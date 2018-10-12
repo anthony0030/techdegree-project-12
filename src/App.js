@@ -13,8 +13,8 @@ import "./App.css";
 
 //Aplication Pages
 import Projects from "./components/Projects";
+import Framer from "./components/Framer";
 import Contact from "./components/Contact";
-import AppPhoto12 from "./components/AppPhotos/12b.png";
 import E404 from "./components/E404";
 
 
@@ -41,7 +41,7 @@ class App extends Component {
               <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
               <Route exact path="/:root?/home" component={Projects} />
               <Route exact path="/:root?/Contact" component={Contact} />
-              <Route exact path="/:root?/projectThumbnail" render={ () => <img src={AppPhoto12} alt="Project Screenshot" className="project-12-thumbnail"/> } />
+              <Route exact path="/:root?/Project" component={Framer} />
               <Route exact component={E404}/>
             </Switch>
           </div>
