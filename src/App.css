@@ -6,6 +6,7 @@
 
 body {
   padding-top: 54px;
+  background-color: #eee;
 }
 
 a:focus {
@@ -26,7 +27,7 @@ a:focus {
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .pagination {
@@ -89,6 +90,7 @@ a:focus {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #B0C2D433;
+  padding: 1.25rem 0;
 }
 
 .page-not-found{
@@ -166,3 +168,6 @@ a:focus {
   scale: 1.2;
 }
 
+.card{
+  border: 2px solid #ccc;
+}
