@@ -152,7 +152,7 @@ a:focus {
   font-size: 20px;
 }
 
-.enlarge-icon{
+.enlarge-icon, .shrink-icon{
   display: block;
   position: absolute;
   right: 10px;
@@ -162,10 +162,15 @@ a:focus {
   height: 50px;
   padding: 9px;
   border-radius: 10px;
+  border: none;
 }
 
 .enlarge-icon:hover img{
   scale: 1.2;
+}
+
+.shrink-icon:hover img{
+  scale: 0.8;
 }
 
 .card{

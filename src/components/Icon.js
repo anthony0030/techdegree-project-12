@@ -11,6 +11,7 @@ import github from "./SVG/github.svg";
 import download from "./SVG/download.svg";
 import bug from "./SVG/bug.svg";
 import enlarge from "./SVG/enlarge.svg";
+import shrink from "./SVG/shrink.svg";
 
 
 
@@ -60,6 +61,11 @@ function Icon(props) {
     case "enlarge":
       icon = enlarge;
       alt = "enlarge Icon";
+    break;
+
+    case "shrink":
+      icon = shrink;
+      alt = "shrink Icon";
     break;
 
     default:
