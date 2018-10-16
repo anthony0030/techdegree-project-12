@@ -83,7 +83,7 @@ a:focus, button:focus {
 }
 
 .ContactText{
-  font-size: 30px;
+  font-size: 24px;
   color: black;
   text-align: center;
 }
@@ -128,6 +128,7 @@ a:focus, button:focus {
 
   .ContactText{
     display: inline-block;
+    font-size: 30px;
   }
 
  }
