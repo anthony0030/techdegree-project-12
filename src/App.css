@@ -188,12 +188,12 @@ a:focus, button:focus {
 
 .viewer-iframe{
   width: 100%;
-  height: 94%;
-  outline: 1px solid black;
+  height: 92%;
 }
 
 .modal-title{
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
 
 

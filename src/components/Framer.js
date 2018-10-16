@@ -2,6 +2,9 @@ import React from "react";
 
 import Modal from "react-modal";
 import Icon from "./Icon";
+import logo from "./logo.svg";
+import Footer from "./Footer";
+
 
 const customStyles = {
   content : {
@@ -9,7 +12,9 @@ const customStyles = {
     left                  : "0",
     right                 : "0",
     bottom                : "0",
-    padding               : "0"
+    padding               : "0",
+    borderRadius          : "0",
+    border                : "0"
   },
 
   overlay: {
@@ -64,14 +69,19 @@ class Framer extends React.Component {
           style={customStyles}
           closeTimeoutMS={1000}
         >
-          <h1 className="modal-title">{this.props.title}</h1>
-
+          
+          <h1 className="modal-title text-light bg-dark">
+            <img src={logo} alt="logo" className="main-logo" />
+            <span className="d-none d-md-inline align-middle">Anthony's</span>
+             <span className="align-middle"> {this.props.title}</span>
+          </h1>
           <button onClick={this.closeModal} target="_blank" className="shrink-icon">
             <Icon i="shrink"/>
           </button>
-
-
           <iframe frameBorder="0" className="viewer-iframe" tabIndex="0" title={this.props.title} src={this.props.url} />
+          <Footer/>
+
+
         </Modal>
       </div>
     );
