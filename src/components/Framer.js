@@ -22,7 +22,7 @@ const customStyles = {
 
 };
 
-Modal.setAppElement("#root")
+Modal.setAppElement("#root");
 
 class Framer extends React.Component {
   constructor() {
