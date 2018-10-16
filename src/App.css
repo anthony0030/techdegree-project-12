@@ -99,7 +99,7 @@ a:focus, button:focus {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #B0C2D433;
+  background-color: rgba(176, 194, 212, 0.33)
   padding: 1.25rem 0;
 }
 
@@ -167,7 +167,7 @@ a:focus, button:focus {
   position: absolute;
   right: 10px;
   top: 10px;
-  background-color: #ffffff66;
+  background : rgba(255, 255, 255, 0.66);
   width: 50px;
   height: 50px;
   padding: 9px;
