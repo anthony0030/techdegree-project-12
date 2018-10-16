@@ -188,7 +188,7 @@ a:focus, button:focus {
 .viewer-iframe{
   width: 100%;
   height: 94%;
-  border: 1px solid black;
+  outline: 1px solid black;
 }
 
 .modal-title{
