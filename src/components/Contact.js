@@ -28,7 +28,7 @@ function Contact(props) {
               <ContactLine icon="github" text="anthony0030" link="https://github.com/anthony0030"/>
               <ContactLine icon="location" text="Greece" link="https://wikipedia.org/wiki/Greece"/>
               <ContactLine icon="at" text="anthony@veaudry.pro" link="mailto:anthony@veaudry.pro"/>
-              <ContactLine icon="mobile" text="+30 6948688704" link="tel:+30 6948688704"/>
+              <ContactLine icon="mobile" text="(+30) 694 868 8704" link="tel:+306948688704"/>
 
             </ul>
           </div>
