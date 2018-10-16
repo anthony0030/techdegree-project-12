@@ -13,7 +13,7 @@ function Contact(props) {
   return (
     <div>
       <MainNav root={props.match.params.root} />
-      <Heading title="Anthony Veaudry's" subtitle="Contact info"/>
+      <Heading title="" subtitle="Contact me"/>
       <div className="row">
         <div className="col-12 portfolio-item">
          <div className="card contactCard">

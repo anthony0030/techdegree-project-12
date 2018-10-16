@@ -4,7 +4,7 @@ import logo from "./logo.svg";
 import ScrollBar from "./ScrollBar";
 import MainNavItem from "./MainNavItem";
 
-const title = "Anthony's portfolio";
+const title = "Anthony Veaudry";
 
 function MainNav(props) {
   let rootPath;

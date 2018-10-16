@@ -11,7 +11,7 @@ function Projects(props) {
   return (
     <div>
     <MainNav root={props.match.params.root} />
-      <Heading title="Anthony Veaudry's" subtitle="Portfolio"/>
+      <Heading title="" subtitle="My awesome portfolio"/>
       <div className="row">
         {
           PROJECTS.map(
