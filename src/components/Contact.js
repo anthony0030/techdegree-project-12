@@ -35,7 +35,7 @@ function Contact(props) {
         </div>
         </div>
       </div>
-      <Footer text="Copyright &copy; veaudry.pro 2018" href="https://veaudry.pro"/>
+      <Footer/>
     </div>
   );
 }
