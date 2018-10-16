@@ -63,7 +63,7 @@ class Framer extends React.Component {
           style={customStyles}
           closeTimeoutMS={1000}
         >
-          <h1>{this.props.title}</h1>
+          <h1 className="modal-title">{this.props.title}</h1>
 
           <button onClick={this.closeModal} target="_blank" className="shrink-icon">
             <Icon i="shrink"/>
