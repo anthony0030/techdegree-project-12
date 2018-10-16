@@ -1,13 +1,38 @@
-BEFORE SUBMIT
 
 
-1) Ask Augie to review text
+Comets for the reviewer:
+------------------------------------------------------------------------------------
+Hello Reviewer, 
 
-2) Check for warnings CSS HTML JS
+Thank you for taking the time to review my project!
 
-3) Multiple JavaScript interactions.
+You can find the site live:
+  1) On my private server at https://veaudry.pro
+  2) On GitHub pages https://anthony0030.github.io/techdegree-project-12
 
-mention in the comments
-1) the links to the site
-2) the JS interactivity
-3) the browser I used
+I have added JS interactivity:
+  1) In the header as a progress bar for the amount of page viewed.
+  2) On the skill icons (HTML, CSS, JS, etc..) as a tool tip (some times a browser refresh is needed to activate it).
+  3) On each project as a modal that activates with the press of a button on each project.
+  4) The full page is a react APP.
+
+The project sports the following commands (OSX):
+
+1) npm run-script start                // Starts a development server on port 3000
+2) HTTPS=true npm run-script start     // Starts a secure development server on port 3000
+3) npm run-script deploy               // Deploys the page to GitHub pages (permissions needed)
+4) npm run-script build                // Builds the page locally
+4) npm run-script predeploy            // Builds the page locally
+5) npm run-script test                 // Runs the test file (no tests in this file yet)
+5) npm run-script eject                // Ejects the project from the build system
+
+
+The Browser i used in development was Google chrome, but i also opened my project in the latest versions of Firefox and Safari.
+I am aiming for an "exceeds" rating.
+
+Thanks again for taking the time to review my project!
+
+Have a great day,
+Anthony
+
+------------------------------------------------------------------------------------
