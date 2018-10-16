@@ -18,7 +18,7 @@ function Project(props) {
 
           </div>
           <h4 className="card-title project-title">{props.title}</h4>
-          <p className="card-text">{props.description}</p>
+          <p className="card-text" tabIndex="0">{props.description}</p>
         </div>
         <Skills skills={props.skills}/>
       </div>
