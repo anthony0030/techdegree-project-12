@@ -22,7 +22,8 @@ const customStyles = {
 
 };
 
-Modal.setAppElement("#root");
+const ModalRoot = document.getElementById("root");
+Modal.setAppElement(ModalRoot);
 
 class Framer extends React.Component {
   constructor() {
