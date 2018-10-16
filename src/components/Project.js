@@ -8,7 +8,7 @@ function Project(props) {
   return (
     <div className="col-lg-6 col-xl-4 portfolio-item">
       <div className="card h-100">
-        <Framer url={props.url} title={props.title}/>
+        <Framer url={props.url} title={props.title} preTitle={props.preTitle}/>
         <img className="card-img-top" src={props.photo} alt="Project Screenshot" />
 
         <div className="card-body">
@@ -29,6 +29,7 @@ function Project(props) {
 
 Project.propTypes = {
   title: PropTypes.string.isRequired,
+  preTitle: PropTypes.string,
   photo: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   skills: PropTypes.array,

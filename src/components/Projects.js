@@ -17,6 +17,7 @@ function Projects(props) {
           PROJECTS.map(
             (project, index) =>
               <Project
+                preTitle="Anthony's"
                 title={project.title}
                 photo={project.photo}
                 sourcrUrl={project.sourcrUrl}

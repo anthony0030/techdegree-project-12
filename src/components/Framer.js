@@ -72,7 +72,7 @@ class Framer extends React.Component {
           
           <h1 className="modal-title text-light bg-dark">
             <img src={logo} alt="logo" className="main-logo" />
-            <span className="d-none d-md-inline align-middle">Anthony's</span>
+            <span className="d-none d-md-inline align-middle">{this.props.preTitle}</span>
              <span className="align-middle"> {this.props.title}</span>
           </h1>
           <button onClick={this.closeModal} target="_blank" className="shrink-icon">
