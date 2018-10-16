@@ -193,6 +193,11 @@ a:focus, button:focus {
   border: 1px solid black;
 }
 
+.modal-title{
+  margin-bottom: 10px;
+}
+
+
 .ReactModal__Overlay {
     opacity: 0;
     transition: opacity 1000ms ease-in-out;
