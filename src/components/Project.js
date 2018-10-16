@@ -7,7 +7,7 @@ import Framer from "./Framer";
 function Project(props) {
   return (
     <div className="col-lg-6 col-xl-4 portfolio-item">
-      <div className="card h-100">
+      <div className="card h-100" tabindex="0">
         <Framer url={props.url} title={props.title} preTitle={props.preTitle}/>
         <img className="card-img-top" src={props.photo} alt="Project Screenshot" />
 
@@ -18,7 +18,7 @@ function Project(props) {
 
           </div>
           <h4 className="card-title project-title">{props.title}</h4>
-          <p className="card-text" tabIndex="0">{props.description}</p>
+          <p className="card-text">{props.description}</p>
         </div>
         <Skills skills={props.skills}/>
       </div>
