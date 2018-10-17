@@ -1,4 +1,4 @@
-//Application Images
+// Application Images
 import AppPhoto01 from "./AppPhotos/01.png";
 import AppPhoto02 from "./AppPhotos/02.png";
 import AppPhoto03 from "./AppPhotos/03.png";

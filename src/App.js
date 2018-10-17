@@ -2,16 +2,16 @@ import React, { Component } from "react";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
 
-//Bootstrap
+// Bootstrap
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.js";
 
 
-//Aplication Styles
+// Application Styles
 import "./App.css";
 
 
-//Aplication Pages
+// Application Pages
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import E404 from "./components/E404";

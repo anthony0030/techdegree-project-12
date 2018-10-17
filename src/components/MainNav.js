@@ -23,8 +23,8 @@ function MainNav(props) {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav ml-auto">
             <MainNavItem text="Home" link={`${rootPath}home`} /> 
-            {/*<MainNavItem text="About" link="/about"/> */}
-            {/*<MainNavItem text="Services" link="/services"/> */}
+            {/* <MainNavItem text="About" link="/about"/> */}
+            {/* <MainNavItem text="Services" link="/services"/> */}
             <MainNavItem text="Contact" link={`${rootPath}contact`}/> 
           </ul>
         </div>
