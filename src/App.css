@@ -100,7 +100,7 @@ a:focus, button:focus {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: rgba(176, 194, 212, 0.33);
+  background-color: #E5EBF1;
   padding: 1.25rem 0;
 }
 
