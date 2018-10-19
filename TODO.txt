@@ -16,7 +16,7 @@ I have added JS interactivity:
   3) On each project as a modal that activates with the press of a button on each project.
   4) The full page is a react APP.
 
-The project sports the following commands (OSX):
+The project suports the following commands (OSX):
 
 1) npm run-script start                // Starts a development server on port 3000
 2) HTTPS=true npm run-script start     // Starts a secure development server on port 3000
