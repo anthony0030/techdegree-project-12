@@ -22,7 +22,4 @@ ContactLine.propTypes = {
   icon: PropTypes.string.isRequired
 };
 
-
-
-
 export default ContactLine;

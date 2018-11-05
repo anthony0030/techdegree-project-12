@@ -14,7 +14,4 @@ Heading.propTypes = {
   subtitle: PropTypes.string
 };
 
-
-
-
 export default Heading;

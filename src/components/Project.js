@@ -24,7 +24,6 @@ function Project(props) {
   );
 }
 
-
 Project.propTypes = {
   title: PropTypes.string.isRequired,
   preTitle: PropTypes.string,
