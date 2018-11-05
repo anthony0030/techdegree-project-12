@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 
 // Application Badges
+import androidBadge from "./Badges/android.png";
 import htmlBadge from "./Badges/html.png";
 import cssBadge from "./Badges/css.png";
 import jsBadge from "./Badges/js.png";
@@ -113,6 +114,11 @@ function Skill(props) {
       alt = "svg Badge Icon";
     break;
 
+    case "android":
+      icon = androidBadge;
+      toolTip= "";
+      alt = "android Badge Icon";
+    break;
 
     default:
       icon = errorBadge;
