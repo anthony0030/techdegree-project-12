@@ -1,22 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-
-
 import Skill from "./Skill";
-
 
 
 function Skills(props) {
 
-  return (
+  return(
     <div className="skills">
     {
-      props.skills.map(
-        (skill, index) =>
-          <Skill skill={skill} key={index}/>
-        )
-      }
+      props.skills.map((skill, index) =>
+        <Skill skill={skill} key={index}/>
+      )
+    }
     </div>
   );
 }

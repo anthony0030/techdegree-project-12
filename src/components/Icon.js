@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-
 import at from "./SVG/at.svg";
 import facebook from "./SVG/facebook.svg";
 import mobile from "./SVG/mobile.svg";
@@ -14,10 +13,8 @@ import enlarge from "./SVG/enlarge.svg";
 import shrink from "./SVG/shrink.svg";
 
 
-
 let icon;
 let alt;
-
 
 
 function Icon(props) {
@@ -71,18 +68,12 @@ function Icon(props) {
     default:
       icon = bug;
       alt = "Error with SVG";
+    break;
   }
 
 
+  return( <img src={icon} alt={alt} className={props.className}/> );
 
-
-
-
-
-
-  return (
-    <img src={icon} alt={alt} className={props.className}/>
-  );
 }
 
 

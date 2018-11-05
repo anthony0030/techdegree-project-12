@@ -7,12 +7,12 @@ import Icon from "./Icon";
 
 function ContactLine(props) {
   return (
-      <li className="list-group-item px-0 py-0">
-        <a href={props.link} target="_blank" className="contact-line-container">
-          <Icon i={props.icon} className="contactIcon"/>
-          <p className="ContactText">{props.text}</p>
-        </a>
-      </li>
+    <li className="list-group-item px-0 py-0">
+      <a href={props.link} target="_blank" className="contact-line-container">
+        <Icon i={props.icon} className="contactIcon"/>
+        <p className="ContactText">{props.text}</p>
+      </a>
+    </li>
   );
 }
 

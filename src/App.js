@@ -31,20 +31,20 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          
           <div className="mainContainer container">
             <Switch>
+
               <Redirect exact from="/:root?/index.html" to="/"/>
               <Redirect exact from="/:root?/index.php" to="/"/>
               <Redirect exact from="/" to="/home"/>
               <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
+
               <Route exact path="/:root?/home" component={Projects} />
               <Route exact path="/:root?/Contact" component={Contact} />
-
               <Route exact component={E404}/>
+
             </Switch>
           </div>
-          
         </div>
       </BrowserRouter>
     );
