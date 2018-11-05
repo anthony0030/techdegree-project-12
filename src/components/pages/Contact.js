@@ -1,13 +1,13 @@
 import React from "react";
 // import PropTypes from "prop-types";
 
-import MainNav from "./MainNav";
-import Footer from "./Footer";
-import Heading from "./Heading";
-import ContactLine from "./ContactLine";
-import Icon from "./Icon";
-import Profile from "./Profile.jpg";
-import Anthony from "./anthony.vcf";
+import MainNav from "../MainNav";
+import Footer from "../Footer";
+import Heading from "../Heading";
+import ContactLine from "../ContactLine";
+import Icon from "../Icon";
+import Profile from "../Profile.jpg";
+import Anthony from "../anthony.vcf";
 
 function Contact(props) {
   return(

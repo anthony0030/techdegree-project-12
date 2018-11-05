@@ -1,11 +1,11 @@
 import React from "react";
 
-import Heading from "./Heading";
-import Project from "./Project";
+import Heading from "../Heading";
+import Project from "../Project";
 
-import MainNav from "./MainNav";
-import Footer from "./Footer";
-import PROJECTS from "./ProjectsData";
+import MainNav from "../MainNav";
+import Footer from "../Footer";
+import PROJECTS from "../ProjectsData";
 
 function Projects(props) {
   return(

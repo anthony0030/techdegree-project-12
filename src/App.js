@@ -12,9 +12,9 @@ import "./App.css";
 
 
 // Application Pages
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import E404 from "./components/E404";
+import Projects from "./components/pages/Projects";
+import Contact from "./components/pages/Contact";
+import E404 from "./components/pages/E404";
 
 
 
