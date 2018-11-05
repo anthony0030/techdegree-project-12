@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 // Application Badges
 import androidBadge from "./Badges/android.png";
 import apacheBadge from "./Badges/apache.png";
+import appcelerator from "./Badges/appcelerator.png";
 import htmlBadge from "./Badges/html.png";
 import cssBadge from "./Badges/css.png";
 import jsBadge from "./Badges/js.png";
@@ -125,6 +126,12 @@ function Skill(props) {
       icon = apacheBadge;
       toolTip= "";
       alt = "apache Badge Icon";
+    break;
+
+    case "appcelerator":
+      icon = appcelerator;
+      toolTip= "";
+      alt = "appcelerator Badge Icon";
     break;
 
     default:
