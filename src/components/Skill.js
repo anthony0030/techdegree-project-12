@@ -161,6 +161,7 @@ function Skill(props) {
     case "wordpress":    icon = wordpress;    toolTip="";                                                       alt = "";                                         break;
     case "api":          icon = api;          toolTip= "I used an API in this project!";                        alt = "API Badge Icon";                           break;
     case "svg":          icon = svg;          toolTip= "I used SVGs in this project!";                          alt = "svg Badge Icon";                           break;
+    case "error":        icon = error;        toolTip= "Error!";                                                alt = "Error with Icon";                          break;
     default:             icon = error;        toolTip= "Failed to load icon or icon does not exist";            alt = "Error with Icon";                          break;
   }
 
