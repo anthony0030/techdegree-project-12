@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 // Application Badges
 import android from "./Badges/android.png";
+import apple from "./Badges/apple.png";
 import apache from "./Badges/apache.png";
 import appcelerator from "./Badges/appcelerator.png";
 import html from "./Badges/html.png";
@@ -21,7 +22,62 @@ import error from "./Badges/error.png";
 import npm from "./Badges/npm.png";
 import bower from "./Badges/bower.png";
 import svg from "./Badges/svg.png";
-
+import atom from "./Badges/atom.png";
+import aws from "./Badges/aws.png";
+import babel from "./Badges/babel.png";
+import backbone from "./Badges/backbone.png";
+import bitbucket from "./Badges/bitbucket.png";
+import chrome from "./Badges/chrome.png";
+import codeignitor from "./Badges/codeignitor.png";
+import coffeescript from "./Badges/coffeescript.png";
+import composer from "./Badges/composer.png";
+import cucumber from "./Badges/cucumber.png";
+import d3js from "./Badges/d3js.png";
+import debian from "./Badges/debian.png";
+import django from "./Badges/django.png";
+import docker from "./Badges/docker.png";
+import drupal from "./Badges/drupal.png";
+import firefox from "./Badges/firefox.png";
+import gatling from "./Badges/gatling.png";
+import gimp from "./Badges/gimp.png";
+import git from "./Badges/git.png";
+import github from "./Badges/github.png";
+import gitlab from "./Badges/gitlab.png";
+import gradle from "./Badges/gradle.png";
+import grunt from "./Badges/grunt.png";
+import gulp from "./Badges/gulp.png";
+import illustrator from "./Badges/illustrator.png";
+import inkscape from "./Badges/inkscape.png";
+import java from "./Badges/java.png";
+import krakenjs from "./Badges/krakenjs.png";
+import laravel from "./Badges/laravel.png";
+import less from "./Badges/less.png";
+import linux from "./Badges/linux.png";
+import meteor from "./Badges/meteor.png";
+import mocha from "./Badges/mocha.png";
+import mongo from "./Badges/mongo.png";
+import mysql from "./Badges/mysql.png";
+import nginx from "./Badges/nginx.png";
+import node from "./Badges/node.png";
+import nodewebkit from "./Badges/nodewebkit.png";
+import osx from "./Badges/osx.png";
+import photoshop from "./Badges/photoshop.png";
+import php from "./Badges/php.png";
+import phpstorm from "./Badges/phpstorm.png";
+import postgres from "./Badges/postgres.png";
+import protractor from "./Badges/protractor.png";
+import python from "./Badges/python.png";
+import rails from "./Badges/rails.png";
+import seqelize from "./Badges/seqelize.png";
+import ssh from "./Badges/ssh.png";
+import swift from "./Badges/swift.png";
+import tomcat from "./Badges/tomcat.png";
+import ts from "./Badges/ts.png";
+import ubuntu from "./Badges/ubuntu.png";
+import vim from "./Badges/vim.png";
+import visualstudio from "./Badges/visualstudio.png";
+import windows from "./Badges/windows.png";
+import wordpress from "./Badges/wordpress.png";
 
 let icon;
 let alt;
@@ -132,6 +188,348 @@ function Skill(props) {
       icon = appcelerator;
       toolTip= "";
       alt = "appcelerator Badge Icon";
+    break;
+
+    case "apple":
+      icon = apple;
+      toolTip= "";
+      alt = "apple Badge Icon";
+    break;
+
+    case "atom":
+      icon = atom;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "aws":
+      icon = aws;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "babel":
+      icon = babel;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "backbone":
+      icon = backbone;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "bitbucket":
+      icon = bitbucket;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "chrome":
+      icon = chrome;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "codeignitor":
+      icon = codeignitor;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "coffeescript":
+      icon = coffeescript;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "composer":
+      icon = composer;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "cucumber":
+      icon = cucumber;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "d3js":
+      icon = d3js;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "debian":
+      icon = debian;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "django":
+      icon = django;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "docker":
+      icon = docker;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "drupal":
+      icon = drupal;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "firefox":
+      icon = firefox;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "gatling":
+      icon = gatling;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "gimp":
+      icon = gimp;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "git":
+      icon = git;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "github":
+      icon = github;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "gitlab":
+      icon = gitlab;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "gradle":
+      icon = gradle;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "grunt":
+      icon = grunt;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "gulp":
+      icon = gulp;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "illustrator":
+      icon = illustrator;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "inkscape":
+      icon = inkscape;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "java":
+      icon = java;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "krakenjs":
+      icon = krakenjs;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "laravel":
+      icon = laravel;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "less":
+      icon = less;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "linux":
+      icon = linux;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "meteor":
+      icon = meteor;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "mocha":
+      icon = mocha;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "mongo":
+      icon = mongo;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "mysql":
+      icon = mysql;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "nginx":
+      icon = nginx;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "node":
+      icon = node;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "nodewebkit":
+      icon = nodewebkit;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "osx":
+      icon = osx;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "photoshop":
+      icon = photoshop;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "php":
+      icon = php;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "phpstorm":
+      icon = phpstorm;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "postgres":
+      icon = postgres;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "protractor":
+      icon = protractor;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "python":
+      icon = python;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "rails":
+      icon = rails;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "seqelize":
+      icon = seqelize;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "ssh":
+      icon = ssh;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "swift":
+      icon = swift;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "tomcat":
+      icon = tomcat;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "ts":
+      icon = ts;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "ubuntu":
+      icon = ubuntu;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "vim":
+      icon = vim;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "visualstudio":
+      icon = visualstudio;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "windows":
+      icon = windows;
+      toolTip="";
+      alt= "";
+    break;
+
+    case "wordpress":
+      icon = wordpress;
+      toolTip="";
+      alt= "";
     break;
 
     default:
