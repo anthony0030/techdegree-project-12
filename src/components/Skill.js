@@ -87,455 +87,81 @@ let toolTip;
 function Skill(props) {
 
   switch(props.skill) {
-
-    case "html":
-      icon = html;
-      toolTip= "I used HTML in this project!";
-      alt = "HTML Badge Icon";
-    break;
-
-    case "css":
-      icon = css;
-      toolTip= "I used CSS in this project!";
-      alt = "CSS Badge Icon";
-    break;
-
-    case "js":
-      icon = js;
-      toolTip= "I used JavaScript in this project!";
-      alt = "JS Badge Icon";
-    break;
-
-    case "sass":
-      icon = sass;
-      toolTip= "I used SASS in this project!";
-      alt = "SASS Badge Icon";
-    break;
-
-    case "jade":
-      icon = jade;
-      toolTip= "I used JADE in this project!";
-      alt = "JADE Badge Icon";
-    break;
-
-    case "react":
-      icon = react;
-      toolTip= "I used REACT in this project!";
-      alt = "REACT Badge Icon";
-    break;
-
-    case "angular":
-      icon = angular;
-      toolTip= "I used Angular in this project!";
-      alt = "Angular Badge Icon";
-    break;
-
-    case "cookie":
-      icon = cookie;
-      toolTip= "I used cookies in this project!";
-      alt = "Cookie Badge Icon";
-    break;
-
-   case "api":
-      icon = api;
-      toolTip= "I used an API in this project!";
-      alt = "API Badge Icon";
-    break;
-
-     case "bootstrap":
-      icon = bootstrap;
-      toolTip= "I used Bootstrap in this project!";
-      alt = "bootstrap Badge Icon";
-    break;
-
-     case "jquery":
-      icon = jquery;
-      toolTip= "I used jQuery in this project!";
-      alt = "jQuery Badge Icon";
-    break;
-
-     case "npm":
-      icon = npm;
-      toolTip= "I used npm in this project!";
-      alt = "npm Badge Icon";
-    break;
-
-     case "bower":
-      icon = bower;
-      toolTip= "I used Bower in this project!";
-      alt = "bower Badge Icon";
-    break;
-
-   case "svg":
-      icon = svg;
-      toolTip= "I used SVGs in this project!";
-      alt = "svg Badge Icon";
-    break;
-
-    case "android":
-      icon = android;
-      toolTip= "";
-      alt = "android Badge Icon";
-    break;
-
-    case "apache":
-      icon = apache;
-      toolTip= "";
-      alt = "apache Badge Icon";
-    break;
-
-    case "appcelerator":
-      icon = appcelerator;
-      toolTip= "";
-      alt = "appcelerator Badge Icon";
-    break;
-
-    case "apple":
-      icon = apple;
-      toolTip= "";
-      alt = "apple Badge Icon";
-    break;
-
-    case "atom":
-      icon = atom;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "aws":
-      icon = aws;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "babel":
-      icon = babel;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "backbone":
-      icon = backbone;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "bitbucket":
-      icon = bitbucket;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "chrome":
-      icon = chrome;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "codeignitor":
-      icon = codeignitor;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "coffeescript":
-      icon = coffeescript;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "composer":
-      icon = composer;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "cucumber":
-      icon = cucumber;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "d3js":
-      icon = d3js;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "debian":
-      icon = debian;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "django":
-      icon = django;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "docker":
-      icon = docker;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "drupal":
-      icon = drupal;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "firefox":
-      icon = firefox;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "gatling":
-      icon = gatling;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "gimp":
-      icon = gimp;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "git":
-      icon = git;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "github":
-      icon = github;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "gitlab":
-      icon = gitlab;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "gradle":
-      icon = gradle;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "grunt":
-      icon = grunt;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "gulp":
-      icon = gulp;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "illustrator":
-      icon = illustrator;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "inkscape":
-      icon = inkscape;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "java":
-      icon = java;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "krakenjs":
-      icon = krakenjs;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "laravel":
-      icon = laravel;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "less":
-      icon = less;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "linux":
-      icon = linux;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "meteor":
-      icon = meteor;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "mocha":
-      icon = mocha;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "mongo":
-      icon = mongo;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "mysql":
-      icon = mysql;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "nginx":
-      icon = nginx;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "node":
-      icon = node;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "nodewebkit":
-      icon = nodewebkit;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "osx":
-      icon = osx;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "photoshop":
-      icon = photoshop;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "php":
-      icon = php;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "phpstorm":
-      icon = phpstorm;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "postgres":
-      icon = postgres;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "protractor":
-      icon = protractor;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "python":
-      icon = python;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "rails":
-      icon = rails;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "seqelize":
-      icon = seqelize;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "ssh":
-      icon = ssh;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "swift":
-      icon = swift;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "tomcat":
-      icon = tomcat;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "ts":
-      icon = ts;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "ubuntu":
-      icon = ubuntu;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "vim":
-      icon = vim;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "visualstudio":
-      icon = visualstudio;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "windows":
-      icon = windows;
-      toolTip="";
-      alt= "";
-    break;
-
-    case "wordpress":
-      icon = wordpress;
-      toolTip="";
-      alt= "";
-    break;
-
-    default:
-      icon = error;
-      toolTip= "Failed to load icon or icon does not exist";
-      alt = "Error with Icon";
+    case "bootstrap":    icon = bootstrap;    toolTip= "I used Bootstrap in this project!";                     alt = "bootstrap Badge Icon";                     break;
+    case "bower":        icon = bower;        toolTip= "I used Bower in this project!";                         alt = "bower Badge Icon";                         break;
+    case "jquery":       icon = jquery;       toolTip= "I used jQuery in this project!";                        alt = "jQuery Badge Icon";                        break;
+    case "npm":          icon = npm;          toolTip= "I used npm in this project!";                           alt = "npm Badge Icon";                           break;
+    case "android":      icon = android;      toolTip= "";                                                      alt = "android Badge Icon";                       break;
+    case "angular":      icon = angular;      toolTip= "I used Angular in this project!";                       alt = "Angular Badge Icon";                       break;
+    case "apache":       icon = apache;       toolTip= "";                                                      alt = "apache Badge Icon";                        break;
+    case "appcelerator": icon = appcelerator; toolTip= "";                                                      alt = "appcelerator Badge Icon";                  break;
+    case "apple":        icon = apple;        toolTip= "";                                                      alt = "apple Badge Icon";                         break;
+    case "atom":         icon = atom;         toolTip="";                                                       alt = "";                                         break;
+    case "aws":          icon = aws;          toolTip="";                                                       alt = "";                                         break;
+    case "babel":        icon = babel;        toolTip="";                                                       alt = "";                                         break;
+    case "backbone":     icon = backbone;     toolTip="";                                                       alt = "";                                         break;
+    case "bitbucket":    icon = bitbucket;    toolTip="";                                                       alt = "";                                         break;
+    case "chrome":       icon = chrome;       toolTip="";                                                       alt = "";                                         break;
+    case "codeignitor":  icon = codeignitor;  toolTip="";                                                       alt = "";                                         break;
+    case "coffeescript": icon = coffeescript; toolTip="";                                                       alt = "";                                         break;
+    case "composer":     icon = composer;     toolTip="";                                                       alt = "";                                         break;
+    case "cookie":       icon = cookie;       toolTip= "I used cookies in this project!";                       alt = "Cookie Badge Icon";                        break;
+    case "css":          icon = css;          toolTip= "I used CSS in this project!";                           alt = "CSS Badge Icon";                           break;
+    case "cucumber":     icon = cucumber;     toolTip="";                                                       alt = "";                                         break;
+    case "d3js":         icon = d3js;         toolTip="";                                                       alt = "";                                         break;
+    case "debian":       icon = debian;       toolTip="";                                                       alt = "";                                         break;
+    case "django":       icon = django;       toolTip="";                                                       alt = "";                                         break;
+    case "docker":       icon = docker;       toolTip="";                                                       alt = "";                                         break;
+    case "drupal":       icon = drupal;       toolTip="";                                                       alt = "";                                         break;
+    case "firefox":      icon = firefox;      toolTip="";                                                       alt = "";                                         break;
+    case "gatling":      icon = gatling;      toolTip="";                                                       alt = "";                                         break;
+    case "gimp":         icon = gimp;         toolTip="";                                                       alt = "";                                         break;
+    case "git":          icon = git;          toolTip="";                                                       alt = "";                                         break;
+    case "github":       icon = github;       toolTip="";                                                       alt = "";                                         break;
+    case "gitlab":       icon = gitlab;       toolTip="";                                                       alt = "";                                         break;
+    case "gradle":       icon = gradle;       toolTip="";                                                       alt = "";                                         break;
+    case "grunt":        icon = grunt;        toolTip="";                                                       alt = "";                                         break;
+    case "gulp":         icon = gulp;         toolTip="";                                                       alt = "";                                         break;
+    case "html":         icon = html;         toolTip= "I used HTML in this project!";                          alt = "HTML Badge Icon";                          break;
+    case "illustrator":  icon = illustrator;  toolTip="";                                                       alt = "";                                         break;
+    case "inkscape":     icon = inkscape;     toolTip="";                                                       alt = "";                                         break;
+    case "jade":         icon = jade;         toolTip= "I used JADE in this project!";                          alt = "JADE Badge Icon";                          break;
+    case "java":         icon = java;         toolTip="";                                                       alt = "";                                         break;
+    case "js":           icon = js;           toolTip= "I used JavaScript in this project!";                    alt = "JS Badge Icon";                            break;
+    case "krakenjs":     icon = krakenjs;     toolTip="";                                                       alt = "";                                         break;
+    case "laravel":      icon = laravel;      toolTip="";                                                       alt = "";                                         break;
+    case "less":         icon = less;         toolTip="";                                                       alt = "";                                         break;
+    case "linux":        icon = linux;        toolTip="";                                                       alt = "";                                         break;
+    case "meteor":       icon = meteor;       toolTip="";                                                       alt = "";                                         break;
+    case "mocha":        icon = mocha;        toolTip="";                                                       alt = "";                                         break;
+    case "mongo":        icon = mongo;        toolTip="";                                                       alt = "";                                         break;
+    case "mysql":        icon = mysql;        toolTip="";                                                       alt = "";                                         break;
+    case "nginx":        icon = nginx;        toolTip="";                                                       alt = "";                                         break;
+    case "node":         icon = node;         toolTip="";                                                       alt = "";                                         break;
+    case "nodewebkit":   icon = nodewebkit;   toolTip="";                                                       alt = "";                                         break;
+    case "osx":          icon = osx;          toolTip="";                                                       alt = "";                                         break;
+    case "photoshop":    icon = photoshop;    toolTip="";                                                       alt = "";                                         break;
+    case "php":          icon = php;          toolTip="";                                                       alt = "";                                         break;
+    case "phpstorm":     icon = phpstorm;     toolTip="";                                                       alt = "";                                         break;
+    case "postgres":     icon = postgres;     toolTip="";                                                       alt = "";                                         break;
+    case "protractor":   icon = protractor;   toolTip="";                                                       alt = "";                                         break;
+    case "python":       icon = python;       toolTip="";                                                       alt = "";                                         break;
+    case "rails":        icon = rails;        toolTip="";                                                       alt = "";                                         break;
+    case "react":        icon = react;        toolTip= "I used REACT in this project!";                         alt = "REACT Badge Icon";                         break;
+    case "sass":         icon = sass;         toolTip= "I used SASS in this project!";                          alt = "SASS Badge Icon";                          break;
+    case "seqelize":     icon = seqelize;     toolTip="";                                                       alt = "";                                         break;
+    case "ssh":          icon = ssh;          toolTip="";                                                       alt = "";                                         break;
+    case "swift":        icon = swift;        toolTip="";                                                       alt = "";                                         break;
+    case "tomcat":       icon = tomcat;       toolTip="";                                                       alt = "";                                         break;
+    case "ts":           icon = ts;           toolTip="";                                                       alt = "";                                         break;
+    case "ubuntu":       icon = ubuntu;       toolTip="";                                                       alt = "";                                         break;
+    case "vim":          icon = vim;          toolTip="";                                                       alt = "";                                         break;
+    case "visualstudio": icon = visualstudio; toolTip="";                                                       alt = "";                                         break;
+    case "windows":      icon = windows;      toolTip="";                                                       alt = "";                                         break;
+    case "wordpress":    icon = wordpress;    toolTip="";                                                       alt = "";                                         break;
+    case "api":          icon = api;          toolTip= "I used an API in this project!";                        alt = "API Badge Icon";                           break;
+    case "svg":          icon = svg;          toolTip= "I used SVGs in this project!";                          alt = "svg Badge Icon";                           break;
+    default:             icon = error;        toolTip= "Failed to load icon or icon does not exist";            alt = "Error with Icon";                          break;
   }
 
   return (
