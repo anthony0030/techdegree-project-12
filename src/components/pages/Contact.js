@@ -10,7 +10,7 @@ import Anthony from "../anthony.vcf";
 
 function Contact(props) {
   return(
-    <div>
+    <React.Fragment>
       <MainNav root={props.match.params.root} />
       <Heading title="" subtitle="Contact me" />
       <div className="row">
@@ -32,7 +32,7 @@ function Contact(props) {
           </div>
         </div>
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 

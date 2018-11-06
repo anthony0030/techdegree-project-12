@@ -8,7 +8,7 @@ import PROJECTS from "../ProjectsData";
 
 function Projects(props) {
   return(
-    <div>
+    <React.Fragment>
       <MainNav root={props.match.params.root} />
       <Heading title="" subtitle="My awesome portfolio" />
       <div className="row">
@@ -29,7 +29,7 @@ function Projects(props) {
           )
         }
       </div>
-    </div>
+    </React.Fragment>
   );
 }
 
