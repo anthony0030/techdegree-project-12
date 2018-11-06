@@ -3,7 +3,6 @@ import React from "react";
 import Modal from "react-modal";
 import Icon from "./Icon";
 import logo from "./logo.svg";
-import Footer from "./Footer";
 
 
 const customStyles = {
@@ -73,7 +72,6 @@ class Framer extends React.Component {
             <Icon i="shrink"/>
           </button>
           <iframe frameBorder="0" className="viewer-iframe" tabIndex="0" title={this.props.title} src={this.props.url} />
-          <Footer />
         </Modal>
       </React.Fragment>
     );

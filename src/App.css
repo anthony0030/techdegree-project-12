@@ -9,6 +9,10 @@ body {
   background-color: #eee;
 }
 
+footer{
+  z-index: 1061;
+}
+
 .ReactModal__Body--open{
   overflow: hidden;
 }
