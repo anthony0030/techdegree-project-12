@@ -79,12 +79,8 @@ import visualstudio from "./Badges/visualstudio.png";
 import windows from "./Badges/windows.png";
 import wordpress from "./Badges/wordpress.png";
 
-let icon;
-let alt;
-let toolTip;
-
-
 function Skill(props) {
+  let icon, alt, toolTip;
 
   switch(props.skill) {
     case "bootstrap":    icon = bootstrap;    toolTip= "I used Bootstrap in this project!";                     alt = "bootstrap Badge Icon";                     break;
