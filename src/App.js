@@ -23,6 +23,22 @@ import Footer from "./components/Footer";
 
 class App extends Component {
 
+
+  constructor(props) {
+    super(props);
+    // this.toggle = this.toggle.bind(this);
+    this.state = {
+      navIsOpen: false
+    };
+  }
+
+
+  toggleNav =(event) => {
+    this.setState({
+      navIsOpen: !this.state.navIsOpen
+    });
+  }
+
   componentDidMount() {
     window.$ = window.jQuery = require("jquery");
     window.$("[data-toggle='tooltip']").tooltip();
@@ -39,7 +55,9 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="mainContainer container App">
-          <Route path="/:root?" component={MainNav}/>
+          <Route path="/:root?" render={props => (
+            <MainNav match={props.match} toggleNav={this.toggleNav} isOpen={this.state.navIsOpen}/>
+            )}/>
           <Switch>
 
             <Route exact path="/:root?/home" component={Projects} />
