@@ -4,22 +4,39 @@ import PropTypes from "prop-types";
 import Skills from "./Skills";
 import Framer from "./Framer";
 
+import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle, Button } from 'reactstrap';
+
+
 function Project(props) {
+
+  const {
+    codacyBadgeLink
+    description,
+    photo,
+    preTitle,
+    skills,
+    sourcrUrl,
+    title,
+    url,
+  } = props;
+
   return (
     <div className="col-lg-6 col-xl-4 portfolio-item">
-      <div className="card h-100" tabIndex="0">
-        <Framer url={props.url} title={props.title} preTitle={props.preTitle}/>
-        <img className="card-img-top" src={props.photo} alt="Project Screenshot" />
-        <div className="card-body">
+      <Card className="h-100">
+        <Framer url={url} title={title} preTitle={preTitle}/>
+        <CardImg top width="100%" src={photo} alt="Project Screenshot" />
+        <CardBody>
           <div className="card-buttons">
-            <a href={props.sourcrUrl} target="_blank" rel="noreferrer" className="btn btn-dark" >View Source &lt;&#47;&gt;</a>
-            <a href={props.codacyBadgeLink} target="_blank" rel="noreferrer" className="btn btn-dark" >View Quality <span className="spin">&#9881;</span></a>
+            <a href={sourcrUrl} target="_blank" rel="noreferrer" className="btn btn-dark" >View Source &lt;&#47;&gt;</a>
+            <a href={codacyBadgeLink} target="_blank" rel="noreferrer" className="btn btn-dark" >View Quality <span className="spin">&#9881;</span></a>
           </div>
-          <h4 className="card-title project-title">{props.title}</h4>
-          <p className="card-text">{props.description}</p>
-        </div>
-        <Skills skills={props.skills}/>
-      </div>
+          <CardTitle>{title}</CardTitle>
+          <CardText>{description}</CardText>
+        </CardBody>
+        <CardFooter className="text-muted">
+          <Skills skills={skills}/>
+        </CardFooter>
+      </Card>
     </div>
   );
 }
