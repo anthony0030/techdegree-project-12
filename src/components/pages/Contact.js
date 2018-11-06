@@ -1,7 +1,6 @@
 import React from "react";
 // import PropTypes from "prop-types";
 
-import MainNav from "../MainNav";
 import Heading from "../Heading";
 import ContactLine from "../ContactLine";
 import Icon from "../Icon";
@@ -11,7 +10,6 @@ import Anthony from "../anthony.vcf";
 function Contact(props) {
   return(
     <React.Fragment>
-      <MainNav root={props.match.params.root} />
       <Heading title="" subtitle="Contact me" />
       <div className="row">
         <div className="col-12 portfolio-item">

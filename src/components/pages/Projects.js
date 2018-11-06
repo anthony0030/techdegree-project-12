@@ -3,13 +3,11 @@ import React from "react";
 import Heading from "../Heading";
 import Project from "../Project";
 
-import MainNav from "../MainNav";
 import PROJECTS from "../ProjectsData";
 
 function Projects(props) {
   return(
     <React.Fragment>
-      <MainNav root={props.match.params.root} />
       <Heading title="" subtitle="My awesome portfolio" />
       <div className="row">
         {

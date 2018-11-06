@@ -17,6 +17,7 @@ import Contact from "./components/pages/Contact";
 import E404 from "./components/pages/E404";
 
 // Application Components
+import MainNav from "./components/MainNav";
 import Footer from "./components/Footer";
 
 
@@ -39,6 +40,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <div className="mainContainer container">
+            <Route path="/:root?" component={MainNav}/>
             <Switch>
 
               <Redirect exact from="/:root?/index.html" to="/"/>

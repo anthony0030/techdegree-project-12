@@ -7,9 +7,12 @@ import MainNavItem from "./MainNavItem";
 const title = "Anthony Veaudry";
 
 function MainNav(props) {
-  let rootPath;
+  let rootPath = "/";
 
-  props.root ? rootPath= "/" + props.root + "/" : rootPath= "/";
+
+  if( props.match.params.root === "techdegree-project-12" ){
+    rootPath = "/techdegree-project-12/";
+  }
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
