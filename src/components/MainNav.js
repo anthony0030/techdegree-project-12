@@ -1,39 +1,67 @@
-import React from "react";
+import React, { Component } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem
+  } from 'reactstrap';
+
+import {NavLink} from "react-router-dom";
 
 import logo from "./logo.svg";
 import ScrollBar from "./ScrollBar";
-import MainNavItem from "./MainNavItem";
-
-const title = "Anthony Veaudry";
-
-function MainNav(props) {
-  let rootPath = "/";
 
 
-  if( props.match.params.root === "techdegree-project-12" ){
-    rootPath = "/techdegree-project-12/";
+
+
+class MainNav extends Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
   }
 
-  return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <ScrollBar />
-      <div className="container">
-        <img src={logo} alt="logo" className="main-logo" />
-        <a className="navbar-brand" href="/home">{title}</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ml-auto">
-            <MainNavItem text="Home" link={`${rootPath}home`} /> 
-            {/* <MainNavItem text="About" link="/about"/> */}
-            {/* <MainNavItem text="Services" link="/services"/> */}
-            <MainNavItem text="Contact" link={`${rootPath}contact`}/> 
-          </ul>
+
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
+
+  render() {
+    const title = "Anthony Veaudry";
+    let rootPath = "/";
+    if( this.props.match.params.root === "techdegree-project-12" ){
+      rootPath = "/techdegree-project-12/";
+    }
+    return (
+      <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div className="container">
+          <ScrollBar />
+          <NavbarBrand href={`${rootPath}home`}>
+            <img src={logo} alt="logo" className="main-logo" />{title}
+          </NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink className="nav-link" to={`${rootPath}home`}>Home</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink className="nav-link" to={`${rootPath}contact`}>Contact</NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
         </div>
-      </div>
-    </nav>
-  );
+      </Navbar>
+    );
+  }
 }
 
 export default MainNav;
