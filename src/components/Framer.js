@@ -53,7 +53,7 @@ class Framer extends React.Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <button onClick={this.openModal} target="_blank" className="enlarge-icon">
           <Icon i="enlarge"/>
         </button>
@@ -75,7 +75,7 @@ class Framer extends React.Component {
           <iframe frameBorder="0" className="viewer-iframe" tabIndex="0" title={this.props.title} src={this.props.url} />
           <Footer />
         </Modal>
-      </div>
+      </React.Fragment>
     );
   }
 }

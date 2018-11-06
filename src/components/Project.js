@@ -4,20 +4,20 @@ import PropTypes from "prop-types";
 import Skills from "./Skills";
 import Framer from "./Framer";
 
-import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle, Button } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
 
 
 function Project(props) {
 
   const {
-    codacyBadgeLink
+    codacyBadgeLink,
     description,
     photo,
     preTitle,
     skills,
     sourcrUrl,
     title,
-    url,
+    url
   } = props;
 
   return (
@@ -27,13 +27,13 @@ function Project(props) {
         <CardImg top width="100%" src={photo} alt="Project Screenshot" />
         <CardBody>
           <div className="card-buttons">
-            <a href={sourcrUrl} target="_blank" rel="noreferrer" className="btn btn-dark" >View Source &lt;&#47;&gt;</a>
-            <a href={codacyBadgeLink} target="_blank" rel="noreferrer" className="btn btn-dark" >View Quality <span className="spin">&#9881;</span></a>
+            <a className="btn btn-dark" target="_blank" rel="noreferrer" href={sourcrUrl} >View Source &lt;&#47;&gt;</a>
+            <a className="btn btn-dark" target="_blank" rel="noreferrer" href={codacyBadgeLink} >View Quality <span className="spin">&#9881;</span></a>
           </div>
           <CardTitle>{title}</CardTitle>
           <CardText>{description}</CardText>
         </CardBody>
-        <CardFooter className="text-muted">
+        <CardFooter>
           <Skills skills={skills}/>
         </CardFooter>
       </Card>
