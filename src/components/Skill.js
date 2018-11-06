@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-
 // Application Badges
 import android from "./Badges/android.png";
 import angular from "./Badges/angular.png";
@@ -162,8 +161,8 @@ function Skill(props) {
     default:             icon = error;        toolTip = "Failed to load icon or icon does not exist";           alt = "Error with Icon";                          break;
   }
 
-  return (
-   <img src={icon} alt={alt} className="skill-badge" data-toggle="tooltip" data-placement="top" title={toolTip}/>
+  return(
+    <img src={icon} alt={alt} className="skill-badge" data-toggle="tooltip" data-placement="top" title={toolTip} />
   );
 }
 
