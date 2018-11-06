@@ -6,11 +6,9 @@ function Footer() {
   const url = "https://veaudry.pro";
   return (
     <footer className="py-1 bg-dark fixed-bottom">
-      <div className="container">
-        <a href={url}>
-          <p className="m-0 text-center text-white">{text} {year}</p>
-        </a>
-      </div>
+      <a href={url}>
+        <p className="m-0 text-center text-white">{text} {year}</p>
+      </a>
     </footer>
   );
 }
