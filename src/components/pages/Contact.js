@@ -2,7 +2,6 @@ import React from "react";
 // import PropTypes from "prop-types";
 
 import MainNav from "../MainNav";
-import Footer from "../Footer";
 import Heading from "../Heading";
 import ContactLine from "../ContactLine";
 import Icon from "../Icon";
@@ -33,7 +32,6 @@ function Contact(props) {
           </div>
         </div>
       </div>
-      <Footer/>
     </div>
   );
 }

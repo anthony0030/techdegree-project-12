@@ -4,7 +4,6 @@ import Heading from "../Heading";
 import Project from "../Project";
 
 import MainNav from "../MainNav";
-import Footer from "../Footer";
 import PROJECTS from "../ProjectsData";
 
 function Projects(props) {
@@ -30,7 +29,6 @@ function Projects(props) {
           )
         }
       </div>
-      <Footer />
     </div>
   );
 }

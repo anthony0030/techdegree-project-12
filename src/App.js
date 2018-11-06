@@ -16,8 +16,8 @@ import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
 import E404 from "./components/pages/E404";
 
-
-
+// Application Components
+import Footer from "./components/Footer";
 
 
 class App extends Component {
@@ -51,6 +51,7 @@ class App extends Component {
               <Route exact component={E404}/>
 
             </Switch>
+            <Footer />
           </div>
         </div>
       </BrowserRouter>
