@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
 
-// Bootstrap
+// Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.bundle.js";
 
 
 // Application Styles
