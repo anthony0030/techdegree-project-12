@@ -38,23 +38,21 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <div className="App">
-          <div className="mainContainer container">
-            <Route path="/:root?" component={MainNav}/>
-            <Switch>
+        <div className="mainContainer container App">
+          <Route path="/:root?" component={MainNav}/>
+          <Switch>
 
-              <Redirect exact from="/:root?/index.html" to="/"/>
-              <Redirect exact from="/:root?/index.php" to="/"/>
-              <Redirect exact from="/" to="/home"/>
-              <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
+            <Redirect exact from="/:root?/index.html" to="/"/>
+            <Redirect exact from="/:root?/index.php" to="/"/>
+            <Redirect exact from="/" to="/home"/>
+            <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
 
-              <Route exact path="/:root?/home" component={Projects} />
-              <Route exact path="/:root?/Contact" component={Contact} />
-              <Route exact component={E404}/>
+            <Route exact path="/:root?/home" component={Projects} />
+            <Route exact path="/:root?/Contact" component={Contact} />
+            <Route exact component={E404}/>
 
-            </Switch>
-            <Footer />
-          </div>
+          </Switch>
+          <Footer />
         </div>
       </BrowserRouter>
     );
