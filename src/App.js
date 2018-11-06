@@ -39,8 +39,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-    window.$ = window.jQuery = require("jquery");
-    window.$("[data-toggle='tooltip']").tooltip();
+    // window.$ = window.jQuery = require("jquery");
+    // window.$("[data-toggle='tooltip']").tooltip();
 
     window.onscroll = function() {
       var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
