@@ -5,14 +5,14 @@ import Skill from "./Skill";
 
 
 function Skills(props) {
-  const { skills } = props;
+
+  const skills = props.skills.map((skill, index) =>
+    <Skill skill={skill} key={index}/>
+  )
+
   return(
     <div className="skills">
-    {
-      skills.map((skill, index) =>
-        <Skill skill={skill} key={index}/>
-      )
-    }
+      {skills}
     </div>
   );
 }
