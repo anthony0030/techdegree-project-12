@@ -11,6 +11,7 @@ body {
 
 footer{
   z-index: 1061;
+  width: 100vw;
 }
 
 .ReactModal__Body--open{
@@ -142,6 +143,15 @@ a:focus, button:focus {
   cursor: pointer;
 }
 
+.enlarge-icon:hover, .shrink-icon:hover,
+.enlarge-icon:not(:disabled):not(.disabled):active,
+.shrink-icon:not(:disabled):not(.disabled):active{
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.66);
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.66);
+}
+
 .enlarge-icon:hover img{
   transform : scale(1.2);
 }
@@ -164,17 +174,15 @@ a:focus, button:focus {
   padding-left: 20px;
 }
 
-.ReactModal__Overlay {
-    opacity: 0;
-    transition: opacity 1000ms ease-in-out;
+.project_modal{
+  margin: 0;
 }
 
-.ReactModal__Overlay--after-open{
-    opacity: 1;
-}
-
-.ReactModal__Overlay--before-close{
-    opacity: 0;
+.project_modal .modal-content,
+.project_modal .modal-body{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
 }
 
 .spin{

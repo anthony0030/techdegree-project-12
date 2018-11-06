@@ -23,7 +23,7 @@ function Project(props) {
   return (
     <div className="col-lg-6 col-xl-4 portfolio-item">
       <Card className="h-100">
-        <Framer url={url} title={title} preTitle={preTitle}/>
+        <Framer url={url} title={title} preTitle={preTitle} className="project_modal"/>
         <CardImg top width="100%" src={photo} alt="Project Screenshot" />
         <CardBody>
           <div className="card-buttons">
