@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function codacyBadge(props){
+  const { codacyBadgeLink, codacyBadgeIcon } = props;
   return(
-    <a href={props.codacyBadgeLink}>
-      <img src={props.codacyBadgeIcon} alt="codacyBadgeIcon" className="codacy-badge"/>
+    <a href={codacyBadgeLink}>
+      <img src={codacyBadgeIcon} alt="codacyBadgeIcon" className="codacy-badge"/>
     </a>
   );
 }

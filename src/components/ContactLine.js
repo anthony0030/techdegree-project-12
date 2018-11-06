@@ -6,20 +6,21 @@ import Icon from "./Icon";
 
 
 function ContactLine(props) {
+  const { link, icon, text } = props;
   return (
     <li className="list-group-item px-0 py-0">
-      <a href={props.link} target="_blank" className="contact-line-container">
-        <Icon i={props.icon} className="contactIcon"/>
-        <p className="ContactText">{props.text}</p>
+      <a href={link} target="_blank" className="contact-line-container">
+        <Icon i={icon} className="contactIcon"/>
+        <p className="ContactText">{text}</p>
       </a>
     </li>
   );
 }
 
 ContactLine.propTypes = {
-  text: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
+  icon: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired
 };
 
 export default ContactLine;

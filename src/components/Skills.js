@@ -5,11 +5,11 @@ import Skill from "./Skill";
 
 
 function Skills(props) {
-
+  const { skills } = props;
   return(
     <div className="skills">
     {
-      props.skills.map((skill, index) =>
+      skills.map((skill, index) =>
         <Skill skill={skill} key={index}/>
       )
     }

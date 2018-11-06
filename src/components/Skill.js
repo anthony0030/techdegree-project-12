@@ -80,9 +80,10 @@ import windows from "./Badges/windows.png";
 import wordpress from "./Badges/wordpress.png";
 
 function Skill(props) {
+  const { skill } = props;
   let icon, alt, toolTip;
 
-  switch(props.skill) {
+  switch(skill) {
     case "bootstrap":    icon = bootstrap;    toolTip = "I used Bootstrap in this project!";                    alt = "bootstrap Badge Icon";                     break;
     case "bower":        icon = bower;        toolTip = "I used Bower in this project!";                        alt = "bower Badge Icon";                         break;
     case "jquery":       icon = jquery;       toolTip = "I used jQuery in this project!";                       alt = "jQuery Badge Icon";                        break;
