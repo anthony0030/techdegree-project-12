@@ -21,22 +21,38 @@ a:focus, button:focus {
   color: #aaa;
 }
 
-@media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
-}
 .mainContainer{
   margin-bottom: 120px;
-}
-
-.project-title{
-  font-size: 40px;
 }
 
 .portfolio-item {
   margin-bottom: 60px;
 }
+
+.portfolio-item .card-title{
+  font-size: 40px;
+}
+
+.portfolio-item .card-footer{
+  background-color: #E5EBF1;
+  padding: 0;
+}
+
+.portfolio-item .card-text{
+  font-size: 20px;
+}
+
+.portfolio-item .card-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.portfolio-item .card-buttons .btn {
+    width: 100%;
+    margin: 5px;
+  }
 
 .pagination {
   margin-bottom: 30px;
@@ -45,28 +61,6 @@ a:focus, button:focus {
 .main-logo{
   height: 40px;
   margin-right: 5px;
-}
-
-.SuperCode, .SuperCode:hover{
-  background-color: black;
-  display: inline-block;
-  height: 44px;
-  width: 44px;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.SuperCode a, .SuperCode a:hover{
-  text-decoration: none;
-  color: white;
-  line-height: 40px;
-  margin: 0 2.5px;
-  height: 40px;
-  width: 40px;
-}
-
-.codacy-badge{
-  margin-bottom: 15px;
 }
 
 .ProfilePhoto {
@@ -89,19 +83,18 @@ a:focus, button:focus {
   text-align: center;
 }
 
+.skills{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.25rem 0;
+}
+
 .skill-badge{
   display: inline-block;
   height: 40px;
   width: 40px;
   margin: 5px;
-}
-
-.skills{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #E5EBF1;
-  padding: 1.25rem 0;
 }
 
 .page-not-found{
@@ -120,21 +113,6 @@ a:focus, button:focus {
   padding: .75rem 1.25rem;
 }
 
-
-@media (min-width: 768px) { 
-  .contactIcon {
-   margin-right: 20px;
-   display: inline-block;
-  }
-
-  .ContactText{
-    display: inline-block;
-    font-size: 30px;
-  }
-
- }
-
-
 .scrollProgressBar__container {
   position: fixed;
   z-index: 1031;
@@ -145,22 +123,6 @@ a:focus, button:focus {
 .scrollProgressBar__progress {
   width: 0;
   height: 8px;
-}
-
-.card-buttons{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.card-buttons a {
-    width: 100%;
-    margin: 5px;
-  }
-
-.card-text{
-  font-size: 20px;
 }
 
 .enlarge-icon, .shrink-icon{
@@ -198,7 +160,6 @@ a:focus, button:focus {
   padding-left: 20px;
 }
 
-
 .ReactModal__Overlay {
     opacity: 0;
     transition: opacity 1000ms ease-in-out;
@@ -212,16 +173,34 @@ a:focus, button:focus {
     opacity: 0;
 }
 
+.spin{
+  display: inline-block;
+  animation: spin 20s linear infinite;
+}
+
+@media (min-width: 768px) { 
+  .contactIcon {
+   margin-right: 20px;
+   display: inline-block;
+  }
+
+  .ContactText{
+    display: inline-block;
+    font-size: 30px;
+  }
+
+ }
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
 
 @keyframes spin {
   100% {
     transform:rotate(360deg);
   }
-}
-
-.spin{
-  display: inline-block;
-  animation: spin 20s linear infinite;
 }
 
 @keyframes beatHeart {
@@ -241,6 +220,3 @@ a:focus, button:focus {
     transform: scale(1);
   }
 }
-
-
-
