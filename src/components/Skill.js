@@ -106,11 +106,11 @@ class Skill extends Component {
     case "bower":        icon = bower;        toolTip = "I used Bower in this project!";               break;
     case "jquery":       icon = jquery;       toolTip = "I used jQuery in this project!";              break;
     case "npm":          icon = npm;          toolTip = "I used npm in this project!";                 break;
-    case "android":      icon = android;      toolTip = "I used Android in this project!";                    break;
+    case "android":      icon = android;      toolTip = "I used Android in this project!";             break;
     case "angular":      icon = angular;      toolTip = "I used Angular in this project!";             break;
     case "apache":       icon = apache;       toolTip = "I used Apache in this project!";              break;
     case "appcelerator": icon = appcelerator; toolTip = "I used Appcelerator in this project!";        break;
-    case "apple":        icon = apple;        toolTip = "I used Apple in this project!";                    break;
+    case "apple":        icon = apple;        toolTip = "I used Apple in this project!";               break;
     case "atom":         icon = atom;         toolTip = "I used Atom in this project!";                break;
     case "aws":          icon = aws;          toolTip = "I used AWS in this project!";                 break;
     case "babel":        icon = babel;        toolTip = "I used Babel in this project!";               break;
