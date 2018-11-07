@@ -30,7 +30,7 @@ class Framer extends React.Component {
       modalOpen: true
     });
     console.log(this)
-    this.props.history.push(`/home/${this.props.projectIndex}`);
+    this.props.history.push(`/home/${this.props.title.replace(" ", "-")}`);
   }
 
   closeModal = (event) => {

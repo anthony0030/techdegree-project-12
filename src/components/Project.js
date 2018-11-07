@@ -22,8 +22,8 @@ function Project(props) {
     match
   } = props;
 
-  const openProject = match.params.project || -1;
-  const modalOpen = (projectIndex.toString() === openProject.toString());
+  const openProject = match.params.project || "";
+  const modalOpen = (title.replace(" ", "-") === openProject.replace(" ", "-"));
 
   openProject === -1? console.log("NO open project") : null;
   modalOpen? console.log(`Project modal ${projectIndex} is open!`) : null;
