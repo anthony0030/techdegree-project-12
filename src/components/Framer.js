@@ -2,6 +2,8 @@ import React from 'react';
 import { withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Button, Modal, ModalBody } from 'reactstrap';
+
+// Application Components
 import Icon from "./Icon";
 import logo from "./logo.svg";
 import Footer from "./Footer"

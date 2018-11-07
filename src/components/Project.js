@@ -1,10 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
+
+// Application Components
 import Skills from "./Skills";
 import Framer from "./Framer";
 
-import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
 
 
 function Project(props) {

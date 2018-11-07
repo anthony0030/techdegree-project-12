@@ -1,9 +1,12 @@
 import React from "react";
+import PropTypes from "prop-types";
 
+//Project Data
+import PROJECTS from "../ProjectsData";
+
+// Application Components
 import Heading from "../Heading";
 import Project from "../Project";
-
-import PROJECTS from "../ProjectsData";
 
 function Projects(props) {
   const {match} = props;
@@ -33,5 +36,10 @@ function Projects(props) {
     </React.Fragment>
   );
 }
+
+Projects.propTypes = {
+  match: PropTypes.object.isRequired
+};
+
 
 export default Projects;

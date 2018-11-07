@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
+// Application Components
 import logo from "./logo.svg";
 import ScrollBar from "./ScrollBar";
 

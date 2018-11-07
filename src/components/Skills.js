@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+// Application Components
 import Skill from "./Skill";
 
 
