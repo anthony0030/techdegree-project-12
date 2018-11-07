@@ -6,8 +6,9 @@ import Skill from "./Skill";
 
 function Skills(props) {
 
+  const {projectIndex} = props;
   const skills = props.skills.map((skill, index) =>
-    <Skill skill={skill} key={index}/>
+    <Skill skill={skill} key={index} index={index} projectIndex={projectIndex} skillIndex={index}/>
   )
 
   return(
@@ -18,7 +19,8 @@ function Skills(props) {
 }
 
 Skills.propTypes = {
-  skills: PropTypes.array.isRequired
+  skills: PropTypes.array.isRequired,
+  projectIndex: PropTypes.number.isRequired
 };
 
 export default Skills;

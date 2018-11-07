@@ -1,5 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
+import { Tooltip } from 'reactstrap';
 
 // Application Badges
 import android from "./Badges/android.png";
@@ -78,8 +79,25 @@ import visualstudio from "./Badges/visualstudio.png";
 import windows from "./Badges/windows.png";
 import wordpress from "./Badges/wordpress.png";
 
-function Skill(props) {
-  const { skill } = props;
+class Skill extends Component {
+
+  constructor(props) {
+    super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      tooltipOpen: false
+    };
+  }
+
+  toggle() {
+    this.setState({
+      tooltipOpen: !this.state.tooltipOpen
+    });
+  }
+
+  render() {
+  const { skill, projectIndex, skillIndex } = this.props;
+  const id = `id-${projectIndex}-${skillIndex}`;
   let icon, alt, toolTip;
 
   switch(skill) {
@@ -161,13 +179,23 @@ function Skill(props) {
     default:             icon = error;        toolTip = "Failed to load icon or icon does not exist";           alt = "Error with Icon";                          break;
   }
 
-  return(
-    <img src={icon} alt={alt} className="skill-badge" data-toggle="tooltip" data-placement="top" title={toolTip} />
-  );
+    return(
+      <React.Fragment>
+        <Tooltip placement="top" isOpen={this.state.tooltipOpen} target={id} toggle={this.toggle}>
+          {toolTip}
+        </Tooltip>
+        <div id={id}>
+          <img src={icon} alt={alt} className="skill-badge" title={toolTip} />
+        </div>
+      </React.Fragment>
+    );
+  }
 }
 
 Skill.propTypes = {
-  skill: PropTypes.string.isRequired
+  skill: PropTypes.string.isRequired,
+  projectIndex: PropTypes.number.isRequired,
+  skillIndex: PropTypes.number.isRequired
 };
 
 export default Skill;

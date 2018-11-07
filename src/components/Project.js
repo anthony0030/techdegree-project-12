@@ -17,7 +17,8 @@ function Project(props) {
     skills,
     sourcrUrl,
     title,
-    url
+    url,
+    projectIndex
   } = props;
 
   return (
@@ -34,7 +35,7 @@ function Project(props) {
           <CardText>{description}</CardText>
         </CardBody>
         <CardFooter>
-          <Skills skills={skills}/>
+          <Skills skills={skills} projectIndex={projectIndex}/>
         </CardFooter>
       </Card>
     </div>
@@ -48,7 +49,8 @@ Project.propTypes = {
   description: PropTypes.string.isRequired,
   skills: PropTypes.array,
   sourcrUrl: PropTypes.string,
-  url: PropTypes.string
+  url: PropTypes.string,
+  projectIndex: PropTypes.number.isRequired
 };
 
 export default Project;

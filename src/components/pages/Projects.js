@@ -23,6 +23,7 @@ function Projects(props) {
               codacyBadgeIcon={project.codacyBadgeIcon}
               description={project.description}
               key={index}
+              projectIndex={index}
             />
           )
         }
