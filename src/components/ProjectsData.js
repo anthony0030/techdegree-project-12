@@ -13,6 +13,14 @@ import AppPhoto11 from "./AppPhotos/11.png";
 import AppPhoto12 from "./AppPhotos/12.png";
 
 const PROJECTS = [
+  // {
+  //   title: "TEST",
+  //   photo: AppPhoto12,
+  //   sourcrUrl: "https://github.com/anthony0030/techdegree-project-12",
+  //   url: "https://anthony0030.github.io/techdegree-project-12",
+  //   skills: ["apache","appcelerator","apple","atom","aws","babel","backbone","bitbucket","chrome","codeignitor","coffeescript","composer","cucumber","d3js","debian","django","docker","drupal","firefox","gatling","gimp","git","github","gitlab","gradle","grunt","gulp","illustrator","inkscape","java","krakenjs","laravel","less","linux","meteor","mocha","mongo","mysql","nginx","node","nodewebkit","osx","photoshop","php","phpstorm","postgres","protractor","python","rails","seqelize","ssh","swift","tomcat","ts","ubuntu","vim","visualstudio","windows","wordpress","error"],
+  //   description: "In this project, I built a professional portfolio to showcase my Treehouse projects. I used the skills, tools, and techniques I learned throughout the Techdegree program."
+  // },
   {
     title: "Personal Profile",
     photo: AppPhoto01,
