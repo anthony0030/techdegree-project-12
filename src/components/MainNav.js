@@ -22,7 +22,7 @@ function MainNav(props) {
         <NavbarBrand href={`${rootPath}home`}>
           <img src={logo} alt="logo" className="main-logo" />{title}
         </NavbarBrand>
-        <NavbarToggler onClick={props.toggleNav} />
+        <NavbarToggler aria-label="Toggle Navigation Menu" onClick={props.toggleNav} />
         <Collapse isOpen={props.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
