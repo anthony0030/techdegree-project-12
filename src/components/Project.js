@@ -18,13 +18,25 @@ function Project(props) {
     sourcrUrl,
     title,
     url,
-    projectIndex
+    projectIndex,
+    openProject
   } = props;
+
+  const modalOpen = (projectIndex.toString() === openProject.toString());
+
+  modalOpen? console.log(`Project modal ${projectIndex} is open!`) : null;
+
+  // console.log("projectIndex value is:", projectIndex, typeof(projectIndex))
+  // console.log("openProject value is:", openProject, typeof(openProject))
+
+
+
+  // console.log(`Project modal ${projectIndex} is open: ${modalOpen}`);
 
   return (
     <div className="col-lg-6 col-xl-4 portfolio-item">
       <Card className="h-100">
-        <Framer url={url} title={title} preTitle={preTitle} className="project_modal"/>
+        <Framer url={url} title={title} preTitle={preTitle} className="project_modal" modalOpen={modalOpen}/>
         <CardImg top width="100%" src={photo} alt="Project Screenshot" />
         <CardBody>
           <div className="card-buttons">

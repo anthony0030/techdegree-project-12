@@ -36,6 +36,7 @@ class App extends Component {
     this.setState({
       navIsOpen: !this.state.navIsOpen
     });
+
   }
 
   componentDidMount() {
@@ -56,7 +57,7 @@ class App extends Component {
             )}/>
           <Switch>
 
-            <Route exact path="/:root?/home" component={Projects} />
+            <Route exact path="/:root?/home/:project?" component={Projects} />
             <Route exact path="/:root?/Contact" component={Contact} />
 
             <Redirect exact from="/:root?/index.html" to="/"/>

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import { Button, Modal, ModalBody } from 'reactstrap';
 import Icon from "./Icon";
 import logo from "./logo.svg";
@@ -9,29 +10,44 @@ class Framer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      modal: false
+      modalOpen: props.modalOpen
     };
 
-    this.toggle = this.toggle.bind(this);
+    this.toggleModal = this.toggleModal.bind(this);
+    this.openModal   = this.openModal.bind(this);
+    this.closeModal  = this.closeModal.bind(this);
   }
 
-  toggle() {
+  toggleModal() {
     this.setState({
-      modal: !this.state.modal
+      modalOpen: !this.state.modalOpen
+    });
+  }
+
+  openModal() {
+    this.setState({
+      modalOpen: true
+    });
+  }
+
+  closeModal() {
+    this.setState({
+      modalOpen: false
     });
   }
 
   render() {
+    console.log(this.props)
     return (
       <React.Fragment>
         {/*Open Modal Button*/}
-        <Button onClick={this.toggle} target="_blank" className="enlarge-icon">
+        <Button onClick={this.openModal} target="_blank" className="enlarge-icon">
           <Icon i="enlarge"/>
         </Button>
-        <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
+        <Modal isOpen={this.state.modalOpen} toggle={this.toggleModal} className={this.props.className}>
           <ModalBody>
             {/*Close Modal Button*/}
-            <button onClick={this.toggle} target="_blank" className="shrink-icon">
+            <button onClick={this.closeModal} target="_blank" className="shrink-icon">
               <Icon i="shrink"/>
             </button>
             <h1 className="modal-title text-light bg-dark">
@@ -48,4 +64,10 @@ class Framer extends React.Component {
   }
 }
 
-export default Framer;
+
+Framer.propTypes = {
+  title: PropTypes.string.isRequired,
+  modalOpen: PropTypes.bool.isRequired
+};
+
+export default withRouter(Framer);

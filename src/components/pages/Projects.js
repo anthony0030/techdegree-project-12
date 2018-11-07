@@ -6,6 +6,7 @@ import Project from "../Project";
 import PROJECTS from "../ProjectsData";
 
 function Projects(props) {
+  const openProject = props.match.params.project;
   return(
     <React.Fragment>
       <Heading title="" subtitle="My awesome portfolio" />
@@ -24,6 +25,7 @@ function Projects(props) {
               description={project.description}
               key={index}
               projectIndex={index}
+              openProject={openProject}
             />
           )
         }
