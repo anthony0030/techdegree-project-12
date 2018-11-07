@@ -10,8 +10,14 @@ class Framer extends React.Component {
 
   constructor(props) {
     super(props);
+
+    let rootPath = "/";
+    if( props.match.params.root === "techdegree-project-12" )
+      { rootPath = "/techdegree-project-12/"; };
+
     this.state = {
-      modalOpen: props.modalOpen
+      modalOpen: props.modalOpen,
+      rootPath: rootPath
     };
 
     this.toggleModal = this.toggleModal.bind(this);
@@ -25,12 +31,12 @@ class Framer extends React.Component {
 
   openModal= (event) => {
     this.setState({ modalOpen: true });
-    this.props.history.push(`/home/${this.props.title.replace(" ", "-")}`);
+    this.props.history.push(`${this.state.rootPath}home/${this.props.title.replace(" ", "-")}`);
   };
 
   closeModal = (event) => {
     this.setState({ modalOpen: false });
-    this.props.history.push("/home");
+    this.props.history.push(`${this.state.rootPath}home`);
   };
 
   render() {
