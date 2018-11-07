@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch, Redirect, withRouter } from "react-router-dom";
 import PropTypes from "prop-types";
 import { Button, Modal, ModalBody } from 'reactstrap';
 import Icon from "./Icon";
@@ -24,20 +25,24 @@ class Framer extends React.Component {
     });
   }
 
-  openModal() {
+  openModal= (event) => {
     this.setState({
       modalOpen: true
     });
+    console.log(this)
+    this.props.history.push(`/home/${this.props.projectIndex}`);
   }
 
-  closeModal() {
+  closeModal = (event) => {
     this.setState({
       modalOpen: false
     });
+    console.log(this)
+    this.props.history.push("/home");
   }
 
   render() {
-    console.log(this.props)
+    // console.log(this.props)
     return (
       <React.Fragment>
         {/*Open Modal Button*/}
@@ -67,7 +72,9 @@ class Framer extends React.Component {
 
 Framer.propTypes = {
   title: PropTypes.string.isRequired,
+  projectIndex: PropTypes.number.isRequired,
   modalOpen: PropTypes.bool.isRequired
 };
 
+// export default Framer;
 export default withRouter(Framer);
