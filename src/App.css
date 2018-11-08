@@ -18,8 +18,11 @@ footer{
   overflow: hidden;
 }
 
-a:focus, button:focus {
-  outline-color: #0049fb;
+a:focus,
+button:focus,
+.btn:focus{
+  outline-color: #0049fbaa;
+  box-shadow: 0 0 0 0.2rem #0049fbaa;
 }
 
 .navbar-dark .navbar-nav .nav-link{
