@@ -12,6 +12,12 @@ import Framer from "./Framer";
 function Project(props) {
 
   const {
+    project,
+    projectIndex,
+    match
+  } = props;
+
+  const {
     codacyBadgeLink,
     description,
     photo,
@@ -19,10 +25,8 @@ function Project(props) {
     skills,
     sourcrUrl,
     title,
-    url,
-    projectIndex,
-    match
-  } = props;
+    url
+  } = project;
 
   const openProject = match.params.project || "";
   const modalOpen = (title.replace(" ", "-") === openProject.replace(" ", "-"));
@@ -36,6 +40,7 @@ function Project(props) {
           <div className="card-buttons">
             <a className="btn btn-dark" target="_blank" rel="noreferrer" href={sourcrUrl} >View Source &lt;&#47;&gt;</a>
             <a className="btn btn-dark" target="_blank" rel="noreferrer" href={codacyBadgeLink} >View Quality <span className="spin">&#9881;</span></a>
+            <a className="btn btn-dark" target="_blank" rel="noreferrer" href={url} >Open In New Tab <span role="img" aria-label="view symbol">👁️</span></a>
           </div>
           <CardTitle>{title}</CardTitle>
           <CardText>{description}</CardText>
@@ -49,14 +54,18 @@ function Project(props) {
 }
 
 Project.propTypes = {
-  title: PropTypes.string.isRequired,
-  preTitle: PropTypes.string,
-  photo: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
-  skills: PropTypes.array,
-  sourcrUrl: PropTypes.string,
-  url: PropTypes.string,
-  projectIndex: PropTypes.number.isRequired
+  projectIndex: PropTypes.number.isRequired,
+  project: PropTypes.shape({
+    preTitle: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    photo: PropTypes.string.isRequired,
+    sourcrUrl: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+    skills: PropTypes.arrayOf(PropTypes.string.isRequired),
+    codacyBadgeLink: PropTypes.string.isRequired,
+    codacyBadgeIcon: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+  })
 };
 
 export default Project;

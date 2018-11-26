@@ -17,15 +17,7 @@ function Projects(props) {
         {
           PROJECTS.map((project, index) =>
             <Project
-              preTitle="Anthony's"
-              title={project.title}
-              photo={project.photo}
-              sourcrUrl={project.sourcrUrl}
-              url={project.url}
-              skills={project.skills}
-              codacyBadgeLink={project.codacyBadgeLink}
-              codacyBadgeIcon={project.codacyBadgeIcon}
-              description={project.description}
+              project={project}
               key={index}
               projectIndex={index}
               match={match}
