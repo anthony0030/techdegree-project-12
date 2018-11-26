@@ -74,6 +74,7 @@ import swift from "./Badges/swift.png";
 import tomcat from "./Badges/tomcat.png";
 import ts from "./Badges/ts.png";
 import ubuntu from "./Badges/ubuntu.png";
+import vcf from "./Badges/vcf.png";
 import vim from "./Badges/vim.png";
 import visualstudio from "./Badges/visualstudio.png";
 import windows from "./Badges/windows.png";
@@ -170,6 +171,7 @@ class Skill extends Component {
     case "tomcat":       icon = tomcat;       tooltip = "I used Tomcat in this project!";              break;
     case "ts":           icon = ts;           tooltip = "I used Type Script in this project!";         break;
     case "ubuntu":       icon = ubuntu;       tooltip = "I used Ubuntu in this project!";              break;
+    case "vcf":          icon = vcf;          tooltip = "I used Virtual Contact Files in this project!"; break;
     case "vim":          icon = vim;          tooltip = "I used Vim in this project!";                 break;
     case "visualstudio": icon = visualstudio; tooltip = "I used Visual Studio in this project!";       break;
     case "windows":      icon = windows;      tooltip = "I used Windows in this project!";             break;
