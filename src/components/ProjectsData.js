@@ -1,4 +1,5 @@
 // Application Images
+import legacy from "./AppPhotos/legacy.png";
 import AppPhoto01 from "./AppPhotos/01.png";
 import AppPhoto02 from "./AppPhotos/02.png";
 import AppPhoto03 from "./AppPhotos/03.png";
@@ -152,6 +153,17 @@ const PROJECTS = [
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-12",
     codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/933fdff7981d4d92894f2ffafb2f00b9",
     description: "In this project, I built a professional portfolio to showcase my Treehouse projects. I used the skills, tools, and techniques I learned throughout the Techdegree program."
+  },
+    {
+    preTitle: "",
+    title: "Original veaudry.pro",
+    photo: legacy,
+    sourcrUrl: "https://github.com/anthony0030/veaudry.pro",
+    url: "http://anthony0030.github.io/veaudry.pro",
+    skills: ["html", "css", "js", "vcf"],
+    codacyBadgeLink: "https://www.codacy.com/app/anthony0030/veaudry.pro",
+    codacyBadgeIcon: "https://api.codacy.com/project/badge/Grade/c8407d11341a4241bb2d55465c57ec1a",
+    description: "This is the Original page that was hosted on this domain. It is one of the first pages I ever made."
   }
 ];
 
