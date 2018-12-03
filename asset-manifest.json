@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.8d734a9e.css",
   "main.css.map": "static/css/main.8d734a9e.css.map",
-  "main.js": "static/js/main.cd845018.js",
-  "main.js.map": "static/js/main.cd845018.js.map",
+  "main.js": "static/js/main.8a3acca3.js",
+  "main.js.map": "static/js/main.8a3acca3.js.map",
   "static/media/01.png": "static/media/01.ff48c7c0.png",
   "static/media/02.png": "static/media/02.f51a47b8.png",
   "static/media/03.png": "static/media/03.2878a317.png",
@@ -58,6 +58,7 @@
   "static/media/java.png": "static/media/java.76e6db60.png",
   "static/media/jquery.png": "static/media/jquery.450f2b96.png",
   "static/media/js.png": "static/media/js.da0ee759.png",
+  "static/media/legacy.png": "static/media/legacy.859eb721.png",
   "static/media/less.png": "static/media/less.7c45a810.png",
   "static/media/linux.png": "static/media/linux.aee94719.png",
   "static/media/location.svg": "static/media/location.9108c0c7.svg",
@@ -84,6 +85,7 @@
   "static/media/ts.png": "static/media/ts.4001a08f.png",
   "static/media/ubuntu.png": "static/media/ubuntu.dcdc40c5.png",
   "static/media/user.svg": "static/media/user.9d577869.svg",
+  "static/media/vcf.png": "static/media/vcf.d5929483.png",
   "static/media/vim.png": "static/media/vim.d338ff4f.png",
   "static/media/visualstudio.png": "static/media/visualstudio.7aaf56d4.png",
   "static/media/wordpress.png": "static/media/wordpress.4844436d.png"
