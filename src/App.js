@@ -49,24 +49,20 @@ class App extends Component {
   }
 
   render() {
+    console.log(process.env.REACT_APP_BASE_NAME)
+    const baseName = process.env.REACT_APP_BASE_NAME || "";
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={baseName}>
         <div className="mainContainer container App">
-          <Route path="/:root?" render={props => (
-            <MainNav match={props.match} toggleNav={this.toggleNav} isOpen={this.state.navIsOpen}/>
-            )}/>
+        <MainNav toggleNav={this.toggleNav} isOpen={this.state.navIsOpen}/>
           <Switch>
-
-            <Route exact path="/:root?/home/:project?" component={Projects} />
-            <Route exact path="/:root?/Contact" component={Contact} />
-
-            <Redirect exact from="/:root?/index.html" to="/"/>
-            <Redirect exact from="/:root?/index.php" to="/"/>
+            <Route exact path="/home/:project?" component={Projects} />
+            <Route exact path="/Contact" component={Contact} />
+            <Redirect exact from="/index.html" to="/"/>
+            <Redirect exact from="/index.php" to="/"/>
             <Redirect exact from="/" to="/home"/>
             <Redirect exact from="/techdegree-project-12" to="/techdegree-project-12/home"/>
-
             <Route component={E404}/>
-
           </Switch>
           <Footer />
         </div>

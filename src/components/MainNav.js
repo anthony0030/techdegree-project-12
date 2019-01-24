@@ -9,27 +9,23 @@ import ScrollBar from "./ScrollBar";
 function MainNav(props) {
 
   const title = "Anthony Veaudry";
-  let rootPath = "/";
-
-  if( props.match.params.root === "techdegree-project-12" ){
-    rootPath = "/techdegree-project-12/";
-  }
+  const { toggleNav, isOpen } = props;
 
   return (
     <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <ScrollBar />
-        <NavbarBrand href={`${rootPath}home`}>
+        <NavbarBrand href={`/home`}>
           <img src={logo} alt="logo" className="main-logo" />{title}
         </NavbarBrand>
-        <NavbarToggler aria-label="Toggle Navigation Menu" onClick={props.toggleNav} />
-        <Collapse isOpen={props.isOpen} navbar>
+        <NavbarToggler aria-label="Toggle Navigation Menu" onClick={toggleNav} />
+        <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink className="nav-link" to={`${rootPath}home`}>Home</NavLink>
+              <NavLink className="nav-link" to={`/home`}>Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="nav-link" to={`${rootPath}contact`}>Contact</NavLink>
+              <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

@@ -1,5 +1,5 @@
 {
-  "homepage": "/",
+  "homepage": "https://anthony0030.github.io/techdegree-project-12",
   "name": "techdegree-project-12",
   "version": "0.1.0",
   "private": true,
@@ -27,5 +27,11 @@
   },
   "devDependencies": {
     "prettier": "^1.14.3"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
