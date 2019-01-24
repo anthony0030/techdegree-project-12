@@ -49,8 +49,8 @@ class App extends Component {
   }
 
   render() {
-    console.log(process.env.REACT_APP_BASE_NAME)
     const baseName = process.env.REACT_APP_BASE_NAME || "";
+
     return (
       <BrowserRouter basename={baseName}>
         <div className="mainContainer container App">
