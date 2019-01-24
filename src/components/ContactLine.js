@@ -9,7 +9,7 @@ function ContactLine(props) {
   const { link, icon, text } = props;
   return (
     <li className="list-group-item px-0 py-0">
-      <a href={link} target="_blank" className="contact-line-container">
+      <a href={link} target="_blank" rel="noopener noreferrer" className="contact-line-container">
         <Icon i={icon} className="contactIcon"/>
         <p className="ContactText">{text}</p>
       </a>
