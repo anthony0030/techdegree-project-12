@@ -112,7 +112,7 @@ button:focus,
 
 .contact-download-button{
   margin-top: 15px;
-  width: 45px;
+  padding: 1px 2px 2px 2px;
   align-self: flex-end;
   margin-right: 15px;
 }
