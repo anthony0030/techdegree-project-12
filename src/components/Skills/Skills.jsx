@@ -20,7 +20,7 @@ function Skills(props) {
 }
 
 Skills.propTypes = {
-  skills: PropTypes.array.isRequired,
+  skills:  PropTypes.arrayOf(PropTypes.string).isRequired,
   projectIndex: PropTypes.number.isRequired
 };
 

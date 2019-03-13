@@ -1,23 +1,24 @@
 // Application Images
-import legacy from "./AppPhotos/legacy.png";
-import AppPhoto01 from "./AppPhotos/01.png";
-import AppPhoto02 from "./AppPhotos/02.png";
-import AppPhoto03 from "./AppPhotos/03.png";
-import AppPhoto04 from "./AppPhotos/04.png";
-import AppPhoto05 from "./AppPhotos/05.png";
-import AppPhoto06 from "./AppPhotos/06.png";
-import AppPhoto07 from "./AppPhotos/07.png";
-import AppPhoto08 from "./AppPhotos/08.png";
-import AppPhoto09 from "./AppPhotos/09.png";
-import AppPhoto10 from "./AppPhotos/10.png";
-import AppPhoto11 from "./AppPhotos/11.png";
-import AppPhoto12 from "./AppPhotos/12.png";
+import legacy from "../assets/images/AppPhotos/legacy.png";
+import AppPhoto01 from "../assets/images/AppPhotos/01.png";
+import AppPhoto02 from "../assets/images/AppPhotos/02.png";
+import AppPhoto03 from "../assets/images/AppPhotos/03.png";
+import AppPhoto04 from "../assets/images/AppPhotos/04.png";
+import AppPhoto05 from "../assets/images/AppPhotos/05.png";
+import AppPhoto06 from "../assets/images/AppPhotos/06.png";
+import AppPhoto07 from "../assets/images/AppPhotos/07.png";
+import AppPhoto08 from "../assets/images/AppPhotos/08.png";
+import AppPhoto09 from "../assets/images/AppPhotos/09.png";
+import AppPhoto10 from "../assets/images/AppPhotos/10.png";
+import AppPhoto11 from "../assets/images/AppPhotos/11.png";
+import AppPhoto12 from "../assets/images/AppPhotos/12.png";
+
 
 const PROJECTS = [
   // {
   //   title: "TEST",
   //   photo: AppPhoto12,
-  //   sourcrUrl: "https://github.com/anthony0030/techdegree-project-12",
+  //   sourceUrl: "https://github.com/anthony0030/techdegree-project-12",
   //   url: "https://anthony0030.github.io/techdegree-project-12",
   //   skills: ["apache","appcelerator","apple","atom","aws","babel","backbone","bitbucket","chrome","codeignitor","coffeescript","composer","cucumber","d3js","debian","django","docker","drupal","firefox","gatling","gimp","git","github","gitlab","gradle","grunt","gulp","illustrator","inkscape","java","krakenjs","laravel","less","linux","meteor","mocha","mongo","mysql","nginx","node","nodewebkit","osx","photoshop","php","phpstorm","postgres","protractor","python","rails","seqelize","ssh","swift","tomcat","ts","ubuntu","vim","visualstudio","windows","wordpress","error"],
   //   description: "In this project, I built a professional portfolio to showcase my Treehouse projects. I used the skills, tools, and techniques I learned throughout the Techdegree program."
@@ -26,7 +27,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Personal Profile",
     photo: AppPhoto01,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-01",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-01",
     url: "https://anthony0030.github.io/techdegree-project-01",
     skills: ["html", "css", "js" ,"jade", "sass" , "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-01",
@@ -37,7 +38,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Responsive Site",
     photo: AppPhoto02,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-02",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-02",
     url: "https://anthony0030.github.io/techdegree-project-02",
     skills: ["html", "css", "jade", "sass"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-02",
@@ -48,7 +49,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Registration Form",
     photo: AppPhoto03,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-03",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-03",
     url: "https://anthony0030.github.io/techdegree-project-03",
     skills: ["html", "css", "js" ,"jade", "sass", "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-03",
@@ -59,7 +60,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Photo Gallery",
     photo: AppPhoto04,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-04",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-04",
     url: "https://anthony0030.github.io/techdegree-project-04",
     skills: ["html", "css", "js" ,"jade", "sass", "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-04",
@@ -70,7 +71,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Web Style Guide",
     photo: AppPhoto05,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-05",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-05",
     url: "https://anthony0030.github.io/techdegree-project-05",
     skills: ["css" , "sass", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-05",
@@ -81,7 +82,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Video Player",
     photo: AppPhoto06,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-06",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-06",
     url: "https://anthony0030.github.io/techdegree-project-06",
     skills: ["html", "css", "js" ,"jade", "sass", "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-06",
@@ -92,7 +93,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Game Show App",
     photo: AppPhoto07,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-07",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-07",
     url: "https://anthony0030.github.io/techdegree-project-07",
     skills: ["html", "css", "js" ,"jade", "sass", "jquery", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-07",
@@ -103,7 +104,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "SVG Animations",
     photo: AppPhoto08,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-08",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-08",
     url: "https://anthony0030.github.io/techdegree-project-08",
     skills: ["html", "css", "js" ,"jade", "sass", "svg"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-08",
@@ -114,7 +115,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Web Dashboard",
     photo: AppPhoto09,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-09",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-09",
     url: "https://anthony0030.github.io/techdegree-project-09",
     skills: ["html", "css", "js" ,"jade", "sass", "svg", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-09",
@@ -125,7 +126,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Using APIs",
     photo: AppPhoto10,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-10",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-10",
     url: "https://anthony0030.github.io/techdegree-project-10",
     skills: ["html", "css", "js" ,"jade", "sass", "svg", "api", "bower"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-10",
@@ -136,7 +137,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "React Gallery",
     photo: AppPhoto11,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-11",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-11",
     url: "https://anthony0030.github.io/techdegree-project-11",
     skills: ["html", "css", "js", "api", "npm", "react"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-11",
@@ -147,7 +148,7 @@ const PROJECTS = [
     preTitle: "Anthony's",
     title: "Online Portfolio",
     photo: AppPhoto12,
-    sourcrUrl: "https://github.com/anthony0030/techdegree-project-12",
+    sourceUrl: "https://github.com/anthony0030/techdegree-project-12",
     url: "https://anthony0030.github.io/techdegree-project-12",
     skills: ["html", "css", "js", "bootstrap", "npm", "react", "jquery", "svg", "vcf"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/techdegree-project-12",
@@ -158,7 +159,7 @@ const PROJECTS = [
     preTitle: "",
     title: "Original veaudry.pro",
     photo: legacy,
-    sourcrUrl: "https://github.com/anthony0030/veaudry.pro",
+    sourceUrl: "https://github.com/anthony0030/veaudry.pro",
     url: "http://anthony0030.github.io/veaudry.pro",
     skills: ["html", "css", "js", "vcf"],
     codacyBadgeLink: "https://www.codacy.com/app/anthony0030/veaudry.pro",

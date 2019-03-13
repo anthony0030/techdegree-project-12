@@ -1,11 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import dig from 'object-dig';
+
 
 import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
 
 // Application Components
-import Skills from "./Skills";
-import Framer from "./Framer";
+import Skills from "../Skills/Skills";
+import Framer from "../Framer/Framer";
 
 
 
@@ -23,12 +25,12 @@ function Project(props) {
     photo,
     preTitle,
     skills,
-    sourcrUrl,
+    sourceUrl,
     title,
     url
   } = project;
 
-  const openProject = match.params.project || "";
+  const openProject = dig(match, 'params', 'project') || "";
   const modalOpen = (title.replace(" ", "-") === openProject.replace(" ", "-"));
 
   return (
@@ -38,7 +40,7 @@ function Project(props) {
         <CardImg top width="100%" src={photo} alt="Project Screenshot" />
         <CardBody>
           <div className="card-buttons">
-            <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={sourcrUrl} >View Source &lt;&#47;&gt;</a>
+            <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={sourceUrl} >View Source &lt;&#47;&gt;</a>
             <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={codacyBadgeLink} >View Quality <span className="spin">&#9881;</span></a>
             <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={url} >Open In New Tab <span role="img" aria-label="view symbol">👁️</span></a>
           </div>
@@ -59,13 +61,18 @@ Project.propTypes = {
     preTitle: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     photo: PropTypes.string.isRequired,
-    sourcrUrl: PropTypes.string.isRequired,
+    sourceUrl: PropTypes.string.isRequired,
     url: PropTypes.string.isRequired,
     skills: PropTypes.arrayOf(PropTypes.string.isRequired),
     codacyBadgeLink: PropTypes.string.isRequired,
     codacyBadgeIcon: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-  })
+  }),
+  match: PropTypes.shape({
+    params:PropTypes.shape({
+      project: PropTypes.string
+    }),
+  }),
 };
 
 export default Project;

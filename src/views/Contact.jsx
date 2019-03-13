@@ -1,11 +1,11 @@
 import React from "react";
 // import PropTypes from "prop-types";
 
-import Heading from "../Heading";
-import ContactLine from "../ContactLine";
-import Icon from "../Icon";
-import Profile from "../Profile.jpg";
-import Anthony from "../anthony.vcf";
+import Heading from "../components/Heading/Heading";
+import ContactLine from "../components/ContactLine/ContactLine";
+import Icon from "../components/Icon/Icon";
+import Profile from "../assets/images/Profile.jpg";
+import Anthony from "../assets/anthony.vcf";
 
 function Contact(props) {
   return(

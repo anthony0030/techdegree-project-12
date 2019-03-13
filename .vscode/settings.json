@@ -1,7 +1,10 @@
 {
   "cSpell.words": [
+    "Veaudry",
     "appcelerator",
     "bitbucket",
+    "browserslist",
+    "codacy",
     "codeignitor",
     "drupal",
     "gitlab",
@@ -9,11 +12,16 @@
     "krakenjs",
     "laravel",
     "nginx",
+    "noopener",
+    "noreferrer",
     "photoshop",
     "phpstorm",
     "postgres",
+    "predeploy",
+    "reactstrap",
     "seqelize",
     "techdegree",
+    "unmount",
     "visualstudio",
     "wordpress"
   ]

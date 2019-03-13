@@ -1,24 +1,39 @@
-import React from "react";
+import React, {Component} from "react";
+
 import { NavLink } from "react-router-dom";
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
 // Application Components
-import logo from "./logo.svg";
-import ScrollBar from "./ScrollBar";
+import logo from "../../assets/images/logo.svg";
+import ScrollBar from "../ScrollBar/ScrollBar";
 
-function MainNav(props) {
+class MainNav extends Component{
 
-  const title = "Anthony Veaudry";
-  const { toggleNav, isOpen } = props;
+  constructor() {
+    super()
+    this.state = { isOpen: false };
+    this.toggleNav = this.toggleNav.bind(this);
+  }
 
-  return (
-    <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  toggleNav = () => {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+
+  render(){
+
+    const title = "Anthony Veaudry";
+    const { isOpen } = this.state;
+
+    return (
+      <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container">
         <ScrollBar />
         <NavbarBrand href={`/home`}>
           <img src={logo} alt="logo" className="main-logo" />{title}
         </NavbarBrand>
-        <NavbarToggler aria-label="Toggle Navigation Menu" onClick={toggleNav} />
+        <NavbarToggler aria-label="Toggle Navigation Menu" onClick={this.toggleNav} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
@@ -32,6 +47,7 @@ function MainNav(props) {
       </div>
     </Navbar>
   );
+}
 }
 
 export default MainNav;

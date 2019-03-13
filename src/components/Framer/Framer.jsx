@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import { Button, Modal, ModalBody } from 'reactstrap';
 
 // Application Components
-import Icon from "./Icon";
-import logo from "./logo.svg";
-import Footer from "./Footer"
+import Icon from "../Icon/Icon";
+import logo from "../../assets/images/logo.svg";
+import Footer from "../Footer/Footer"
 
 class Framer extends React.Component {
 
@@ -14,8 +14,8 @@ class Framer extends React.Component {
     super(props);
 
     let rootPath = "/";
-    if( props.match.params.root === "techdegree-project-12" )
-      { rootPath = "/techdegree-project-12/"; };
+    if( props.match.params.root === process.env.REACT_APP_BASE_NAME )
+      { rootPath = `/${process.env.REACT_APP_BASE_NAME}/`; };
 
     this.state = {
       modalOpen: props.modalOpen,
@@ -73,7 +73,7 @@ class Framer extends React.Component {
 
 Framer.propTypes = {
   title: PropTypes.string.isRequired,
-  preTitle: PropTypes.string.isRequired,
+  preTitle: PropTypes.string,
   url: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
   projectIndex: PropTypes.number.isRequired,

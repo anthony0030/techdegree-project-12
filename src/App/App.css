@@ -5,8 +5,11 @@
  */
 
 body {
+  margin: 0;
+  padding: 0;
   padding-top: 54px;
   background-color: #eee;
+  font-family: sans-serif;
 }
 
 footer{

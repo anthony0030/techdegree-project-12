@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
-import { Tooltip } from 'reactstrap';
+import { UncontrolledTooltip } from "reactstrap";
 
 // Application Badges
 import android from "./Badges/android.png";
@@ -80,28 +80,13 @@ import visualstudio from "./Badges/visualstudio.png";
 import windows from "./Badges/windows.png";
 import wordpress from "./Badges/wordpress.png";
 
-class Skill extends Component {
+function Skill(props) {
 
-  constructor(props) {
-    super(props);
-    this.toggleTooltip = this.toggleTooltip.bind(this);
-    this.state = {
-      tooltipOpen: false
-    };
-  }
-
-  toggleTooltip() {
-    this.setState({
-      tooltipOpen: !this.state.tooltipOpen
-    });
-  }
-
-  render() {
-  const { skill, projectIndex, skillIndex } = this.props;
+  const { skill, projectIndex, skillIndex } = props;
   const id = `id-${projectIndex}-${skillIndex}`;
   let icon = error;
-  let alt = `${skill} Badge Icon`;
-  let tooltip = alt;
+  let tooltip = `${skill} Badge Icon`;
+  let alt = tooltip;
 
   switch(skill) {
     case "bootstrap":    icon = bootstrap;    break;
@@ -183,17 +168,17 @@ class Skill extends Component {
     default: tooltip = "Failed to load icon or icon does not exist";  break;
   }
 
-    return(
-      <React.Fragment>
-        <Tooltip placement="top" isOpen={this.state.tooltipOpen} target={id} toggle={this.toggleTooltip}>
-          {tooltip}
-        </Tooltip>
-        <div id={id}>
-          <img src={icon} alt={alt} className="skill-badge" />
-        </div>
-      </React.Fragment>
-    );
-  }
+  return(
+    <React.Fragment>
+      <UncontrolledTooltip placement="top" target={id}>
+        {tooltip}
+      </UncontrolledTooltip>
+      <div id={id}>
+        <img src={icon} alt={alt} className="skill-badge" />
+      </div>
+    </React.Fragment>
+  );
+
 }
 
 Skill.propTypes = {

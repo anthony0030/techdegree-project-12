@@ -1,5 +1,5 @@
 import React from "react";
-import IMG404 from "../404.jpg";
+import IMG404 from "../assets/images/404.jpg";
 
 function E404() {
   return (
