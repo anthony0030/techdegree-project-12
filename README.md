@@ -4,7 +4,7 @@
 
 [![buddy pipeline](https://app.buddy.works/anthonyveaudry/techdegree-project-12/pipelines/pipeline/169833/badge.svg?token=0c43c32994fd26a6482e1ce3a99464898ea6e248e3f6164ebb6037b6baa6e2fc "buddy pipeline")](https://app.buddy.works/anthonyveaudry/techdegree-project-12/pipelines/pipeline/169833)
 
- [![Known Vulnerabilities](https://snyk.io/test/github/anthony0030/techdegree-project-12/badge.svg)](https://snyk.io/test/github/anthony0030/techdegree-project-12)
+[![Known Vulnerabilities](https://snyk.io/test/github/anthony0030/techdegree-project-12/badge.svg)](https://snyk.io/test/github/anthony0030/techdegree-project-12)
 
 In this project, I built an Online Projects Portfolio using React. I used [create-react-app](https://github.com/facebook/create-react-app). You can see a [running copy of my project on Github pages](https://anthony0030.github.io/techdegree-project-12) and on [my private server](https://veaudry.pro) .
 
