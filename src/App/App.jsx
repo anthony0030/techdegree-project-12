@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 
 // Application Styles
-import "./App.css";
+import "./App.sass";
 
 // Application Pages
 import Projects from "../views/Projects";
