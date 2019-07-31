@@ -16,6 +16,15 @@ footer
   z-index: 1061
   width: 100vw
 
+.btn-dark-light
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  @media (prefers-color-scheme: dark)
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+
 .ReactModal__Body--open
   overflow: hidden
 
@@ -92,6 +101,8 @@ a:focus, button:focus, .btn:focusa
   padding: 1px 2px 2px 2px
   align-self: flex-end
   margin-right: 15px
+  border-radius: 10px
+  background-color: rgba(255, 255, 255, 0.66)
 
 .contact-line-container
   display: block

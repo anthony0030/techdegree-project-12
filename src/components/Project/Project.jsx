@@ -40,9 +40,9 @@ function Project(props) {
         <CardImg top width="100%" src={photo} alt="Project Screenshot" />
         <CardBody>
           <div className="card-buttons">
-            <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={sourceUrl} >View Source &lt;&#47;&gt;</a>
-            <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={codacyBadgeLink} >View Quality <span className="spin">&#9881;</span></a>
-            <a className="btn btn-dark" target="_blank" rel="noopener noreferrer" href={url} >Open In New Tab <span role="img" aria-label="view symbol">👁️</span></a>
+            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={sourceUrl} >View Source &lt;&#47;&gt;</a>
+            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={codacyBadgeLink} >View Quality <span className="spin">&#9881;</span></a>
+            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={url} >Open In New Tab <span role="img" aria-label="view symbol">👁️</span></a>
           </div>
           <CardTitle>{title}</CardTitle>
           <CardText>{description}</CardText>
