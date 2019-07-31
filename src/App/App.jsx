@@ -1,11 +1,6 @@
 import React, { Component } from "react";
 import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 
-
-// Bootstrap CSS
-import "bootstrap/dist/css/bootstrap.css";
-
-
 // Application Styles
 import "./App.sass";
 
