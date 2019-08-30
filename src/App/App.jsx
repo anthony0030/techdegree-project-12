@@ -7,6 +7,7 @@ import "./App.sass";
 // Application Pages
 import Projects from "../views/Projects";
 import Contact from "../views/Contact";
+import Forum from "../views/Forum";
 import E404 from "../views/E404";
 
 // Application Components
@@ -27,6 +28,7 @@ class App extends Component {
             <Redirect exact from="/" to="/home"/>
             <Route exact path="/home/:project?" component={Projects} />
             <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/forum" component={Forum} />Forum
             <Route component={E404}/>
           </Switch>
           <Footer />
