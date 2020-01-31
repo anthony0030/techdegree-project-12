@@ -42,9 +42,6 @@ class MainNav extends Component{
             <NavItem>
               <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink className="nav-link" to={`/forum`}>Forum</NavLink>
-            </NavItem>
           </Nav>
         </Collapse>
       </div>
