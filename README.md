@@ -6,13 +6,13 @@
 
 [![Known Vulnerabilities](https://snyk.io/test/github/anthony0030/techdegree-project-12/badge.svg)](https://snyk.io/test/github/anthony0030/techdegree-project-12)
 
-In this project, I built an Online Projects Portfolio using React. I used [create-react-app](https://github.com/facebook/create-react-app). You can see a [running copy of my project on Github pages](https://anthony0030.github.io/techdegree-project-12) and on [my private server](https://veaudry.pro) .
+In this project, I built an Online Projects Portfolio using React. I used [create-react-app](https://github.com/facebook/create-react-app). You can see a [running copy of my project on Github pages](https://anthony0030.github.io/techdegree-project-12) and on [my private server](https://veaudry.pro).
 
 The project had a few requirements:
 
 * it had to have at least four projects displayed
 * it had to have contact details
-* it had to have JavaScript Interactrivity
+* it had to have JavaScript Interactivity
 * it had to be hosted online
 
 ## Instructions to run locally
