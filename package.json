@@ -33,7 +33,7 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "prettier": "^2.0.3"
+    "prettier": "^2.0.4"
   },
   "browserslist": [
     ">0.2%",
