@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/techdegree-project-12/static/css/main.cd1e7317.chunk.css",
-    "main.js": "/techdegree-project-12/static/js/main.d7bf7bf6.chunk.js",
-    "main.js.map": "/techdegree-project-12/static/js/main.d7bf7bf6.chunk.js.map",
-    "runtime~main.js": "/techdegree-project-12/static/js/runtime~main.7211d5a8.js",
-    "runtime~main.js.map": "/techdegree-project-12/static/js/runtime~main.7211d5a8.js.map",
-    "static/js/2.6b7d33d4.chunk.js": "/techdegree-project-12/static/js/2.6b7d33d4.chunk.js",
-    "static/js/2.6b7d33d4.chunk.js.map": "/techdegree-project-12/static/js/2.6b7d33d4.chunk.js.map",
+    "main.css": "/techdegree-project-12/static/css/main.5b23a92a.chunk.css",
+    "main.js": "/techdegree-project-12/static/js/main.ff537d68.chunk.js",
+    "main.js.map": "/techdegree-project-12/static/js/main.ff537d68.chunk.js.map",
+    "runtime-main.js": "/techdegree-project-12/static/js/runtime-main.e78a98cd.js",
+    "runtime-main.js.map": "/techdegree-project-12/static/js/runtime-main.e78a98cd.js.map",
+    "static/js/2.80a638d1.chunk.js": "/techdegree-project-12/static/js/2.80a638d1.chunk.js",
+    "static/js/2.80a638d1.chunk.js.map": "/techdegree-project-12/static/js/2.80a638d1.chunk.js.map",
     "index.html": "/techdegree-project-12/index.html",
-    "precache-manifest.e7e53e7357b660c62f6aa1f44f122056.js": "/techdegree-project-12/precache-manifest.e7e53e7357b660c62f6aa1f44f122056.js",
+    "precache-manifest.e9240bb783b1549eb1fca70dec212e72.js": "/techdegree-project-12/precache-manifest.e9240bb783b1549eb1fca70dec212e72.js",
     "service-worker.js": "/techdegree-project-12/service-worker.js",
-    "static/css/main.cd1e7317.chunk.css.map": "/techdegree-project-12/static/css/main.cd1e7317.chunk.css.map",
+    "static/css/main.5b23a92a.chunk.css.map": "/techdegree-project-12/static/css/main.5b23a92a.chunk.css.map",
+    "static/js/2.80a638d1.chunk.js.LICENSE.txt": "/techdegree-project-12/static/js/2.80a638d1.chunk.js.LICENSE.txt",
     "static/media/01.png": "/techdegree-project-12/static/media/01.ff48c7c0.png",
     "static/media/02.png": "/techdegree-project-12/static/media/02.f51a47b8.png",
     "static/media/03.png": "/techdegree-project-12/static/media/03.2878a317.png",
@@ -97,5 +98,11 @@
     "static/media/vim.png": "/techdegree-project-12/static/media/vim.d338ff4f.png",
     "static/media/visualstudio.png": "/techdegree-project-12/static/media/visualstudio.7aaf56d4.png",
     "static/media/wordpress.png": "/techdegree-project-12/static/media/wordpress.4844436d.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e78a98cd.js",
+    "static/js/2.80a638d1.chunk.js",
+    "static/css/main.5b23a92a.chunk.css",
+    "static/js/main.ff537d68.chunk.js"
+  ]
 }
