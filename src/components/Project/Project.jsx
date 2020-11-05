@@ -39,10 +39,19 @@ function Project(props) {
         <Framer url={url} title={title} preTitle={preTitle} className="project_modal" modalOpen={modalOpen} projectIndex={projectIndex}/>
         <CardImg top width="100%" src={photo} alt="Project Screenshot" />
         <CardBody>
-          <div className="card-buttons">
-            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={sourceUrl} >View Source &lt;&#47;&gt;</a>
-            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={codacyBadgeLink} >View Quality <span className="spin">&#9881;</span></a>
-            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={url} >Open In New Tab <span role="img" aria-label="view symbol">👁️</span></a>
+          <div className="card-buttons ml-2">
+            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={sourceUrl}>
+              View Source
+              <i className="fas fa-code ml-2"/>
+            </a>
+            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={codacyBadgeLink}>
+              View Quality
+              <i class="fas fa-flask ml-2"/>
+            </a>
+            <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={url}>
+              Open In New Tab
+              <i className="fas fa-eye ml-2"/>
+            </a>
           </div>
           <CardTitle>{title}</CardTitle>
           <CardText>{description}</CardText>
