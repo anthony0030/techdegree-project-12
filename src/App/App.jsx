@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
+import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 // Application Styles
 import "./App.sass";
@@ -17,21 +17,16 @@ import Footer from "../components/Footer/Footer";
 class App extends Component {
 
   render() {
-    const baseName = process.env.REACT_APP_BASE_NAME || "";
-
     return (
-      <BrowserRouter basename={`/${baseName}`}>
         <div className="mainContainer container App">
           <MainNav />
           <Switch>
-            <Redirect exact from="/" to="/home"/>
             <Route exact path="/home/:project?" component={Projects} />
             <Route exact path="/Contact" component={Contact} />
             <Route component={E404}/>
           </Switch>
           <Footer />
         </div>
-      </BrowserRouter>
     );
   }
 }
