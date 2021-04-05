@@ -46,7 +46,7 @@ function Project(props) {
             </a>
             <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={codacyBadgeLink}>
               View Quality
-              <i class="fas fa-flask ml-2"/>
+              <i className="fas fa-flask ml-2"/>
             </a>
             <a className="btn btn-dark-light" target="_blank" rel="noopener noreferrer" href={url}>
               Open In New Tab
