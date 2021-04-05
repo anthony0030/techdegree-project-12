@@ -1,0 +1,237 @@
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 54px;
+  background-color: #eee;
+  font-family: sans-serif;
+}
+
+footer {
+  z-index: 1061;
+  width: 100vw;
+}
+
+.btn-dark-light {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  @media (prefers-color-scheme: dark) {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+  }
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+a:focus, button:focus, .btn:focus a {
+  outline-color: #0049fbaa;
+  box-shadow: 0 0 0 0.2rem #0049fbaa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #aaa;
+}
+
+.mainContainer {
+  margin-bottom: 120px;
+}
+
+.portfolio-item {
+  margin-bottom: 60px;
+  .card-title {
+    font-size: 40px;
+  }
+  .card-footer {
+    background-color: #E5EBF1;
+    border-top: none;
+    padding: 0;
+  }
+  .card-text {
+    font-size: 20px;
+  }
+  .card-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .btn {
+      width: 100%;
+      margin: 5px;
+    }
+  }
+}
+
+.pagination {
+  margin-bottom: 30px;
+}
+
+.main-logo {
+  height: 40px;
+  margin-right: 5px;
+}
+
+.ProfilePhoto {
+  width: 75%;
+  max-height: 250px;
+  max-width: 250px;
+  margin: 20px auto;
+}
+
+.contactIcon {
+  margin: 0 auto;
+  display: block;
+  height: 45px;
+  animation: beatHeart 3s linear infinite;
+}
+
+.ContactText {
+  font-size: 24px;
+  color: black;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1.25rem 0;
+}
+
+.skill-badge {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+.page-not-found {
+  max-width: 100%;
+}
+
+.contact-download-button {
+  margin-top: 15px;
+  padding: 1px 2px 2px 2px;
+  align-self: flex-end;
+  margin-right: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.66);
+}
+
+.contact-line-container {
+  display: block;
+  padding: .75rem 1.25rem;
+}
+
+.scrollProgressBar__container {
+  position: fixed;
+  z-index: 1031;
+  width: 100%;
+  height: 8px;
+}
+
+.scrollProgressBar__progress {
+  width: 0;
+  height: 8px;
+}
+
+.enlarge-icon, .shrink-icon {
+  display: block;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.66);
+  padding: 9px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.enlarge-icon:hover, .shrink-icon:hover, .enlarge-icon:not(:disabled):not(.disabled):active, .shrink-icon:not(:disabled):not(.disabled):active {
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.66);
+  border-color: #fff;
+  border-color: rgba(255, 255, 255, 0.66);
+}
+
+.enlarge-icon:hover img {
+  transform: scale(1.2);
+}
+
+.shrink-icon:hover img {
+  transform: scale(0.8);
+}
+
+.card {
+  border: 2px solid #ccc;
+}
+
+.viewer-iframe {
+  width: 100%;
+  height: 92%;
+}
+
+.modal-title {
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.project_modal {
+  margin: 0;
+  .modal-content, .modal-body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+.spin {
+  display: inline-block;
+  animation: spin 20s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .contactIcon {
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .ContactText {
+    display: inline-block;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: #fff;
+  }
+  .card-body, .card {
+    background-color: #333333;
+  }
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes beatHeart {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  40% { transform: scale(1); }
+  60% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 
 // Application Styles
-import "./App.sass";
+import "./App.scss";
 
 // Application Pages
 import Projects from "../views/Projects";
