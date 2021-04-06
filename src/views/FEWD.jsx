@@ -11,7 +11,7 @@ function FEWD(props) {
   const {match} = props;
   return(
     <React.Fragment>
-      <Heading title="" subtitle="My awesome portfolio" />
+      <Heading title="" subtitle="My awesome FEWD portfolio" />
       <div className="row">
         {
           PROJECTS.map((project, index) =>
