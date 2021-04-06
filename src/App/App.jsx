@@ -17,7 +17,8 @@ function App() {
     <div className="mainContainer container App">
       <MainNav />
       <Switch>
-        <Route exact path="/home/:project?" component={Projects} />
+        <Route exact path="/FEWD/:project?" component={Projects} />
+        <Route exact path="/UX/:project?" component={Projects} />
         <Route exact path="/Contact" component={Contact} />
         <Route component={E404}/>
       </Switch>

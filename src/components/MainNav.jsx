@@ -27,7 +27,10 @@ function MainNav() {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink className="nav-link" to={`/home`}>Home</NavLink>
+            <NavLink className="nav-link" to="/FEWD">FEWD</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className="nav-link" to="UX">UX</NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
