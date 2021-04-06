@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, { useState } from 'react';
 
 import { NavLink } from "react-router-dom";
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
@@ -7,47 +7,36 @@ import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'react
 import logo from "../../assets/images/logo.svg";
 import ScrollBar from "../ScrollBar/ScrollBar";
 
-class MainNav extends Component{
+function MainNav() {
 
-  constructor() {
-    super()
-    this.state = { isOpen: false };
-    this.toggleNav = this.toggleNav.bind(this);
+  const [isOpen, setIsOpen] = useState(false);
+  const title = "Anthony Veaudry";
+
+  const toggleNav = () => {
+    setIsOpen(!isOpen);
   }
 
-  toggleNav = () => {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
-  }
-
-  render(){
-
-    const title = "Anthony Veaudry";
-    const { isOpen } = this.state;
-
-    return (
-      <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div className="container">
-        <ScrollBar />
-        <NavbarBrand href={`/home`}>
-          <img src={logo} alt="logo" className="main-logo" />{title}
-        </NavbarBrand>
-        <NavbarToggler aria-label="Toggle Navigation Menu" onClick={this.toggleNav} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="ml-auto" navbar>
-            <NavItem>
-              <NavLink className="nav-link" to={`/home`}>Home</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </div>
-    </Navbar>
-  );
-}
+  return (
+    <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div className="container">
+      <ScrollBar />
+      <NavbarBrand href={`/home`}>
+        <img src={logo} alt="logo" className="main-logo" />{title}
+      </NavbarBrand>
+      <NavbarToggler aria-label="Toggle Navigation Menu" onClick={toggleNav} />
+      <Collapse isOpen={isOpen} navbar>
+        <Nav className="ml-auto" navbar>
+          <NavItem>
+            <NavLink className="nav-link" to={`/home`}>Home</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
+          </NavItem>
+        </Nav>
+      </Collapse>
+    </div>
+  </Navbar>
+  )
 }
 
-export default MainNav;
+export default MainNav
