@@ -4,7 +4,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import ScrollBar from "./ScrollBar";
+import { ScrollBar } from "components";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");

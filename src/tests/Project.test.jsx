@@ -4,8 +4,8 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
-import Project from "./Project";
-import {BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Project } from "components";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
