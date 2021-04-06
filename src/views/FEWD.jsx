@@ -7,7 +7,7 @@ import PROJECTS from "../db/ProjectsData";
 // Application Components
 import { Project, Heading } from "components";
 
-function Projects(props) {
+function FEWD(props) {
   const {match} = props;
   return(
     <React.Fragment>
@@ -28,9 +28,9 @@ function Projects(props) {
   );
 }
 
-Projects.propTypes = {
+FEWD.propTypes = {
   match: PropTypes.object.isRequired
 };
 
 
-export default Projects;
+export default FEWD;
