@@ -4,9 +4,8 @@ import PropTypes from "prop-types";
 import { Button, Modal, ModalBody } from 'reactstrap';
 
 // Application Components
-import Icon from "./Icon/Icon";
 import logo from "../assets/images/logo.svg";
-import { Footer } from "components";
+import { Footer, Icon } from "components";
 
 class Framer extends React.Component {
 

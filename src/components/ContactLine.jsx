@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 // Application Components
-import Icon from "./Icon/Icon";
+import { Icon } from "components";
 
 
 function ContactLine(props) {

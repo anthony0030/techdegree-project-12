@@ -7,3 +7,4 @@ export { default as Framer } from "./Framer";
 export { default as Heading } from "./Heading";
 export { default as Skill } from "./Skill";
 export { default as Skills } from "./Skills";
+export { default as Icon } from "./Icon";
