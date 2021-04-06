@@ -29,10 +29,10 @@ function MainNav() {
             <NavLink className="nav-link" to="/" exact>Home</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link" to="/fewd">FEWD</NavLink>
+            <NavLink className="nav-link" to="/fewd">FEWD Portfolio</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link" to="ux">UX</NavLink>
+            <NavLink className="nav-link" to="/ux">UX Portfolio</NavLink>
           </NavItem>
           <NavItem>
             <NavLink className="nav-link" to="/about">About</NavLink>
