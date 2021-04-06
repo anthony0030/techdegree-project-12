@@ -8,7 +8,6 @@ import logo from "../assets/images/logo.svg";
 import { ScrollBar } from "components";
 
 function MainNav() {
-
   const [isOpen, setIsOpen] = useState(false);
   const title = "Anthony Veaudry";
 
@@ -20,7 +19,7 @@ function MainNav() {
     <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div className="container">
       <ScrollBar />
-      <NavbarBrand href={`/home`}>
+      <NavbarBrand href="/home">
         <img src={logo} alt="logo" className="main-logo" />{title}
       </NavbarBrand>
       <NavbarToggler aria-label="Toggle Navigation Menu" onClick={toggleNav} />
@@ -33,7 +32,7 @@ function MainNav() {
             <NavLink className="nav-link" to="UX">UX</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink className="nav-link" to={`/contact`}>Contact</NavLink>
+            <NavLink className="nav-link" to="/contact">Contact</NavLink>
           </NavItem>
         </Nav>
       </Collapse>
