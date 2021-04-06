@@ -4,7 +4,7 @@ import { Route, Switch } from "react-router-dom";
 // Application Styles
 import "../assets/scss/index.scss";
 
-import { FEWD, Contact, E404 } from "views";
+import { FEWD, UX, Contact, E404 } from "views";
 import { Footer, MainNav } from "components";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <MainNav />
       <Switch>
         <Route exact path="/FEWD/:project?" component={FEWD} />
-        <Route exact path="/UX/:project?" component={FEWD} />
+        <Route exact path="/UX/:project?" component={UX} />
         <Route exact path="/Contact" component={Contact} />
         <Route component={E404}/>
       </Switch>
