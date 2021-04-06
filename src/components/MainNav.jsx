@@ -19,12 +19,15 @@ function MainNav() {
     <Navbar color="light" light expand="md" className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div className="container">
       <ScrollBar />
-      <NavbarBrand href="/home">
+      <NavbarBrand href="/">
         <img src={logo} alt="logo" className="main-logo" />{title}
       </NavbarBrand>
       <NavbarToggler aria-label="Toggle Navigation Menu" onClick={toggleNav} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
+          <NavItem>
+            <NavLink className="nav-link" to="/" exact>Home</NavLink>
+          </NavItem>
           <NavItem>
             <NavLink className="nav-link" to="/fewd">FEWD</NavLink>
           </NavItem>
