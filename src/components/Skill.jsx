@@ -157,7 +157,7 @@ function Skill(props) {
     case "tomcat":       icon = tomcat;       break;
     case "ts":           icon = ts;           break;
     case "ubuntu":       icon = ubuntu;       break;
-    case "vcf":          icon = vcf;          tooltip = "I used Virtual Contact Files in this project!"; break;
+    case "vcf":          icon = vcf;          break;
     case "vim":          icon = vim;          break;
     case "visualstudio": icon = visualstudio; break;
     case "windows":      icon = windows;      break;

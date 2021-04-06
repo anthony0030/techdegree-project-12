@@ -2,13 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import dig from 'object-dig';
 
-
 import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
-
-// Application Components
 import { Framer, Skills } from "components";
-
-
 
 function Project(props) {
 

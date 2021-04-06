@@ -11,7 +11,6 @@ function ScrollBar() {
     }
   }, []);
 
-
   return (
     <div className="scrollProgressBar__container fixed-top">
       <div id="myHorizontalBar" className="scrollProgressBar__progress bg-secondary"></div>
