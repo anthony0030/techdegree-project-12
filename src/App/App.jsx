@@ -1,15 +1,10 @@
 import React from "react";
-import {Route, Switch} from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 
 // Application Styles
-import "./App.scss";
+import "../assets/scss/index.scss";
 
-// Application Pages
-import Projects from "../views/Projects";
-import Contact from "../views/Contact";
-import E404 from "../views/E404";
-
-// Application Components
+import { Projects, Contact, E404 } from "views";
 import { Footer, MainNav } from "components";
 
 function App() {
