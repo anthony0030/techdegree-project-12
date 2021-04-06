@@ -1,16 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import at from "./SVG/at.svg";
-import facebook from "./SVG/facebook.svg";
-import mobile from "./SVG/mobile.svg";
-import user from "./SVG/user.svg";
-import location from "./SVG/location.svg";
-import github from "./SVG/github.svg";
-import download from "./SVG/download.svg";
-import bug from "./SVG/bug.svg";
-import enlarge from "./SVG/enlarge.svg";
-import shrink from "./SVG/shrink.svg";
+import at from "../assets/svg/at.svg";
+import facebook from "../assets/svg/facebook.svg";
+import mobile from "../assets/svg/mobile.svg";
+import user from "../assets/svg/user.svg";
+import location from "../assets/svg/location.svg";
+import github from "../assets/svg/github.svg";
+import download from "../assets/svg/download.svg";
+import bug from "../assets/svg/bug.svg";
+import enlarge from "../assets/svg/enlarge.svg";
+import shrink from "../assets/svg/shrink.svg";
 
 
 let icon;
