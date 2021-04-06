@@ -14,8 +14,8 @@ class Framer extends React.Component {
     super(props);
 
     let rootPath = "/";
-    if( props.match.params.root === process.env.REACT_APP_BASE_NAME )
-      { rootPath = `/${process.env.REACT_APP_BASE_NAME}/`; };
+    if( props.match.params.root === process.env.RAZZLE_APP_BASE_NAME )
+      { rootPath = `/${process.env.RAZZLE_APP_BASE_NAME}/`; };
 
     this.state = {
       modalOpen: props.modalOpen,
