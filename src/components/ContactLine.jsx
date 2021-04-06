@@ -1,12 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-// Application Components
 import { Icon } from "components";
-
 
 function ContactLine(props) {
   const { link, icon, text } = props;
+
   return (
     <li className="list-group-item px-0 py-0">
       <a href={link} target="_blank" rel="noopener noreferrer" className="contact-line-container">

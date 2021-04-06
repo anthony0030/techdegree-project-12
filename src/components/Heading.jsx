@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 function Heading(props) {
   const { title, subtitle } = props;
+
   return (
     <h1 className="my-4">{title}
       <small> {subtitle}</small>
