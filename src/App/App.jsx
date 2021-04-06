@@ -10,8 +10,7 @@ import Contact from "../views/Contact";
 import E404 from "../views/E404";
 
 // Application Components
-import MainNav from "../components/MainNav/MainNav";
-import Footer from "../components/Footer/Footer";
+import { Footer, MainNav } from "components";
 
 function App() {
   return (

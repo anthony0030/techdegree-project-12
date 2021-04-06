@@ -1,8 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
 
-import Heading from "../components/Heading/Heading";
-import ContactLine from "../components/ContactLine/ContactLine";
+import {ContactLine, Heading} from "components";
 import Icon from "../components/Icon/Icon";
 import Profile from "../assets/images/Profile.jpg";
 import Anthony from "../assets/anthony.vcf";

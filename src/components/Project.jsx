@@ -6,8 +6,7 @@ import dig from 'object-dig';
 import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
 
 // Application Components
-import Skills from "../Skills/Skills";
-import Framer from "../Framer/Framer";
+import { Framer, Skills } from "components";
 
 
 

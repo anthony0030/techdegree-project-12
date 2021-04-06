@@ -1,0 +1,9 @@
+export { default as Footer } from "./Footer";
+export { default as MainNav } from "./MainNav";
+export { default as ContactLine } from "./ContactLine";
+export { default as Project } from "./Project";
+export { default as ScrollBar } from "./ScrollBar";
+export { default as Framer } from "./Framer";
+export { default as Heading } from "./Heading";
+export { default as Skill } from "./Skill";
+export { default as Skills } from "./Skills";

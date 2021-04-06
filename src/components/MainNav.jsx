@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
 
 // Application Components
-import logo from "../../assets/images/logo.svg";
-import ScrollBar from "../ScrollBar/ScrollBar";
+import logo from "../assets/images/logo.svg";
+import { ScrollBar } from "components";
 
 function MainNav() {
 

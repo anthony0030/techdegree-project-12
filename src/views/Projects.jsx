@@ -5,8 +5,7 @@ import PropTypes from "prop-types";
 import PROJECTS from "../db/ProjectsData";
 
 // Application Components
-import Heading from "../components/Heading/Heading";
-import Project from "../components/Project/Project";
+import { Project, Heading } from "components";
 
 function Projects(props) {
   const {match} = props;
