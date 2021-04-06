@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import React from "react";
+import {Route, Switch} from "react-router-dom";
 
 // Application Styles
 import "./App.scss";
@@ -13,22 +13,18 @@ import E404 from "../views/E404";
 import MainNav from "../components/MainNav/MainNav";
 import Footer from "../components/Footer/Footer";
 
-
-class App extends Component {
-
-  render() {
-    return (
-        <div className="mainContainer container App">
-          <MainNav />
-          <Switch>
-            <Route exact path="/home/:project?" component={Projects} />
-            <Route exact path="/Contact" component={Contact} />
-            <Route component={E404}/>
-          </Switch>
-          <Footer />
-        </div>
-    );
-  }
+function App() {
+  return (
+    <div className="mainContainer container App">
+      <MainNav />
+      <Switch>
+        <Route exact path="/home/:project?" component={Projects} />
+        <Route exact path="/Contact" component={Contact} />
+        <Route component={E404}/>
+      </Switch>
+      <Footer />
+    </div>
+  )
 }
 
 export default App;
