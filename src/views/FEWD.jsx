@@ -2,10 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //Project Data
-import PROJECTS from "../db/ProjectsData";
+import PROJECTS from "../db/FEWDProjectsData";
 
 // Application Components
-import { Project, Heading } from "components";
+import { FEWDProject, Heading } from "components";
 
 function FEWD(props) {
   const {match} = props;
@@ -15,7 +15,7 @@ function FEWD(props) {
       <div className="row">
         {
           PROJECTS.map((project, index) =>
-            <Project
+            <FEWDProject
               project={project}
               key={index}
               projectIndex={index}
