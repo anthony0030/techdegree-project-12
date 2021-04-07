@@ -1,24 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { useParams } from "react-router-dom";
+import _ from "lodash";
 
 //Project Data
-import PROJECTS from "../db/ProjectsData";
+import PROJECTS from "../db/UXProjectsData";
 
 // Application Components
-import { Project, Heading } from "components";
+import { UXProject, Heading } from "components";
 
 function UX(props) {
-  const {match} = props;
+  const { project } = useParams();
+  const activeProject = _.find(PROJECTS, {id: project});
+  console.log(activeProject)
+
   return(
     <React.Fragment>
       <Heading title="" subtitle="My awesome UX portfolio" />
-      Portfolio Page
-      <ul>
-        <li>A photo to represent each case study. (T-shirt website, Grocery App, & WhooshMail Flow)</li>
-        <li>Each case study links to it's own page where it is detailed.</li>
-      </ul>
 
-      Case Studies
+      {/* Case Studies
       <ul>
         <li>Overview</li>
         <li>Problem</li>
@@ -26,27 +26,46 @@ function UX(props) {
         <li>Solution</li>
         <li>Learnings</li>
         <li>Photos</li>
-      </ul>
+      </ul> */}
 
       <div className="row">
-        {/* {
-          PROJECTS.map((project, index) =>
-            <Project
+        {
+          !project && PROJECTS.map((project, index) =>
+            <UXProject
               project={project}
               key={index}
               projectIndex={index}
-              match={match}
             />
           )
-        } */}
+        }
       </div>
+
+        {project && <div>
+
+          <br />
+          {activeProject.description}
+          <br />
+          {activeProject.id}
+          <br />
+          {activeProject.photo}
+          <br />
+          {activeProject.title}
+          <br />
+          <br />
+          <br />
+
+
+        <h3>Overview</h3>
+        <h3>Problem</h3>
+        <h3>Audience</h3>
+        <h3>Solution</h3>
+        <h3>Learnings</h3>
+        <h3>Photos</h3>
+
+       </div>}
+
     </React.Fragment>
   );
 }
-
-UX.propTypes = {
-  match: PropTypes.object.isRequired
-};
-
 
 export default UX;
