@@ -27,7 +27,7 @@ server
           <head>
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta charset="utf-8" />
-            <title>Welcome to Razzle</title>
+            <title>Online Portfolio</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             ${ assets.client.css
               ? `<link rel="preload stylesheet" href="${assets.client.css}">`
@@ -62,7 +62,6 @@ server
             <meta property="og:description" content="This Page is made to showcase Anthony Veaudry's best web projects." />
             <meta name="Description" content="This Page is made to showcase Anthony Veaudry's best web projects.">
 
-            <title>Online Portfolio</title>
           </head>
           <body>
             <div id="root">${markup}</div>
