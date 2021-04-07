@@ -5,7 +5,7 @@ import dig from 'object-dig';
 import { Card, CardImg, CardText, CardBody, CardFooter, CardTitle } from 'reactstrap';
 import { Framer, Skills } from "components";
 
-function Project(props) {
+function FEWDProject(props) {
 
   const {
     project,
@@ -58,7 +58,7 @@ function Project(props) {
   );
 }
 
-Project.propTypes = {
+FEWDProject.propTypes = {
   projectIndex: PropTypes.number.isRequired,
   project: PropTypes.shape({
     preTitle: PropTypes.string.isRequired,
@@ -78,4 +78,4 @@ Project.propTypes = {
   }),
 };
 
-export default Project;
+export default FEWDProject;
