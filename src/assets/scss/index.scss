@@ -197,6 +197,10 @@ a:focus, button:focus, .btn:focus a {
   animation: spin 20s linear infinite;
 }
 
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
 .link-unstyled {
   &,
   &:visited,
