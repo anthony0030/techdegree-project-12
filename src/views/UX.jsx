@@ -16,7 +16,7 @@ function UX(props) {
 
   return(
     <React.Fragment>
-      <Heading title="" subtitle="My awesome UX portfolio" />
+      <Heading title={project ? activeProject.title : "My awesome UX portfolio"} subtitle={project ? "Case Study" : ""} />
 
       {/* Case Studies
       <ul>

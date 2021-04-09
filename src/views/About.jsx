@@ -4,7 +4,7 @@ import { Heading, Skills } from "components";
 function About() {
   return (
     <>
-      <Heading title="" subtitle="About" />
+      <Heading title="About" subtitle="" />
 
       <h3>Resume</h3>
 

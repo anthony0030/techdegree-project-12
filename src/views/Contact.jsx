@@ -8,7 +8,7 @@ import Anthony from "../assets/anthony.vcf";
 function Contact(props) {
   return(
     <React.Fragment>
-      <Heading title="" subtitle="Contact me" />
+      <Heading title="Contact me" subtitle="" />
       <div className="row">
         <div className="col-12 portfolio-item">
           <div className="card contactCard">
