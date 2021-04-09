@@ -4,6 +4,7 @@ import dig from 'object-dig';
 
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import { Link } from "react-router-dom";
+import parse from "html-react-parser";
 
 function UXProject(props) {
 
@@ -24,8 +25,8 @@ function UXProject(props) {
           <CardBody>
             <div className="card-buttons ml-2">
             </div>
-            <CardTitle>{title}</CardTitle>
-            <CardText>{description}</CardText>
+            <CardTitle>{parse(title)}</CardTitle>
+            <CardText>{parse(description)}</CardText>
           </CardBody>
         </Card>
       </Link>
