@@ -1,5 +1,4 @@
 1. Home
-  1. Add more info
 
 
 2. FEWD
