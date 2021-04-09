@@ -9,7 +9,8 @@ import PROJECTS from "../db/UXProjectsData";
 // Application Components
 import { UXProject, Heading } from "components";
 import parse from "html-react-parser";
-import SimpleImageSlider from "react-simple-image-slider";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 function UX(props) {
   const { project } = useParams();
@@ -55,7 +56,25 @@ function UX(props) {
           <h3>Learnings</h3>
           {parse(activeProject.learnings)}
           <h3>Photos</h3>
-          {parse(activeProject.photos)}
+          {/* {parse(activeProject.photos)} */}
+          {activeProject.galleries.map((gallery, key)=> {
+            const {images, title} = gallery;
+            return(
+              <div key={key}>
+                <h4>{title}</h4>
+
+                <Carousel>
+                {images.map((image, key)=> {
+                  return(
+                    <div key={key}>
+                      <img src={image} />
+                    </div>
+                  )
+                })}
+                </Carousel>
+              </div>
+            )
+          })}
        </div>}
 
     </React.Fragment>
