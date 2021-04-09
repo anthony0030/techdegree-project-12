@@ -8,6 +8,8 @@ import PROJECTS from "../db/UXProjectsData";
 
 // Application Components
 import { UXProject, Heading } from "components";
+import parse from "html-react-parser";
+import SimpleImageSlider from "react-simple-image-slider";
 
 function UX(props) {
   const { project } = useParams();
@@ -41,27 +43,19 @@ function UX(props) {
       </div>
 
         {project && <div>
-
-          <br />
-          {activeProject.description}
-          <br />
-          {activeProject.id}
-          <br />
-          {activeProject.photo}
-          <br />
-          {activeProject.title}
-          <br />
-          <br />
-          <br />
-
-
-        <h3>Overview</h3>
-        <h3>Problem</h3>
-        <h3>Audience</h3>
-        <h3>Solution</h3>
-        <h3>Learnings</h3>
-        <h3>Photos</h3>
-
+          <img src={activeProject.photo} alt="overview" className="w-100"/>
+          <h3>Overview</h3>
+          {parse(activeProject.description)}
+          <h3>Problem</h3>
+          {parse(activeProject.problem)}
+          <h3>Target audience</h3>
+          {parse(activeProject.audience)}
+          <h3>Solution</h3>
+          {parse(activeProject.solution)}
+          <h3>Learnings</h3>
+          {parse(activeProject.learnings)}
+          <h3>Photos</h3>
+          {parse(activeProject.photos)}
        </div>}
 
     </React.Fragment>
