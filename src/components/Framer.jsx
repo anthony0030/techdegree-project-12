@@ -39,7 +39,7 @@ function Framer(props) {
   return (
     <>
       {/*Open Modal Button*/}
-      <Button onClick={openModal} target="_blank" className="enlarge-icon">
+      <Button onClick={openModal} target="_blank" className="enlarge-icon" color="light">
         <Icon i="enlarge"/>
       </Button>
       <Modal isOpen={modalOpen} toggle={toggleModal} className={className}>
