@@ -18,7 +18,7 @@ const PROJECTS = [
     description: "In this case study I added a parking Finder to a grocery app"
   },
   {
-    id: "2",
+    id: "3",
     title: "WhooshMail",
     photo: AppPhoto03,
     description: "In this case study I designed and refined two workflows for the mailing app Wooshmail"
