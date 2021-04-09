@@ -9,8 +9,7 @@ import PROJECTS from "../db/UXProjectsData";
 // Application Components
 import { UXProject, Heading } from "components";
 import parse from "html-react-parser";
-import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Gallery from "react-grid-gallery";
 
 function UX(props) {
   const { project } = useParams();
@@ -60,18 +59,9 @@ function UX(props) {
           {activeProject.galleries.map((gallery, key)=> {
             const {images, title} = gallery;
             return(
-              <div key={key}>
+              <div key={key} className="clearfix mb-3">
                 <h4>{title}</h4>
-
-                <Carousel>
-                {images.map((image, key)=> {
-                  return(
-                    <div key={key}>
-                      <img src={image} />
-                    </div>
-                  )
-                })}
-                </Carousel>
+                <Gallery images={images}/>
               </div>
             )
           })}

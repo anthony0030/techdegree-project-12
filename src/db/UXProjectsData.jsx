@@ -19,42 +19,141 @@ const PROJECTS = [
       {
         title: "Research",
         images: [
-          "/assets/images/UXPhotos/shirts-by-mike/research/Empathy Map.jpg",
-          "/assets/images/UXPhotos/shirts-by-mike/research/Journey Map.jpg"
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/research/Empathy Map.jpg",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/research/Empathy Map.jpg",
+            caption: "Empathy Map"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/research/Journey Map.jpg",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/research/Journey Map.jpg",
+            caption: "Journey Map"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/research/Treehouse Mood Board.jpg",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/research/Treehouse Mood Board.jpg",
+            caption: "Mood Board"
+          }
         ]
       },
       {
         title: "Sketches",
         images: [
-          "/assets/images/UXPhotos/shirts-by-mike/sketches/Desktop 1.jpg",
-          "/assets/images/UXPhotos/shirts-by-mike/sketches/Desktop 2.jpg",
-          "/assets/images/UXPhotos/shirts-by-mike/sketches/Mobile.jpg"
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/sketches/Mobile.jpg",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/sketches/Mobile.jpg",
+            caption: "Mobile Sketches"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/sketches/Desktop 1.jpg",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/sketches/Desktop 1.jpg",
+            caption: "Desktop Sketches"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/sketches/Desktop 2.jpg",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/sketches/Desktop 2.jpg",
+            caption: "Desktop Sketches"
+          },
         ]
       },
       {
-        title: "Wireframes",
+        title: "Mobile Wireframes",
         images: [
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Catalog.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Contact.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Home.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Product.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Catalog.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Contact.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Home.png",
-          "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Product.png"
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Catalog.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Catalog.png",
+            caption: "Mobile Catalog Wireframe"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Contact.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Contact.png",
+            caption: "Mobile Contact Wireframe"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Home.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Home.png",
+            caption: "Mobile Home Wireframe"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Product.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Mobile - Product.png",
+            caption: "Mobile Product Wireframe"
+          },
         ]
       },
       {
-        title: "Mockups",
+        title: "Desktop Wireframes",
         images: [
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Catalog.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Contact.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Home.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Product.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Catalog.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Contact.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Home.png",
-          "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Product.png"
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Catalog.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Catalog.png",
+            caption: "Desktop Catalog Wireframe"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Contact.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Contact.png",
+            caption: "Desktop Contact Wireframe"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Home.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Home.png",
+            caption: "Desktop Home Wireframe"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Product.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/wireframes/Desktop - Product.png",
+            caption: "Desktop Product Wireframe"
+          },
+        ]
+      },
+      {
+        title: "Mobile Mockups",
+        images: [
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Catalog.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Catalog.png",
+            caption: "Mobile Catalog Mockup"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Contact.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Contact.png",
+            caption: "Mobile Contact Mockup"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Home.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Home.png",
+            caption: "Mobile Home Mockup"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Product.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Mobile - Product.png",
+            caption: "Mobile Product Mockup"
+          },
+        ]
+      },
+      {
+        title: "Desktop Mockups",
+        images: [
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Catalog.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Catalog.png",
+            caption: "Desktop Catalog Mockup",
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Contact.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Contact.png",
+            caption: "Desktop Contact Mockup"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Home.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Home.png",
+            caption: "Desktop Home Mockup"
+          },
+          {
+            src: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Product.png",
+            thumbnail: "/assets/images/UXPhotos/shirts-by-mike/mockups/Desktop - Product.png",
+            caption: "Desktop Product Mockup"
+          },
         ]
       }
     ],
