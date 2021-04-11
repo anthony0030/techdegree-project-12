@@ -15,7 +15,7 @@ function FEWDProject(props) {
 
   const {
     codacyBadgeLink,
-    description,
+    overview,
     photo,
     preTitle,
     skills,
@@ -48,7 +48,7 @@ function FEWDProject(props) {
             </a>
           </div>
           <CardTitle>{title}</CardTitle>
-          <CardText>{description}</CardText>
+          <CardText>{overview}</CardText>
         </CardBody>
         <CardFooter>
           <Skills skills={skills} projectIndex={projectIndex}/>
@@ -70,7 +70,7 @@ FEWDProject.propTypes = {
     skills: PropTypes.arrayOf(PropTypes.string.isRequired),
     codacyBadgeLink: PropTypes.string.isRequired,
     codacyBadgeIcon: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    overview: PropTypes.string.isRequired,
   }),
   match: PropTypes.shape({
     params:PropTypes.shape({

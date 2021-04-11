@@ -45,7 +45,7 @@ function UX(props) {
         {project && <div>
           <img src={activeProject.photo} alt="overview" className="w-100"/>
           <h3>Overview</h3>
-          {parse(activeProject.description)}
+          {parse(activeProject.overview)}
           <h3>Problem</h3>
           {parse(activeProject.problem)}
           <h3>Target audience</h3>

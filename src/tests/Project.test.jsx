@@ -23,7 +23,7 @@ it("renders without crashing", () => {
           skills: ["",""],
           codacyBadgeLink: "",
           codacyBadgeIcon: "",
-          description: "",
+          overview: "",
         }}
         projectIndex={0}
         />

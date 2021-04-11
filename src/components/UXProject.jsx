@@ -11,7 +11,7 @@ function UXProject(props) {
   const { project } = props;
 
   const {
-    description,
+    overview,
     photo,
     title,
     id
@@ -26,7 +26,7 @@ function UXProject(props) {
             <div className="card-buttons ml-2">
             </div>
             <CardTitle>{parse(title)}</CardTitle>
-            <CardText>{parse(description)}</CardText>
+            <CardText>{parse(overview)}</CardText>
           </CardBody>
         </Card>
       </Link>
@@ -40,7 +40,7 @@ UXProject.propTypes = {
     title: PropTypes.string.isRequired,
     photo: PropTypes.string.isRequired,
     id: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
+    overview: PropTypes.string.isRequired,
   }),
   match: PropTypes.shape({
     params:PropTypes.shape({
