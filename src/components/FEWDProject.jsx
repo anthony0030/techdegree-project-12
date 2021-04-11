@@ -53,6 +53,7 @@ function FEWDProject(props) {
         <CardFooter>
           <Skills skills={skills} projectIndex={projectIndex}/>
         </CardFooter>
+        <i /> {/* improves look without bootstrap css mod */}
       </Card>
     </div>
   );
