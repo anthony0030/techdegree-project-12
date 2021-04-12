@@ -2,10 +2,6 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f4cb99b5c0ee48ab8ca4adceb8f5aa51)](https://www.codacy.com/app/anthony0030/techdegree-project-02?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=anthony0030/techdegree-project-02&amp;utm_campaign=Badge_Grade)
 
-[![buddy pipeline](https://app.buddy.works/anthonyveaudry/techdegree-project-12/pipelines/pipeline/169833/badge.svg?token=0c43c32994fd26a6482e1ce3a99464898ea6e248e3f6164ebb6037b6baa6e2fc "buddy pipeline")](https://app.buddy.works/anthonyveaudry/techdegree-project-12/pipelines/pipeline/169833)
-
-[![Known Vulnerabilities](https://snyk.io/test/github/anthony0030/techdegree-project-12/badge.svg)](https://snyk.io/test/github/anthony0030/techdegree-project-12)
-
 In this project, I built an Online Projects Portfolio using React. I used [create-react-app](https://github.com/facebook/create-react-app). You can see a [running copy of my project on Github pages](https://anthony0030.github.io/techdegree-project-12) and on [my private server](https://veaudry.pro).
 
 The project had a few requirements:
