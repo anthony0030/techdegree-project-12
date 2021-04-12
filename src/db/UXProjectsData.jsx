@@ -3,7 +3,7 @@ const PROJECTS = [
     id: "shirts-by-mike",
     title: "Shirts by Mike",
     photo: "/assets/images/UXPhotos/shirts-by-mike/preview.png",
-    overview: "<p>In this case study I critiqued their site and came up with areas of improvement.</p>",
+    overview: "<p>In this case study I critiqued shirtsbymike and came up with areas of improvement.</p>",
     problem: "<p>I was tasked with critiquing <a href='shirtsbymike.com'>shirtsbymike.com</a>, an e-commerce website that sells t-shirts. My 'client' wanted to know if anything should be changed to make the site look and/or function better for their customers. I described the design elements I saw on the site and determined what improvements needed to be made. I Explained each improvement so your they understood how it will benefit their customers.</p>",
     audience: "<div class='text-dark bg-light rounded border p-5 mb-3'><i class='fas fa-user fa-5x float-right'></i>Mostly ages 16-35 <br />Primarily based in the United States <br />Treehouse students <br />Lifelong learners <br />Values community <br />Playful <br /></div>",
     solution: "<p>I started out by developing a persona. I also made a journey map. I also created a mood board for the first time. I then sketched my ideas out. I then proceded to make a low fidelity mockup. Finlay I made the high fidelity mockup. Please see the photos below.</p>",
