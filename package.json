@@ -19,8 +19,7 @@
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
-    "heroku-postbuild": "yarn run build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@babel/core": "^7.13.15",
