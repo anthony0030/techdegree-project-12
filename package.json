@@ -1,6 +1,11 @@
 {
   "name": "techdegree-project-12",
   "version": "2.0.0",
+  "engines": {
+    "node": "8.1.x",
+    "npm": "5.4.0",
+    "yarn": "0.28.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://anthony0030@github.com/anthony0030/techdegree-project-12.git"
@@ -14,7 +19,8 @@
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "@babel/core": "^7.13.15",
