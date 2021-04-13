@@ -44,13 +44,13 @@
     "react-router-dom": "^5.2.0",
     "reactstrap": "^8.9.0",
     "webpack": "^5.32.0",
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "razzle": "^3.3.13"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "prettier": "^2.2.1",
-    "razzle": "^4.0.4",
-    "razzle-plugin-scss": "^4.0.4"
+    "razzle-plugin-scss": "^3.3.13"
   },
   "browserslist": [
     ">0.2%",
