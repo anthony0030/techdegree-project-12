@@ -15,6 +15,7 @@ if (module.hot) {
 }
 
 console.log("process.env.PORT", process.env.PORT)
+console.log("process.env.port", process.env.port)
 console.log("process.env", process.env)
 console.log("process.env.MEMORY_AVAILABLE", process.env.MEMORY_AVAILABLE)
 
