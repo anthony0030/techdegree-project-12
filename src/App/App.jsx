@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 // Application Styles
-import "../assets/scss/index.scss";
+// import "../assets/scss/index.scss";
 
 import { FEWD, UX, Contact, Home, E404, About } from "views";
 import { Footer, MainNav } from "components";
