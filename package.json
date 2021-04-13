@@ -17,7 +17,7 @@
     "dev": "razzle start",
     "build": "razzle build --noninteractive",
     "test": "razzle test --env=jsdom",
-    "start": "PORT=$PORT NODE_ENV=production node build/server.js",
+    "start": "NODE_ENV=production node build/server.js",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
