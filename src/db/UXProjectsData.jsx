@@ -4,10 +4,10 @@ const PROJECTS = [
     title: "Shirts by Mike",
     photo: "/assets/images/UXPhotos/shirts-by-mike/preview.png",
     overview: "<p>In this case study I critiqued shirtsbymike and came up with areas of improvement.</p>",
-    problem: "<p>I was tasked with critiquing <a href='shirtsbymike.com'>shirtsbymike.com</a>, an e-commerce website that sells t-shirts. My 'client' wanted to know if anything should be changed to make the site look and/or function better for their customers. I described the design elements I saw on the site and determined what improvements needed to be made. I Explained each improvement so your they understood how it will benefit their customers.</p>",
-    audience: "<div class='text-dark bg-light rounded border p-5 mb-3'><i class='fas fa-user fa-5x float-right'></i>Mostly ages 16-35 <br />Primarily based in the United States <br />Treehouse students <br />Lifelong learners <br />Values community <br />Playful <br /></div>",
-    solution: "<p>I started out by developing a persona. I also made a journey map. I also created a mood board for the first time. I then sketched my ideas out. I then proceded to make a low fidelity mockup. Finlay I made the high fidelity mockup. Please see the photos below.</p>",
-    learnings: "<p>In this Case study I leaned how to make an Empathy map and A journey map. I also improved my schetching and wireframing. I was also maid aware of the concept of mood boards. Finlay got a better grasp of using personas in design.</p>",
+    problem: "<p>I was tasked with critiquing <a href='shirtsbymike.com'>shirtsbymike.com</a>, an e-commerce website that sells t-shirts. My 'client' wanted to know if anything should be changed to make the site look and/or function better for their customers. I described the design elements I saw on the site and determined what improvements needed to be made. I explained each improvement so they understood how it would benefit their customers.</p>",
+    audience: "<div class='text-dark bg-light rounded border p-5 mb-3'><i class='fas fa-user fa-5x float-right'></i>Mostly ages 16-35 <br />Primarily based in the United States <br />Treehouse students <br />Lifelong learners <br />Value community <br />Are playful <br /></div>",
+    solution: "<p>I started out by developing a persona. I also made a journey map. I also created a mood board for the first time. I then sketched my ideas out. I then proceded to make a low fidelity mockup. Finally I made the high fidelity mockup. Please see the photos below.</p>",
+    learnings: "<p>In this Case study I leaned how to make an Empathy map and a journey map. I also improved my sketching and wireframing. I was also maid aware of the concept of mood boards. Finally I got a better grasp of using personas in design.</p>",
     galleries: [
       {
         title: "Research",
@@ -155,11 +155,23 @@ const PROJECTS = [
     id: "grocery-app",
     title: "Grocery App",
     photo: "/assets/images/UXPhotos/grocery-app/preview.png",
-    overview: "<p>In this case study I added a parking Finder to a grocery app</p>",
-    problem: "<p>In this case study I was tasked to find the pain points of shoppers</p>",
-    audience: "<div class='text-dark bg-light rounded border p-5 mb-3'><i class='fas fa-user fa-5x float-right'></i>Anyone that needs to shop from a store.<br />People that are unable to go to stores.<br />These people Include disabled people, People with difficulty moving, and people stuck in quarantine due to a pandemic.</div>",
-    solution: "<p>I identified that parking can be a problem at times to shoppers. I developed a screen for shoppers to see if there will be parking at there store.</p>",
-    learnings: "<p>I learned how to conduct interviews, and process the information that came from them. I also learned how to make device mockups. I also improved my page maps.</p>",
+    overview: "<p>In this case study I added a parking finder to a grocery app.</p>",
+    problem: "<p>In this case study I was tasked to find the pain points of shoppers.</p>",
+    audience: `
+      <div class='text-dark bg-light rounded border p-5 mb-3'>
+        <i class='fas fa-user fa-5x float-right'></i>
+        Anyone that needs to shop from a store.<br />
+        People that are unable to go to stores.<br />
+        These people Include:
+        <ul>
+          <li>disabled people</li>
+          <li>People with difficulty moving</li>
+          <li>People with limited time</li>
+        </ul>
+      </div>
+    `,
+    solution: "<p>I identified that parking can be a problem at times to shoppers. I developed a screen for shoppers to see if there will be parking at their preferred store.</p>",
+    learnings: "<p>I learned how to conduct interviews, and process the information that came from them. I also learned how to make device mockups, and improved my page maps.</p>",
     galleries: [
       {
         title: "Mockups",
@@ -267,7 +279,7 @@ const PROJECTS = [
     id: "whooshmail",
     title: "WhooshMail",
     photo: "/assets/images/UXPhotos/whooshmail/preview.png",
-    overview: "<p>In this case study I designed and refined two workflows for the mailing app Wooshmail</p>",
+    overview: "<p>In this case study I designed and refined two workflows for the mailing app Wooshmail.</p>",
     problem: "<p>I needed to make two flows. One for basic users. One for admin users. Each flow would have differences depending on the role of the user.</p>",
     audience: `<div class='text-dark bg-light rounded border p-5 mb-3'>
                 <i class='fas fa-user fa-5x float-right'></i>
@@ -286,8 +298,8 @@ const PROJECTS = [
                 Work for a small business <br />
                 High School/GED <br />
               </div>`,
-    solution: "<p>I started this project by making two personas, one for each user role. I then made story boards. After that I made some sketches. Wire frames followed. Combining them to make two prototypes</p>",
-    learnings: "<p>In this project I leaned how to use google slides. I also improved my storyboarding.</p>",
+    solution: "<p>I started this project by making two personas, one for each user role. I then made story boards. After that I made some sketches. Wire frames followed. Combining them to make two prototypes.</p>",
+    learnings: "<p>In this project I learned how to use Google Slides. I also improved my storyboarding.</p>",
     galleries: [
       {
         title: "Personas",
