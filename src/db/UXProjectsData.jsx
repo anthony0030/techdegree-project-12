@@ -164,7 +164,7 @@ const PROJECTS = [
         People that are unable to go to stores.<br />
         These people Include:
         <ul>
-          <li>disabled people</li>
+          <li>Disabled people</li>
           <li>People with difficulty moving</li>
           <li>People with limited time</li>
         </ul>
