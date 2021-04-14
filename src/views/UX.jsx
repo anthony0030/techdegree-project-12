@@ -43,28 +43,41 @@ function UX(props) {
       </div>
 
         {project && <div>
-          <img src={activeProject.photo} alt="overview" className="w-100"/>
-          <h3>Overview</h3>
-          {parse(activeProject.overview)}
-          <h3>Problem</h3>
-          {parse(activeProject.problem)}
-          <h3>Target audience</h3>
-          {parse(activeProject.audience)}
-          <h3>Solution</h3>
-          {parse(activeProject.solution)}
-          <h3>Learnings</h3>
-          {parse(activeProject.learnings)}
-          <h3>Photos</h3>
-          {/* {parse(activeProject.photos)} */}
-          {activeProject.galleries.map((gallery, key)=> {
-            const {images, title} = gallery;
-            return(
-              <div key={key} className="clearfix mb-3">
-                <h4>{title}</h4>
-                <Gallery images={images}/>
-              </div>
-            )
-          })}
+          <section className="mb-4">
+            <img src={activeProject.photo} alt="overview" className="w-100"/>
+          </section>
+          <section className="mb-4">
+            <h3>Overview</h3>
+            {parse(activeProject.overview)}
+          </section>
+          <section className="mb-4">
+            <h3>Problem</h3>
+            {parse(activeProject.problem)}
+          </section>
+          <section className="mb-4">
+            <h3>Target audience</h3>
+            {parse(activeProject.audience)}
+          </section>
+          <section className="mb-4">
+            <h3>Solution</h3>
+            {parse(activeProject.solution)}
+          </section>
+          <section className="mb-4">
+            <h3>Learnings</h3>
+            {parse(activeProject.learnings)}
+          </section>
+          <section className="mb-4">
+            <h3>Photos</h3>
+            {activeProject.galleries.map((gallery, key)=> {
+              const {images, title} = gallery;
+              return(
+                <div key={key} className="clearfix mb-4">
+                  <h4>{title}</h4>
+                  <Gallery images={images}/>
+                </div>
+              )
+            })}
+          </section>
        </div>}
 
     </React.Fragment>

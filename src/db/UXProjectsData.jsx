@@ -155,11 +155,11 @@ const PROJECTS = [
     id: "grocery-app",
     title: "Grocery App",
     photo: "/assets/images/UXPhotos/grocery-app/preview.png",
-    overview: "In this case study I added a parking Finder to a grocery app",
-    problem: "In this case study I was tasked to find the pain points of shoppers",
+    overview: "<p>In this case study I added a parking Finder to a grocery app</p>",
+    problem: "<p>In this case study I was tasked to find the pain points of shoppers</p>",
     audience: "<div class='text-dark bg-light rounded border p-5 mb-3'><i class='fas fa-user fa-5x float-right'></i>Anyone that needs to shop from a store.<br />People that are unable to go to stores.<br />These people Include disabled people, People with difficulty moving, and people stuck in quarantine due to a pandemic.</div>",
-    solution: "I identified that parking can be a problem at times to shoppers. I developed a screen for shoppers to see if there will be parking at there store.",
-    learnings: "I learned how to conduct interviews, and process the information that came from them. I also learned how to make device mockups. I also improved my page maps.",
+    solution: "<p>I identified that parking can be a problem at times to shoppers. I developed a screen for shoppers to see if there will be parking at there store.</p>",
+    learnings: "<p>I learned how to conduct interviews, and process the information that came from them. I also learned how to make device mockups. I also improved my page maps.</p>",
     galleries: [
       {
         title: "Mockups",
@@ -267,8 +267,8 @@ const PROJECTS = [
     id: "whooshmail",
     title: "WhooshMail",
     photo: "/assets/images/UXPhotos/whooshmail/preview.png",
-    overview: "In this case study I designed and refined two workflows for the mailing app Wooshmail",
-    problem: "I needed to make two flows. One for basic users. One for admin users. Each flow would have differences depending on the role of the user.",
+    overview: "<p>In this case study I designed and refined two workflows for the mailing app Wooshmail</p>",
+    problem: "<p>I needed to make two flows. One for basic users. One for admin users. Each flow would have differences depending on the role of the user.</p>",
     audience: `<div class='text-dark bg-light rounded border p-5 mb-3'>
                 <i class='fas fa-user fa-5x float-right'></i>
                 <b>Admins</b> <br />
@@ -286,8 +286,8 @@ const PROJECTS = [
                 Work for a small business <br />
                 High School/GED <br />
               </div>`,
-    solution: "I started this project by making two personas, one for each user role. I then made story boards. After that I made some sketches. Wire frames followed. Combining them to make two prototypes",
-    learnings: "In this project I leaned how to use google slides. I also improved my storyboarding.",
+    solution: "<p>I started this project by making two personas, one for each user role. I then made story boards. After that I made some sketches. Wire frames followed. Combining them to make two prototypes</p>",
+    learnings: "<p>In this project I leaned how to use google slides. I also improved my storyboarding.</p>",
     galleries: [
       {
         title: "Personas",
