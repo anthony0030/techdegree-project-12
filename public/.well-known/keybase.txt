@@ -1,0 +1,87 @@
+==================================================================
+https://keybase.io/anthony0030
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.veaudry.pro
+  * I am anthony0030 (https://keybase.io/anthony0030) on keybase.
+  * I have a public key with fingerprint E5D2 33BA 1DF2 8E62 FA08  45B7 8135 BE8F 2970 5979
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101d42d578c01756fb0f0c4f67a6e0224f6a8e0915a1666c505a4a1f0050ccd043f0a",
+      "fingerprint": "e5d233ba1df28e62fa0845b78135be8f29705979",
+      "host": "keybase.io",
+      "key_id": "8135be8f29705979",
+      "kid": "0101d42d578c01756fb0f0c4f67a6e0224f6a8e0915a1666c505a4a1f0050ccd043f0a",
+      "uid": "4018f8a9d460861a3cf20f5d9cc55e19",
+      "username": "anthony0030"
+    },
+    "merkle_root": {
+      "ctime": 1620381222,
+      "hash_meta": "a5a215c2a36fb191c18ff1fbbb17eaab20b6bf131bef0786e9128cb081689b8f",
+      "seqno": 19864648
+    },
+    "revoke": {
+      "sig_ids": [
+        "592ba7f59ffab3557b5a21b117f9d03923ab0f6223c10566c382813c40bf65f70f"
+      ]
+    },
+    "service": {
+      "hostname": "www.veaudry.pro",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1620381235,
+  "expire_in": 157680000,
+  "prev": "0d9d26de14b08d55099caeb28122892ddd22dbaee093291c3d429accbc1ce67f",
+  "seqno": 51,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMPZAnicrZN9TFZVHMcfEE1oUMvQhpZ6jUR9wHPOvee+oDlnips5X/IN8+XxnHvP
+gUfgeR7u8zwgPlAIm6aV1laG6VA3cdooTRNDWUxi5UuoCOUi04ioIHqBlUjR7Fxm
+W2v92f3jvn5/v+/3fO7vNMYPc8VFbcEf7JoSWF0UdamhJOza8HqCHJGo3yqS0iNS
+Dhu6sFyLBUOeHK8lpUsAAmgpyMKabgKoYZVTwIGpcFUjKgMIiTuiM2BATKCqqiYG
+mCgEcgAwME0LKDIHRHJL3OvLYnbA9vpCoi3DFpJlSqDFkc5UxAnQFUw1HcqYMp0j
+QwPY0AxRmO0POhUiHCVBlub1i3fiwTMU7z/0/3Pu8FA7BUCd68SwFBXoKiSyyRHg
+2DJME2MGHd9wkNk+kseEmvhC2X5fEQAykErcUh6zc3KZx/b7Qw5fM+R1VFBFQNYh
+QkiskQSzPXksRJxiTBDEJiKyyAwNaApnDjmlFGqMEIoAVSmHMqSMA01XmQGRblKg
+Q1U3qM5FlCDL9/mFg6GriqroIoLNCvw5zHEPerMEuqCUvkbCBqJE49jgnFAZY406
+1hRCjRsWkA0kEwFNRUg2IcCCkawjAdxUAOUq5hrg0roSx80u8JpDzZ1/dY9BYWFh
+WgEjYcsuSgvYzk8T55Df9OeKj9mhUCCY7rAJFQWG1Ix67vXxUK/PEsMiKgqYHfT6
+fWIlQvkvbDJ2S2xTwGszj9dRYE3VgTgcH1bgTIBlWEi1GFQEGwtjYBgmYRQ5yHUD
+WZaFkEUJEzMgI4FZFuNiENOkJjSZqv2DI4YiJ8kSPQU8HwmFbSaVNJxbG+OKinON
+GB7t7CJXXOyDf++tazEP3LW3zeh5uMpou3Jk4HJ6bdP6slf4+sHfCtbcCJeZey4M
+THxn2eSDH12tuS+lomSUXNpA2tuPP9bVtTC/bnLLxFnryje7I73HOupI0/FvPm9v
+3YZHJcOVbfOufbf9heiUFnnEjBb9p0k5pyfEbzxzfWSUuuzVJVfaFn3y7RuR7rq9
+J4yMw6knBupXzCnOenlkMLp8eiAv6dDuyPuo7uq5nc/qb0+bX7FDuSAt379/ijsR
+/ZjyZGQwlB9Xm8e/GvXMsCPt4VWHfrlZXHm6Q92clHhr1/b+6oU98cfKP917cuLG
+/r5CRTrpW1zkrlh68YnoyoqXzj9fseJ87J89UfKYluaMjKXSfrjI03uno6a8vWme
+sgD4z418MVUrv51xu6G0aWnx+TlJnQnz62/s/r2z8M7p/iOZXb7NR3t2BpKTYly9
+G7ozb5262JvWl5/aaO0YPW/mF2c7D5odY7aSSWdrumN3/zrutRFN3R+vqpQOoNKB
+61NvzXZtlRKeGxyf+q67P2Xq7MQp462E+uqq8qnjt9SP/rC370zpuLuTr8RLY+JP
+XF3+VsuS5rL6xpvV70lwbmvPgn3JP1xuXsP6vo89fKyu6czTrbURqSq29sCesWr2
+vrGN9fbKhZsO5S2O+XrmQ4+2NXZV/3HBuL86yTU858s35arUsqqnjq59ZM/PgWk1
+j/PMS11jV1+aZZ2aeXTCZxn29BsxfX8BJA4CLQ==
+=SzTP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/anthony0030
+
+==================================================================
