@@ -1,30 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
-import dig from 'object-dig';
 
-import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardBody, CardImg, CardText, CardTitle } from "reactstrap";
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 
 function UXProject(props) {
-
   const { project } = props;
 
-  const {
-    overview,
-    photo,
-    title,
-    id
-  } = project;
+  const { overview, photo, title, id } = project;
 
   return (
     <div className="col-lg-6 col-xl-4 portfolio-item">
       <Link to={`/ux/${id}`} className="link-unstyled">
-        <Card className="h-100 cursor-pointer" >
+        <Card className="h-100 cursor-pointer">
           <CardImg top width="100%" src={photo} alt="Project Screenshot" />
           <CardBody>
-            <div className="card-buttons ml-2">
-            </div>
+            <div className="card-buttons ml-2"></div>
             <CardTitle>{parse(title)}</CardTitle>
             <CardText>{parse(overview)}</CardText>
           </CardBody>
@@ -43,8 +35,8 @@ UXProject.propTypes = {
     overview: PropTypes.string.isRequired,
   }),
   match: PropTypes.shape({
-    params:PropTypes.shape({
-      project: PropTypes.string
+    params: PropTypes.shape({
+      project: PropTypes.string,
     }),
   }),
 };

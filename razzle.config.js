@@ -7,5 +7,5 @@ module.exports = {
   modifyWebpackConfig: (options) => {
     const { webpackConfig, env, webpackObject } = options;
     return razzleHeroku(webpackConfig, env, webpackObject);
-  }
+  },
 };

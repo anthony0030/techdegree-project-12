@@ -81,94 +81,247 @@ import windows from "../assets/images/Badges/windows.png";
 import wordpress from "../assets/images/Badges/wordpress.png";
 
 function Skill(props) {
-
   const { skill, projectIndex, skillIndex } = props;
   const id = `id-${projectIndex}-${skillIndex}`;
   let icon = error;
   let tooltip = `${skill} Badge Icon`;
   let alt = tooltip;
 
-  switch(skill) {
-    case "bootstrap":    icon = bootstrap;    break;
-    case "bower":        icon = bower;        break;
-    case "jquery":       icon = jquery;       break;
-    case "npm":          icon = npm;          break;
-    case "android":      icon = android;      break;
-    case "angular":      icon = angular;      break;
-    case "apache":       icon = apache;       break;
-    case "appcelerator": icon = appcelerator; break;
-    case "apple":        icon = apple;        break;
-    case "atom":         icon = atom;         break;
-    case "aws":          icon = aws;          break;
-    case "babel":        icon = babel;        break;
-    case "backbone":     icon = backbone;     break;
-    case "bitbucket":    icon = bitbucket;    break;
-    case "chrome":       icon = chrome;       break;
-    case "codeignitor":  icon = codeignitor;  break;
-    case "coffeescript": icon = coffeescript; break;
-    case "composer":     icon = composer;     break;
-    case "cookie":       icon = cookie;       break;
-    case "css":          icon = css;          break;
-    case "cucumber":     icon = cucumber;     break;
-    case "d3js":         icon = d3js;         break;
-    case "debian":       icon = debian;       break;
-    case "django":       icon = django;       break;
-    case "docker":       icon = docker;       break;
-    case "drupal":       icon = drupal;       break;
-    case "firefox":      icon = firefox;      break;
-    case "gatling":      icon = gatling;      break;
-    case "gimp":         icon = gimp;         break;
-    case "git":          icon = git;          break;
-    case "github":       icon = github;       break;
-    case "gitlab":       icon = gitlab;       break;
-    case "gradle":       icon = gradle;       break;
-    case "grunt":        icon = grunt;        break;
-    case "gulp":         icon = gulp;         break;
-    case "html":         icon = html;         break;
-    case "illustrator":  icon = illustrator;  break;
-    case "inkscape":     icon = inkscape;     break;
-    case "jade":         icon = jade;         break;
-    case "java":         icon = java;         break;
-    case "js":           icon = js;           break;
-    case "krakenjs":     icon = krakenjs;     break;
-    case "laravel":      icon = laravel;      break;
-    case "less":         icon = less;         break;
-    case "linux":        icon = linux;        break;
-    case "meteor":       icon = meteor;       break;
-    case "mocha":        icon = mocha;        break;
-    case "mongo":        icon = mongo;        break;
-    case "mysql":        icon = mysql;        break;
-    case "nginx":        icon = nginx;        break;
-    case "node":         icon = node;         break;
-    case "nodewebkit":   icon = nodewebkit;   break;
-    case "osx":          icon = osx;          break;
-    case "photoshop":    icon = photoshop;    break;
-    case "php":          icon = php;          break;
-    case "phpstorm":     icon = phpstorm;     break;
-    case "postgres":     icon = postgres;     break;
-    case "protractor":   icon = protractor;   break;
-    case "python":       icon = python;       break;
-    case "rails":        icon = rails;        break;
-    case "react":        icon = react;        break;
-    case "sass":         icon = sass;         break;
-    case "seqelize":     icon = seqelize;     break;
-    case "ssh":          icon = ssh;          break;
-    case "swift":        icon = swift;        break;
-    case "tomcat":       icon = tomcat;       break;
-    case "ts":           icon = ts;           break;
-    case "ubuntu":       icon = ubuntu;       break;
-    case "vcf":          icon = vcf;          break;
-    case "vim":          icon = vim;          break;
-    case "visualstudio": icon = visualstudio; break;
-    case "windows":      icon = windows;      break;
-    case "wordpress":    icon = wordpress;    break;
-    case "api":          icon = api;          break;
-    case "svg":          icon = svg;          break;
-    case "error":        icon = error;        break;
-    default: tooltip = "Failed to load icon or icon does not exist";  break;
+  switch (skill) {
+    case "bootstrap":
+      icon = bootstrap;
+      break;
+    case "bower":
+      icon = bower;
+      break;
+    case "jquery":
+      icon = jquery;
+      break;
+    case "npm":
+      icon = npm;
+      break;
+    case "android":
+      icon = android;
+      break;
+    case "angular":
+      icon = angular;
+      break;
+    case "apache":
+      icon = apache;
+      break;
+    case "appcelerator":
+      icon = appcelerator;
+      break;
+    case "apple":
+      icon = apple;
+      break;
+    case "atom":
+      icon = atom;
+      break;
+    case "aws":
+      icon = aws;
+      break;
+    case "babel":
+      icon = babel;
+      break;
+    case "backbone":
+      icon = backbone;
+      break;
+    case "bitbucket":
+      icon = bitbucket;
+      break;
+    case "chrome":
+      icon = chrome;
+      break;
+    case "codeignitor":
+      icon = codeignitor;
+      break;
+    case "coffeescript":
+      icon = coffeescript;
+      break;
+    case "composer":
+      icon = composer;
+      break;
+    case "cookie":
+      icon = cookie;
+      break;
+    case "css":
+      icon = css;
+      break;
+    case "cucumber":
+      icon = cucumber;
+      break;
+    case "d3js":
+      icon = d3js;
+      break;
+    case "debian":
+      icon = debian;
+      break;
+    case "django":
+      icon = django;
+      break;
+    case "docker":
+      icon = docker;
+      break;
+    case "drupal":
+      icon = drupal;
+      break;
+    case "firefox":
+      icon = firefox;
+      break;
+    case "gatling":
+      icon = gatling;
+      break;
+    case "gimp":
+      icon = gimp;
+      break;
+    case "git":
+      icon = git;
+      break;
+    case "github":
+      icon = github;
+      break;
+    case "gitlab":
+      icon = gitlab;
+      break;
+    case "gradle":
+      icon = gradle;
+      break;
+    case "grunt":
+      icon = grunt;
+      break;
+    case "gulp":
+      icon = gulp;
+      break;
+    case "html":
+      icon = html;
+      break;
+    case "illustrator":
+      icon = illustrator;
+      break;
+    case "inkscape":
+      icon = inkscape;
+      break;
+    case "jade":
+      icon = jade;
+      break;
+    case "java":
+      icon = java;
+      break;
+    case "js":
+      icon = js;
+      break;
+    case "krakenjs":
+      icon = krakenjs;
+      break;
+    case "laravel":
+      icon = laravel;
+      break;
+    case "less":
+      icon = less;
+      break;
+    case "linux":
+      icon = linux;
+      break;
+    case "meteor":
+      icon = meteor;
+      break;
+    case "mocha":
+      icon = mocha;
+      break;
+    case "mongo":
+      icon = mongo;
+      break;
+    case "mysql":
+      icon = mysql;
+      break;
+    case "nginx":
+      icon = nginx;
+      break;
+    case "node":
+      icon = node;
+      break;
+    case "nodewebkit":
+      icon = nodewebkit;
+      break;
+    case "osx":
+      icon = osx;
+      break;
+    case "photoshop":
+      icon = photoshop;
+      break;
+    case "php":
+      icon = php;
+      break;
+    case "phpstorm":
+      icon = phpstorm;
+      break;
+    case "postgres":
+      icon = postgres;
+      break;
+    case "protractor":
+      icon = protractor;
+      break;
+    case "python":
+      icon = python;
+      break;
+    case "rails":
+      icon = rails;
+      break;
+    case "react":
+      icon = react;
+      break;
+    case "sass":
+      icon = sass;
+      break;
+    case "seqelize":
+      icon = seqelize;
+      break;
+    case "ssh":
+      icon = ssh;
+      break;
+    case "swift":
+      icon = swift;
+      break;
+    case "tomcat":
+      icon = tomcat;
+      break;
+    case "ts":
+      icon = ts;
+      break;
+    case "ubuntu":
+      icon = ubuntu;
+      break;
+    case "vcf":
+      icon = vcf;
+      break;
+    case "vim":
+      icon = vim;
+      break;
+    case "visualstudio":
+      icon = visualstudio;
+      break;
+    case "windows":
+      icon = windows;
+      break;
+    case "wordpress":
+      icon = wordpress;
+      break;
+    case "api":
+      icon = api;
+      break;
+    case "svg":
+      icon = svg;
+      break;
+    case "error":
+      icon = error;
+      break;
+    default:
+      tooltip = "Failed to load icon or icon does not exist";
+      break;
   }
 
-  return(
+  return (
     <React.Fragment>
       <UncontrolledTooltip placement="top" target={id}>
         {tooltip}
@@ -178,13 +331,12 @@ function Skill(props) {
       </div>
     </React.Fragment>
   );
-
 }
 
 Skill.propTypes = {
   skill: PropTypes.string.isRequired,
   projectIndex: PropTypes.number.isRequired,
-  skillIndex: PropTypes.number.isRequired
+  skillIndex: PropTypes.number.isRequired,
 };
 
 export default Skill;

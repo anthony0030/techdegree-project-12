@@ -1,0 +1,14 @@
+# eslint ignores hidden files by default
+# !.*
+**/node_modules
+*.json
+
+#Build Files
+build/
+storybook-static
+
+#Mock files
+__mocks__
+
+# VSCODE Settings
+.vscode/**

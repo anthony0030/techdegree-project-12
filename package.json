@@ -19,7 +19,8 @@
     "test": "razzle test --env=jsdom",
     "start": "NODE_ENV=production node build/server.js",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "eslint": "eslint ."
   },
   "dependencies": {
     "@babel/core": "^7.14.3",
@@ -48,10 +49,24 @@
     "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-jest-formatting": "^3.0.0",
+    "eslint-plugin-no-unsanitized": "^3.1.5",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-security": "^1.4.0",
     "gh-pages": "^3.2.0",
     "mini-css-extract-plugin": "^1.6.0",
     "prettier": "^2.3.0",
     "razzle-plugin-scss": "^3.3.13"
+  },
+  "optionalDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
   },
   "browserslist": [
     ">0.2%",

@@ -1,24 +1,26 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
 import _ from "lodash";
 
 //Project Data
-import PROJECTS from "../db/UXProjectsData";
+import UXProjectsData from "../db/UXProjectsData";
 
 // Application Components
-import { UXProject, Heading } from "components";
+import { Heading, UXProject } from "components";
 import parse from "html-react-parser";
 import Gallery from "react-grid-gallery";
 
-function UX(props) {
+function UX() {
   const { project } = useParams();
-  const activeProject = _.find(PROJECTS, {id: project});
-  console.log(activeProject)
+  const activeProject = _.find(UXProjectsData, { id: project });
+  console.log(activeProject);
 
-  return(
+  return (
     <React.Fragment>
-      <Heading title={project ? activeProject.title : "My awesome UX portfolio"} subtitle={project ? "Case Study" : ""} />
+      <Heading
+        title={project ? activeProject.title : "My awesome UX portfolio"}
+        subtitle={project ? "Case Study" : ""}
+      />
 
       {/* Case Studies
       <ul>
@@ -31,20 +33,16 @@ function UX(props) {
       </ul> */}
 
       <div className="row">
-        {
-          !project && PROJECTS.map((project, index) =>
-            <UXProject
-              project={project}
-              key={index}
-              projectIndex={index}
-            />
-          )
-        }
+        {!project &&
+          UXProjectsData.map((project, index) => (
+            <UXProject project={project} key={index} projectIndex={index} />
+          ))}
       </div>
 
-        {project && <div>
+      {project && (
+        <div>
           <section className="mb-4">
-            <img src={activeProject.photo} alt="overview" className="w-100"/>
+            <img src={activeProject.photo} alt="overview" className="w-100" />
           </section>
           <section className="mb-4">
             <h3>Overview</h3>
@@ -68,18 +66,18 @@ function UX(props) {
           </section>
           <section className="mb-4">
             <h3>Photos</h3>
-            {activeProject.galleries.map((gallery, key)=> {
-              const {images, title} = gallery;
-              return(
+            {activeProject.galleries.map((gallery, key) => {
+              const { images, title } = gallery;
+              return (
                 <div key={key} className="clearfix mb-4">
                   <h4>{title}</h4>
-                  <Gallery images={images}/>
+                  <Gallery images={images} />
                 </div>
-              )
+              );
             })}
           </section>
-       </div>}
-
+        </div>
+      )}
     </React.Fragment>
   );
 }

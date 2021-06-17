@@ -18,8 +18,8 @@ it("renders without crashing", () => {
         className={""}
         projectIndex={0}
         modalOpen={false}
-        />
-      </BrowserRouter>,
+      />
+    </BrowserRouter>,
     div
   );
   ReactDOM.unmountComponentAtNode(div);
