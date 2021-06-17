@@ -45,7 +45,7 @@
     "react-router-dom": "^5.2.0",
     "reactstrap": "^8.9.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.38.1",
+    "webpack": "^5.39.0",
     "webpack-dev-server": "^3.11.2"
   },
   "devDependencies": {
