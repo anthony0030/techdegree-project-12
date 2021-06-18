@@ -2683,18 +2683,7 @@ browserslist@^3.2.8:
     caniuse-lite "^1.0.30000844"
     electron-to-chromium "^1.3.47"
 
-browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.6.4:
-  version "4.16.4"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.4.tgz#7ebf913487f40caf4637b892b268069951c35d58"
-  integrity sha512-d7rCxYV8I9kj41RH8UKYnvDYCRENUlHRgyXy/Rhr/1BaeLGfiCptEdFE8MIrvGfWbBFNjVYx76SQWvNX1j+/cQ==
-  dependencies:
-    caniuse-lite "^1.0.30001208"
-    colorette "^1.2.2"
-    electron-to-chromium "^1.3.712"
-    escalade "^3.1.1"
-    node-releases "^1.1.71"
-
-browserslist@^4.16.6:
+browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.14.5, browserslist@^4.16.3, browserslist@^4.16.6, browserslist@^4.6.4:
   version "4.16.6"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.16.6.tgz#d7901277a5a88e554ed305b183ec9b0c08f66fa2"
   integrity sha512-Wspk/PqO+4W9qp5iUTJsa1B/QrYn1keNCcEP5OvP7WBwT4KaDly0uONYmC6Xa3Z5IqnUgS0KcgLYu1l74x0ZXQ==
@@ -2904,7 +2893,7 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001125:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001207.tgz#364d47d35a3007e528f69adb6fecb07c2bb2cc50"
   integrity sha512-UPQZdmAsyp2qfCTiMU/zqGSWOYaY9F9LL61V8f+8MrubsaDGpaHD9HRV/EWZGULZn0Hxu48SKzI5DgFwTvHuYw==
 
-caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000864, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001023, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001208:
+caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30000864, caniuse-lite@^1.0.30000981, caniuse-lite@^1.0.30001023, caniuse-lite@^1.0.30001109:
   version "1.0.30001208"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001208.tgz#a999014a35cebd4f98c405930a057a0d75352eb9"
   integrity sha512-OE5UE4+nBOro8Dyvv0lfx+SRtfVIOM9uhKqFmJeUbGriqhhStgp1A0OyBpgy3OUF8AhYCT+PVwPC1gMl2ZcQMA==
@@ -4035,7 +4024,7 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-electron-to-chromium@^1.3.341, electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.712:
+electron-to-chromium@^1.3.341, electron-to-chromium@^1.3.47:
   version "1.3.713"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.713.tgz#4583efb17f2d1e9ec07a44c8004ea73c013ad146"
   integrity sha512-HWgkyX4xTHmxcWWlvv7a87RHSINEcpKYZmDMxkUlHcY+CJcfx7xEfBHuXVsO1rzyYs1WQJ7EgDp2CoErakBIow==
@@ -11751,10 +11740,10 @@ webpack@^4.42.0:
     watchpack "^1.7.4"
     webpack-sources "^1.4.1"
 
-webpack@^5.39.0:
-  version "5.39.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.39.0.tgz#37d6899f1f40c31d5901abc0f39bc8cc7224138c"
-  integrity sha512-25CHmuDj+oOTyteI13sUqNlCnjCnySuhiKWE/cRYPQYeoQ3ijHgyWX27CiyUKLNGq27v8S0mrksyTreT/xo7pg==
+webpack@^5.39.1:
+  version "5.39.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.39.1.tgz#d1e014b6d71e1aef385316ad528f21cd5b1f9784"
+  integrity sha512-ulOvoNCh2PvTUa+zbpRuEb1VPeQnhxpnHleMPVVCq3QqnaFogjsLyps+o42OviQFoaGtTQYrUqDXu1QNkvUPzw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.47"
