@@ -5,7 +5,7 @@ import { ContactLine, Heading, Icon } from "components";
 import Profile from "../assets/images/Profile.jpg";
 import Anthony from "../assets/anthony.vcf";
 
-function Contact(props) {
+function Contact(/*props*/) {
   return (
     <React.Fragment>
       <Heading title="Contact me" subtitle="" />

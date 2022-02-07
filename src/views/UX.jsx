@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { useParams } from "react-router-dom";
 import _ from "lodash";
 
@@ -11,7 +11,7 @@ import { Heading, UXProject } from "components";
 import parse from "html-react-parser";
 import Gallery from "react-grid-gallery";
 
-function UX(props) {
+function UX(/*props*/) {
   const { project } = useParams();
   const activeProject = _.find(PROJECTS, { id: project });
   console.log(activeProject);

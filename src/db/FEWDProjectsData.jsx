@@ -1,3 +1,5 @@
+/* eslint-disable filenames/match-exported */
+
 // Application Images
 import legacy from "../assets/images/AppPhotos/legacy.png";
 import AppPhoto01 from "../assets/images/AppPhotos/01.png";

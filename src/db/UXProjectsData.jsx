@@ -1,3 +1,5 @@
+/* eslint-disable filenames/match-exported */
+
 const PROJECTS = [
   {
     id: "shirts-by-mike",

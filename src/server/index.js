@@ -1,3 +1,5 @@
+/* eslint-disable security/detect-non-literal-require, security/detect-non-literal-fs-filename */
+
 import App from "../App/App";
 import React from "react";
 import { StaticRouter } from "react-router-dom";
