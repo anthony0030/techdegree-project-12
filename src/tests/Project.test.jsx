@@ -9,8 +9,8 @@ import { Project } from "components";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  div.setAttribute("id", "id-0-0")
-  document.body.appendChild(div)
+  div.setAttribute("id", "id-0-0");
+  document.body.appendChild(div);
   ReactDOM.render(
     <BrowserRouter>
       <Project
@@ -20,14 +20,14 @@ it("renders without crashing", () => {
           photo: "",
           sourceUrl: "",
           url: "",
-          skills: ["",""],
+          skills: ["", ""],
           codacyBadgeLink: "",
           codacyBadgeIcon: "",
           overview: "",
         }}
         projectIndex={0}
-        />
-      </BrowserRouter>,
+      />
+    </BrowserRouter>,
     div
   );
   ReactDOM.unmountComponentAtNode(div);

@@ -1,25 +1,23 @@
-import App from '../App/App';
-import React from 'react';
-import { StaticRouter } from 'react-router-dom';
-import express from 'express';
-import { renderToString } from 'react-dom/server';
+import App from "../App/App";
+import React from "react";
+import { StaticRouter } from "react-router-dom";
+import express from "express";
+import { renderToString } from "react-dom/server";
 import fs from "fs";
 import path from "path";
-
 
 const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = (relativePath) => path.resolve(appDirectory, relativePath);
 const appSrc = resolveApp("src");
 
-
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
 const server = express();
 server
-  .disable('x-powered-by')
+  .disable("x-powered-by")
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
   .use("/assets", express.static(`${appSrc}/assets`))
-  .get('/*', (req, res) => {
+  .get("/*", (req, res) => {
     const context = {};
     const markup = renderToString(
       <StaticRouter context={context} location={req.url}>
@@ -38,14 +36,15 @@ server
             <meta charset="utf-8" />
             <title>Online Portfolio</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
-            ${ assets.client.css
-              ? `<link rel="preload stylesheet" href="${assets.client.css}">`
-              : ''
+            ${
+              assets.client.css
+                ? `<link rel="preload stylesheet" href="${assets.client.css}">`
+                : ""
             }
             ${
-              process.env.NODE_ENV === 'production'
-              ? `<script src="${assets.client.js}" defer></script>`
-              : `<script src="${assets.client.js}" defer crossorigin></script>`
+              process.env.NODE_ENV === "production"
+                ? `<script src="${assets.client.js}" defer></script>`
+                : `<script src="${assets.client.js}" defer crossorigin></script>`
             }
             <meta name="theme-color" content="#000000">
             <meta name="msapplication-TileColor" content="#000000">

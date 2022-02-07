@@ -12,74 +12,68 @@ import bug from "../assets/svg/bug.svg";
 import enlarge from "../assets/svg/enlarge.svg";
 import shrink from "../assets/svg/shrink.svg";
 
-
 let icon;
 let alt;
 
-
 function Icon(props) {
-    switch(props.i) {
-
+  switch (props.i) {
     case "at":
       icon = at;
       alt = "at Icon";
-    break;
+      break;
 
     case "facebook":
       icon = facebook;
       alt = "facebook Icon";
-    break;
+      break;
 
     case "mobile":
       icon = mobile;
       alt = "mobile Icon";
-    break;
+      break;
 
     case "user":
       icon = user;
       alt = "user Icon";
-    break;
+      break;
 
     case "location":
       icon = location;
       alt = "location Icon";
-    break;
+      break;
 
     case "github":
       icon = github;
       alt = "github Icon";
-    break;
+      break;
 
     case "download":
       icon = download;
       alt = "download Icon";
-    break;
+      break;
 
     case "enlarge":
       icon = enlarge;
       alt = "enlarge Icon";
-    break;
+      break;
 
     case "shrink":
       icon = shrink;
       alt = "shrink Icon";
-    break;
+      break;
 
     default:
       icon = bug;
       alt = "Error with SVG";
-    break;
+      break;
   }
 
-
-  return( <img src={icon} alt={alt} className={props.className}/> );
-
+  return <img src={icon} alt={alt} className={props.className} />;
 }
-
 
 Icon.propTypes = {
   i: PropTypes.string.isRequired,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 export default Icon;

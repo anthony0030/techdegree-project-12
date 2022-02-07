@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Heading, Skills } from "components";
 
 function About() {
@@ -29,27 +29,26 @@ function About() {
         </div>
       </div>
 
-
-
       <h3>Skills</h3>
       <div className="bg-light rounded border">
         <Skills
-        projectIndex={0}
-        skills={[
-          "html",
-          "css",
-          "js",
-          "sass",
-          "react",
-          "jade",
-          "bower",
-          "npm",
-          "api",
-          "git"
-        ]} />
+          projectIndex={0}
+          skills={[
+            "html",
+            "css",
+            "js",
+            "sass",
+            "react",
+            "jade",
+            "bower",
+            "npm",
+            "api",
+            "git",
+          ]}
+        />
       </div>
     </>
-  )
+  );
 }
 
-export default About
+export default About;

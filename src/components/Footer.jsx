@@ -8,7 +8,9 @@ function Footer() {
   return (
     <footer className="py-1 bg-dark fixed-bottom">
       <a href={url}>
-        <p className="m-0 text-center text-white">{text} {year}</p>
+        <p className="m-0 text-center text-white">
+          {text} {year}
+        </p>
       </a>
     </footer>
   );
