@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "overrides": [{
+    "files": ["*.jsx"]
+  }],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "prettier",
+    "security",
+    "no-unsanitized",
+    "filenames",
+    "jest-formatting"
+  ],
+  "extends": [
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:security/recommended",
+    "plugin:no-unsanitized/DOM",
+    "plugin:jest-formatting/recommended"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "no-useless-escape": "off",
+    "filenames/match-exported": "error",
+    "camelcase": "error",
+    "no-warning-comments": "error",
+    "max-lines": [
+      "error",
+      {
+        "max": 1000,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": [
+          "single",
+          "all",
+          "multiple",
+          "none"
+        ]
+      }
+    ]
+  }
+}

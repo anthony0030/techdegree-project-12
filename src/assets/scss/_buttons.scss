@@ -1,0 +1,27 @@
+.btn-dark-light {
+  color: #eee;
+  background-color: #343a40;
+  border-color: #343a40;
+
+  &:active {
+    color: #eee;
+  }
+
+  &:hover {
+    color: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+
+    &:active {
+      color: #212529;
+    }
+
+    &:hover {
+      color: #212529;
+    }
+  }
+}
